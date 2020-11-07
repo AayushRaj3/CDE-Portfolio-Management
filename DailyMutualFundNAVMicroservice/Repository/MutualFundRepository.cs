@@ -16,7 +16,8 @@ namespace DailyMutualFundNAVMicroservice.Repository
         private static List<MutualFundDetails> listOfFunds = new List<MutualFundDetails>()
         { 
             new MutualFundDetails { MutualFundId = 1, MutualFundName = "UDAAN", MutualFundValue = 135.84},
-            new MutualFundDetails { MutualFundId = 2, MutualFundName = "VIVA", MutualFundValue = 100.14}
+            new MutualFundDetails { MutualFundId = 2, MutualFundName = "VIVA", MutualFundValue = 100.14},
+            new MutualFundDetails { MutualFundId = 2, MutualFundName = "CRED", MutualFundValue = 104.14}
         };
           /// <summary>
           ///  This will return the MutualFund Details by name
