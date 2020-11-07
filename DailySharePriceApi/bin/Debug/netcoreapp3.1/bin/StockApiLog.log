@@ -1,0 +1,540 @@
+INFO  07:03:08 Application started. Press Ctrl+C to shut down.
+INFO  07:03:08 Application started. Press Ctrl+C to shut down.
+INFO  07:03:08 Hosting environment: Development
+INFO  07:03:08 Hosting environment: Development
+INFO  07:03:08 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  07:03:08 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  07:03:08 StockController HttpGet GetStock
+INFO  07:03:13 StockController HttpGet GetStockByName and ETH is searched
+INFO  07:03:13 StockController Stock Found
+INFO  07:03:16 StockController HttpGet GetStockByName and btc is searched
+INFO  07:03:16 StockController Stock Found
+INFO  07:03:39 Application started. Press Ctrl+C to shut down.
+INFO  07:03:39 Application started. Press Ctrl+C to shut down.
+INFO  07:03:39 Hosting environment: Development
+INFO  07:03:39 Hosting environment: Development
+INFO  07:03:39 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  07:03:39 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  07:03:39 StockController HttpGet GetStock
+INFO  07:03:44 StockController HttpGet GetStockByName and bnb is searched
+INFO  07:03:44 StockController Invalid Name 
+INFO  07:05:32 Application started. Press Ctrl+C to shut down.
+INFO  07:05:32 Application started. Press Ctrl+C to shut down.
+INFO  07:05:32 Hosting environment: Development
+INFO  07:05:32 Hosting environment: Development
+INFO  07:05:32 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  07:05:32 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  07:05:32 StockController HttpGet GetStock
+INFO  07:05:36 StockController HttpGet GetStockByName and bnb is searched
+INFO  07:05:36 StockController Invalid Name 
+INFO  07:05:39 StockController HttpGet GetStockByName and LTC is searched
+INFO  07:05:39 StockController Stock Found
+INFO  07:05:43 StockController HttpGet GetStockByName and btc is searched
+INFO  07:05:43 StockController Stock Found
+INFO  12:14:32 Application started. Press Ctrl+C to shut down.
+INFO  12:14:32 Application started. Press Ctrl+C to shut down.
+INFO  12:14:33 Hosting environment: Development
+INFO  12:14:33 Hosting environment: Development
+INFO  12:14:33 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:14:33 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:14:51 StockController HttpGet GetStockByName and btc is searched
+INFO  12:14:51 StockController Stock Found
+INFO  12:15:01 StockController HttpGet GetStockByName and abc is searched
+INFO  12:15:01 StockController Invalid Stock Name 
+INFO  12:15:05 StockController HttpGet GetStockByName and 1256 is searched
+INFO  12:15:05 StockController Invalid Stock Name 
+INFO  12:15:29 StockController HttpGet GetStockByName and ETH is searched
+INFO  12:15:29 StockController Stock Found
+INFO  03:49:19 Application started. Press Ctrl+C to shut down.
+INFO  03:49:19 Application started. Press Ctrl+C to shut down.
+INFO  03:49:19 Hosting environment: Development
+INFO  03:49:19 Hosting environment: Development
+INFO  03:49:19 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  03:49:19 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  03:49:25 StockController HttpGet GetStockByName and ETH is searched
+INFO  03:49:25 StockController Stock Found
+INFO  03:49:30 StockController HttpGet GetStockByName and btc is searched
+INFO  03:49:30 StockController Stock Found
+INFO  04:28:30 Application started. Press Ctrl+C to shut down.
+INFO  04:28:30 Application started. Press Ctrl+C to shut down.
+INFO  04:28:30 Hosting environment: Development
+INFO  04:28:30 Hosting environment: Development
+INFO  04:28:30 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  04:28:30 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  04:28:35 StockController HttpGet GetStockByName and ETH is searched
+INFO  04:28:35 StockController Stock Found
+INFO  04:28:50 StockController HttpGet GetStockByName and btc is searched
+INFO  04:28:50 StockController Stock Found
+INFO  09:10:53 Application started. Press Ctrl+C to shut down.
+INFO  09:10:55 Application started. Press Ctrl+C to shut down.
+INFO  09:10:55 Hosting environment: Development
+INFO  09:10:55 Hosting environment: Development
+INFO  09:10:55 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:10:55 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:11:05 StockController HttpGet GetStockByName and BTC is searched
+INFO  09:11:05 StockController Stock Found
+INFO  06:02:47 Application started. Press Ctrl+C to shut down.
+INFO  06:02:47 Application started. Press Ctrl+C to shut down.
+INFO  06:02:47 Hosting environment: Development
+INFO  06:02:47 Hosting environment: Development
+INFO  06:02:47 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  06:02:47 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  06:02:54 StockController HttpGet GetStockByName and LTC is searched
+INFO  06:02:54 StockController Stock Found
+INFO  06:02:58 StockController HttpGet GetStockByName and ABC is searched
+INFO  06:02:58 StockController Invalid Stock Name 
+INFO  06:03:02 StockController HttpGet GetStockByName and Dummy1 is searched
+INFO  06:03:02 StockController Invalid Stock Name 
+INFO  06:21:03 Application started. Press Ctrl+C to shut down.
+INFO  06:21:03 Application started. Press Ctrl+C to shut down.
+INFO  06:21:03 Hosting environment: Development
+INFO  06:21:03 Hosting environment: Development
+INFO  06:21:03 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  06:21:03 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  06:21:07 StockController HttpGet GetStockByName and ETH is searched
+INFO  06:21:07 StockController Stock Found
+INFO  06:32:54 Application started. Press Ctrl+C to shut down.
+INFO  06:32:54 Application started. Press Ctrl+C to shut down.
+INFO  06:32:54 Hosting environment: Development
+INFO  06:32:54 Hosting environment: Development
+INFO  06:32:54 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  06:32:54 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  06:32:59 StockController HttpGet GetStockByName and LTC is searched
+INFO  06:32:59 StockController Stock Found
+INFO  06:33:03 StockController HttpGet GetStockByName and 123 is searched
+INFO  06:33:03 StockController Invalid Stock Name 
+INFO  06:33:06 StockController HttpGet GetStockByName and ABC is searched
+INFO  06:33:06 StockController Invalid Stock Name 
+INFO  06:33:12 StockController HttpGet GetStockByName and QWERTT is searched
+INFO  06:33:12 StockController Invalid Stock Name 
+INFO  10:36:51 Application started. Press Ctrl+C to shut down.
+INFO  10:36:51 Application started. Press Ctrl+C to shut down.
+INFO  10:36:51 Hosting environment: Development
+INFO  10:36:51 Hosting environment: Development
+INFO  10:36:51 Content root path: C:\Users\Dell\source\repos\Portfolio Management\DailySharePriceApi
+INFO  10:36:51 Content root path: C:\Users\Dell\source\repos\Portfolio Management\DailySharePriceApi
+INFO  10:38:45 StockController HttpGet GetStockByName and BTC is searched
+INFO  10:38:45 StockController Stock Found
+INFO  10:39:36 StockController HttpGet GetStockByName and BTC is searched
+INFO  10:39:36 StockController Stock Found
+INFO  10:39:59 StockController HttpGet GetStockByName and ltc is searched
+INFO  10:39:59 StockController Stock Found
+INFO  10:40:22 StockController HttpGet GetStockByName and eth is searched
+INFO  10:40:22 StockController Stock Found
+INFO  10:54:10 Application started. Press Ctrl+C to shut down.
+INFO  10:54:10 Application started. Press Ctrl+C to shut down.
+INFO  10:54:10 Hosting environment: Development
+INFO  10:54:10 Hosting environment: Development
+INFO  10:54:10 Content root path: C:\Users\Dell\source\repos\Portfolio Management\DailySharePriceApi
+INFO  10:54:10 Content root path: C:\Users\Dell\source\repos\Portfolio Management\DailySharePriceApi
+INFO  10:54:16 StockController HttpGet GetStockByName and ETH is searched
+INFO  10:54:16 StockController Stock Found
+INFO  10:54:21 StockController HttpGet GetStockByName and qwerty is searched
+INFO  10:54:21 StockController Invalid Stock Name 
+INFO  10:54:47 StockController HttpGet GetStockByName and 12 is searched
+INFO  10:54:47 StockController Invalid Stock Name 
+INFO  01:09:03 Application started. Press Ctrl+C to shut down.
+INFO  01:09:03 Application started. Press Ctrl+C to shut down.
+INFO  01:09:03 Hosting environment: Development
+INFO  01:09:03 Hosting environment: Development
+INFO  01:09:03 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:09:03 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:09:05 StockController HttpGet GetStockByName and BTC is searched
+INFO  01:09:05 StockController Stock Found
+INFO  01:09:08 StockController HttpGet GetStockByName and LTC is searched
+INFO  01:09:08 StockController Stock Found
+INFO  01:09:12 StockController HttpGet GetStockByName and 123 is searched
+INFO  01:09:12 StockController Invalid Stock Name 
+INFO  01:10:12 Application started. Press Ctrl+C to shut down.
+INFO  01:10:12 Application started. Press Ctrl+C to shut down.
+INFO  01:10:12 Hosting environment: Development
+INFO  01:10:12 Hosting environment: Development
+INFO  01:10:12 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:10:12 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:10:13 StockController HttpGet GetStockByName and ETH is searched
+INFO  01:10:13 StockController Stock Found
+INFO  01:10:18 StockController HttpGet GetStockByName and LTC is searched
+INFO  01:10:18 StockController Stock Found
+INFO  10:34:25 Application started. Press Ctrl+C to shut down.
+INFO  10:34:25 Application started. Press Ctrl+C to shut down.
+INFO  10:34:25 Hosting environment: Development
+INFO  10:34:25 Hosting environment: Development
+INFO  10:34:25 Content root path: C:\Users\Dell\source\repos\New folder\DailySharePriceApi
+INFO  10:34:25 Content root path: C:\Users\Dell\source\repos\New folder\DailySharePriceApi
+INFO  10:34:30 StockController HttpGet GetStockByName and ETH is searched
+INFO  10:34:30 StockController Stock Found
+INFO  10:37:19 Application started. Press Ctrl+C to shut down.
+INFO  10:37:19 Application started. Press Ctrl+C to shut down.
+INFO  10:37:19 Hosting environment: Development
+INFO  10:37:19 Hosting environment: Development
+INFO  10:37:19 Content root path: C:\Users\Dell\source\repos\New folder\DailySharePriceApi
+INFO  10:37:19 Content root path: C:\Users\Dell\source\repos\New folder\DailySharePriceApi
+INFO  10:37:29 StockController HttpGet GetStockByName and ETH is searched
+INFO  10:37:29 StockController Stock Found
+INFO  10:46:53 StockController HttpGet GetStockByName and BTC is searched
+INFO  10:46:53 StockController Stock Found
+INFO  10:50:12 StockController HttpGet GetStockByName and BTC is searched
+INFO  10:50:12 StockController Stock Found
+INFO  10:52:43 StockController HttpGet GetStockByName and BTC is searched
+INFO  10:52:43 StockController Stock Found
+INFO  11:00:04 StockController HttpGet GetStockByName and BTC is searched
+INFO  11:00:04 StockController Stock Found
+INFO  11:01:41 StockController HttpGet GetStockByName and 123 is searched
+INFO  11:01:41 StockController Invalid Stock Name 
+INFO  11:01:54 StockController HttpGet GetStockByName and ETH is searched
+INFO  11:01:54 StockController Stock Found
+INFO  11:30:31 Application started. Press Ctrl+C to shut down.
+INFO  11:30:31 Application started. Press Ctrl+C to shut down.
+INFO  11:30:31 Hosting environment: Development
+INFO  11:30:31 Hosting environment: Development
+INFO  11:30:31 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  11:30:31 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  11:30:34 StockController HttpGet GetStockByName and ETH is searched
+INFO  11:30:34 StockController Stock Found
+INFO  11:30:39 StockController HttpGet GetStockByName and LTC is searched
+INFO  11:30:39 StockController Stock Found
+INFO  11:30:43 StockController HttpGet GetStockByName and 123 is searched
+INFO  11:30:43 StockController Stock 123Not Found
+INFO  11:36:19 Application started. Press Ctrl+C to shut down.
+INFO  11:36:19 Application started. Press Ctrl+C to shut down.
+INFO  11:36:19 Hosting environment: Development
+INFO  11:36:19 Hosting environment: Development
+INFO  11:36:19 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  11:36:19 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  11:36:24 StockController HttpGet GetStockByName and ETH1 is searched
+INFO  11:36:24 StockController Stock ETH1Not Found
+INFO  11:36:26 StockController HttpGet GetStockByName and ETH is searched
+INFO  11:36:26 StockController Stock Found
+INFO  11:36:35 StockController HttpGet GetStockByName and 111111 is searched
+INFO  11:36:35 StockController Stock 111111Not Found
+INFO  07:55:22 Application started. Press Ctrl+C to shut down.
+INFO  07:55:22 Application started. Press Ctrl+C to shut down.
+INFO  07:55:22 Hosting environment: Development
+INFO  07:55:22 Hosting environment: Development
+INFO  07:55:22 Content root path: C:\Users\Dell\source\MFPE\DailySharePriceApi
+INFO  07:55:22 Content root path: C:\Users\Dell\source\MFPE\DailySharePriceApi
+INFO  07:55:26 StockController HttpGet GetStockByName and ETH is searched
+INFO  07:55:26 StockController Stock Found
+INFO  07:59:56 StockController HttpGet GetStockByName and BTC is searched
+INFO  07:59:56 StockController Stock Found
+INFO  08:00:40 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:00:40 StockController Stock Found
+INFO  08:00:40 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:00:40 StockController Stock Found
+INFO  08:16:50 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:16:50 StockController Stock Found
+INFO  08:16:50 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:16:50 StockController Stock Found
+INFO  08:17:02 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:17:02 StockController Stock Found
+INFO  08:17:02 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:17:02 StockController Stock Found
+INFO  08:17:02 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:17:02 StockController Stock Found
+INFO  08:25:18 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:25:18 StockController Stock Found
+INFO  08:25:18 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:25:18 StockController Stock Found
+INFO  08:25:25 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:25:25 StockController Stock Found
+INFO  08:25:25 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:25:25 StockController Stock Found
+INFO  08:25:26 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:25:26 StockController Stock Found
+INFO  08:25:30 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:25:30 StockController Stock Found
+INFO  08:25:30 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:25:30 StockController Stock Found
+INFO  08:27:09 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:27:09 StockController Stock Found
+INFO  08:27:09 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:27:09 StockController Stock Found
+INFO  08:27:17 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:27:17 StockController Stock Found
+INFO  08:27:17 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:27:17 StockController Stock Found
+INFO  08:27:17 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:27:17 StockController Stock Found
+INFO  08:27:20 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:27:20 StockController Stock Found
+INFO  08:27:20 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:27:20 StockController Stock Found
+INFO  08:30:17 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:30:17 StockController Stock Found
+INFO  08:30:17 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:30:17 StockController Stock Found
+INFO  08:31:55 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:31:55 StockController Stock Found
+INFO  08:31:55 StockController HttpGet GetStockByName and ETH is searched
+INFO  08:31:55 StockController Stock Found
+INFO  08:50:56 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:50:56 StockController Stock Found
+INFO  08:50:56 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:50:56 StockController Stock Found
+INFO  08:51:18 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:51:18 StockController Stock Found
+INFO  08:51:18 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:51:18 StockController Stock Found
+INFO  08:51:25 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:51:25 StockController Stock Found
+INFO  08:51:25 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:51:25 StockController Stock Found
+INFO  08:51:37 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:51:37 StockController Stock Found
+INFO  08:51:37 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:51:37 StockController Stock Found
+INFO  08:51:40 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:51:40 StockController Stock Found
+INFO  08:51:40 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:51:40 StockController Stock Found
+INFO  08:51:55 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:51:55 StockController Stock Found
+INFO  08:51:55 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:51:55 StockController Stock Found
+INFO  08:51:58 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:51:58 StockController Stock Found
+INFO  08:51:58 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:51:58 StockController Stock Found
+INFO  08:52:04 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:04 StockController Stock Found
+INFO  08:52:04 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:52:04 StockController Stock Found
+INFO  08:52:04 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:04 StockController Stock Found
+INFO  08:52:06 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:06 StockController Stock Found
+INFO  08:52:06 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:52:06 StockController Stock Found
+INFO  08:52:13 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:13 StockController Stock Found
+INFO  08:52:13 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:52:13 StockController Stock Found
+INFO  08:52:13 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:13 StockController Stock Found
+INFO  08:52:15 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:15 StockController Stock Found
+INFO  08:52:15 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:52:15 StockController Stock Found
+INFO  08:52:21 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:21 StockController Stock Found
+INFO  08:52:21 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:52:21 StockController Stock Found
+INFO  08:52:24 StockController HttpGet GetStockByName and BTC is searched
+INFO  08:52:24 StockController Stock Found
+INFO  08:52:24 StockController HttpGet GetStockByName and LTC is searched
+INFO  08:52:24 StockController Stock Found
+INFO  08:58:34 Application started. Press Ctrl+C to shut down.
+INFO  08:58:34 Application started. Press Ctrl+C to shut down.
+INFO  08:58:34 Hosting environment: Development
+INFO  08:58:34 Hosting environment: Development
+INFO  08:58:34 Content root path: C:\Users\Dell\source\MFPE\DailySharePriceApi
+INFO  08:58:34 Content root path: C:\Users\Dell\source\MFPE\DailySharePriceApi
+INFO  09:13:14 Application started. Press Ctrl+C to shut down.
+INFO  09:13:15 Application started. Press Ctrl+C to shut down.
+INFO  09:13:15 Hosting environment: Development
+INFO  09:13:15 Hosting environment: Development
+INFO  09:13:15 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:13:15 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:24:23 StockController HttpGet GetStockByName and BTC is searched
+INFO  09:24:23 StockController Stock Found
+INFO  09:24:23 StockController HttpGet GetStockByName and ETH is searched
+INFO  09:24:23 StockController Stock Found
+INFO  09:24:34 StockController HttpGet GetStockByName and BTC is searched
+INFO  09:24:34 StockController Stock Found
+INFO  09:24:34 StockController HttpGet GetStockByName and ETH is searched
+INFO  09:24:34 StockController Stock Found
+INFO  09:24:34 StockController HttpGet GetStockByName and BTC is searched
+INFO  09:24:34 StockController Stock Found
+INFO  09:24:38 StockController HttpGet GetStockByName and BTC is searched
+INFO  09:24:38 StockController Stock Found
+INFO  09:24:38 StockController HttpGet GetStockByName and ETH is searched
+INFO  09:24:38 StockController Stock Found
+INFO  09:32:48 Application started. Press Ctrl+C to shut down.
+INFO  09:32:48 Application started. Press Ctrl+C to shut down.
+INFO  09:32:48 Hosting environment: Development
+INFO  09:32:48 Hosting environment: Development
+INFO  09:32:48 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:32:48 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:33:01 StockController HttpGet GetStockByName and ETH is searched
+INFO  09:33:01 StockController Stock Found
+INFO  09:33:05 StockController HttpGet GetStockByName and 123 is searched
+INFO  09:33:05 StockController Stock 123Not Found
+INFO  09:33:06 StockController HttpGet GetStockByName and 12345 is searched
+INFO  09:33:06 StockController Stock 12345Not Found
+INFO  09:26:28 Application started. Press Ctrl+C to shut down.
+INFO  09:26:28 Application started. Press Ctrl+C to shut down.
+INFO  09:26:28 Hosting environment: Development
+INFO  09:26:28 Hosting environment: Development
+INFO  09:26:28 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:26:28 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  09:26:58 StockController HttpGet GetStockByName and ETH is searched
+INFO  09:26:58 StockController Stock Found
+INFO  09:30:12 StockController HttpGet GetStockByName and BTC is searched
+INFO  09:30:12 StockController Stock Found
+INFO  09:30:13 StockController HttpGet GetStockByName and ETH is searched
+INFO  09:30:13 StockController Stock Found
+INFO  10:19:06 Application started. Press Ctrl+C to shut down.
+INFO  10:19:06 Application started. Press Ctrl+C to shut down.
+INFO  10:19:06 Hosting environment: Development
+INFO  10:19:06 Hosting environment: Development
+INFO  10:19:06 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  10:19:06 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:42:40 Application started. Press Ctrl+C to shut down.
+INFO  12:42:40 Application started. Press Ctrl+C to shut down.
+INFO  12:42:40 Hosting environment: Development
+INFO  12:42:40 Hosting environment: Development
+INFO  12:42:40 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:42:40 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:42:43 In StockController, HttpGet GetStockByName and  is searched
+INFO  12:42:43 StockController Null Name
+INFO  12:42:56 In StockController, HttpGet GetStockByName and  is searched
+INFO  12:42:56 StockController Null Name
+INFO  12:44:17 Application started. Press Ctrl+C to shut down.
+INFO  12:44:17 Application started. Press Ctrl+C to shut down.
+INFO  12:44:17 Hosting environment: Development
+INFO  12:44:17 Hosting environment: Development
+INFO  12:44:17 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:44:17 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:44:22 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:44:22 In StockProvider, Controller has called GetStockByProvider and ETH is searched
+INFO  12:44:22 StockController Stock Found
+INFO  12:44:27 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:44:27 In StockProvider, Controller has called GetStockByProvider and BTC is searched
+INFO  12:44:27 StockController Stock Found
+INFO  12:44:32 In StockController, HttpGet GetStockByName and bs2 is searched
+INFO  12:44:32 In StockProvider, Controller has called GetStockByProvider and BS2 is searched
+INFO  12:44:32 StockController Stock bs2 Not Found
+INFO  12:44:36 In StockController, HttpGet GetStockByName and bs2 is searched
+INFO  12:44:36 In StockProvider, Controller has called GetStockByProvider and BS2 is searched
+INFO  12:44:36 StockController Stock bs2 Not Found
+INFO  12:49:34 Application started. Press Ctrl+C to shut down.
+INFO  12:49:34 Application started. Press Ctrl+C to shut down.
+INFO  12:49:34 Hosting environment: Development
+INFO  12:49:34 Hosting environment: Development
+INFO  12:49:34 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:49:34 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:49:38 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:49:38 In StockProvider, Controller has called GetStockByProvider and ETH is searched
+INFO  12:49:38 In Stock Repository, StockProvider is calling this Method and ETH is being searched
+INFO  12:49:38 StockController Stock Found - DailySharePriceApi.Models.Stock
+INFO  12:51:50 Application started. Press Ctrl+C to shut down.
+INFO  12:51:50 Application started. Press Ctrl+C to shut down.
+INFO  12:51:50 Hosting environment: Development
+INFO  12:51:50 Hosting environment: Development
+INFO  12:51:50 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:51:50 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:51:54 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:51:54 In StockProvider, Controller has called GetStockByProvider and LTC is searched
+INFO  12:51:54 In Stock Repository, StockProvider is calling this Method and LTC is being searched
+INFO  12:51:54 StockController Stock Found - 103 LTC 23.6
+INFO  12:53:00 Application started. Press Ctrl+C to shut down.
+INFO  12:53:00 Application started. Press Ctrl+C to shut down.
+INFO  12:53:00 Hosting environment: Development
+INFO  12:53:00 Hosting environment: Development
+INFO  12:53:00 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:53:00 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:53:12 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:53:12 In StockProvider, Controller has called GetStockByProvider and ETH is searched
+INFO  12:53:12 In Stock Repository, StockProvider is calling this Method and ETH is being searched
+INFO  12:53:12 DailySharePriceApi.Models.Stock
+INFO  12:53:12 StockController Stock Found - 102 ETH 40.2
+INFO  12:56:31 Application started. Press Ctrl+C to shut down.
+INFO  12:56:31 Application started. Press Ctrl+C to shut down.
+INFO  12:56:31 Hosting environment: Development
+INFO  12:56:31 Hosting environment: Development
+INFO  12:56:31 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:56:31 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:56:36 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:56:36 In StockProvider, Controller has called GetStockByProvider and ETH is searched
+INFO  12:56:36 In Stock Repository, StockProvider is calling this Method and ETH is being searched
+INFO  12:56:36 {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:56:36 StockController Stock Found - 102 ETH 40.2
+INFO  12:57:58 Application started. Press Ctrl+C to shut down.
+INFO  12:57:58 Application started. Press Ctrl+C to shut down.
+INFO  12:57:58 Hosting environment: Development
+INFO  12:57:58 Hosting environment: Development
+INFO  12:57:58 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:57:58 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  12:58:05 In StockController, HttpGet GetStockByName and btc is searched
+INFO  12:58:05 In StockProvider, Controller has called GetStockByProvider and BTC is searched
+INFO  12:58:05 In Stock Repository, StockProvider is calling this Method and BTC is being searched
+INFO  12:58:05 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:58:05 StockController Stock Found
+INFO  12:58:11 In StockController, HttpGet GetStockByName and qwerty is searched
+INFO  12:58:11 In StockProvider, Controller has called GetStockByProvider and QWERTY is searched
+INFO  12:58:11 In Stock Repository, StockProvider is calling this Method and QWERTY is being searched
+INFO  12:58:11 StockController Stock qwerty Not Found
+INFO  01:32:19 Application started. Press Ctrl+C to shut down.
+INFO  01:32:19 Application started. Press Ctrl+C to shut down.
+INFO  01:32:19 Hosting environment: Development
+INFO  01:32:19 Hosting environment: Development
+INFO  01:32:19 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:32:19 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:32:22 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  01:32:22 In StockProvider, Controller has called GetStockByProvider and ETH is searched
+INFO  01:32:22 In Stock Repository, StockProvider is calling this Method and ETH is being searched
+INFO  01:32:22 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  01:32:22 StockController Stock Found
+INFO  01:32:27 In StockController, HttpGet GetStockByName and 12345 is searched
+INFO  01:32:27 In StockProvider, Controller has called GetStockByProvider and 12345 is searched
+INFO  01:32:27 In Stock Repository, StockProvider is calling this Method and 12345 is being searched
+INFO  01:32:27 StockController Stock 12345 Not Found
+INFO  01:48:32 Application started. Press Ctrl+C to shut down.
+INFO  01:48:32 Application started. Press Ctrl+C to shut down.
+INFO  01:48:32 Hosting environment: Development
+INFO  01:48:32 Hosting environment: Development
+INFO  01:48:32 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:48:32 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  01:48:35 In StockController, HttpGet GetStockByName and btc is searched
+INFO  01:48:35 In StockProvider, Controller has called GetStockByProvider and BTC is searched
+INFO  01:48:35 In Stock Repository, StockProvider is calling this Method and BTC is being searched
+INFO  01:48:35 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  01:48:35 StockController Stock Found
+INFO  01:48:42 In StockController, HttpGet GetStockByName and THR is searched
+INFO  01:48:42 In StockProvider, Controller has called GetStockByProvider and THR is searched
+INFO  01:48:42 In Stock Repository, StockProvider is calling this Method and THR is being searched
+INFO  01:48:42 Stock THR is not found
+INFO  01:48:42 StockController Stock THR Not Found
+INFO  02:04:32 Application started. Press Ctrl+C to shut down.
+INFO  02:04:32 Application started. Press Ctrl+C to shut down.
+INFO  02:04:32 Hosting environment: Development
+INFO  02:04:32 Hosting environment: Development
+INFO  02:04:32 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  02:04:32 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  02:04:36 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  02:04:36 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  02:04:36 In Stock Repository, StockProvider is calling this Method and ETH is being searched
+INFO  02:04:36 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  02:04:36 StockController Stock Found
+INFO  02:04:43 In StockController, HttpGet GetStockByName and sbi is searched
+INFO  02:04:43 In StockProvider, Controller has called GetStockByNameProvider and SBI is searched
+INFO  02:04:43 In Stock Repository, StockProvider is calling this Method and SBI is being searched
+INFO  02:04:43 In StockRepository, Stock SBI is not found
+INFO  02:04:43 StockController Stock sbi Not Found
+INFO  03:03:24 Application started. Press Ctrl+C to shut down.
+INFO  03:03:24 Application started. Press Ctrl+C to shut down.
+INFO  03:03:24 Hosting environment: Development
+INFO  03:03:24 Hosting environment: Development
+INFO  03:03:24 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  03:03:24 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  03:03:26 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  03:03:26 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  03:03:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  03:03:26 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  03:03:26 StockController Stock Found
+INFO  03:03:31 In StockController, HttpGet GetStockByName and 12345 is searched
+INFO  03:03:31 In StockProvider, Controller has called GetStockByNameProvider and 12345 is searched
+INFO  03:03:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and 12345 is being searched
+INFO  03:03:31 In StockRepository, Stock 12345 is not found
+INFO  03:03:31 StockController Stock 12345 Not Found
+INFO  03:10:51 Application started. Press Ctrl+C to shut down.
+INFO  03:10:51 Application started. Press Ctrl+C to shut down.
+INFO  03:10:51 Hosting environment: Development
+INFO  03:10:51 Hosting environment: Development
+INFO  03:10:51 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  03:10:51 Content root path: C:\Users\Dell\source\repos\DailySharePriceApi
+INFO  03:11:03 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  03:11:03 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  03:11:03 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  03:11:03 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  03:11:03 StockController Stock Found

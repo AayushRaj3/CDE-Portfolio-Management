@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DailySharePriceApi", "DailySharePriceApi.csproj", "{EA471008-3964-4A45-86CD-3EE2E2B96FC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockApiTesting", "..\StockApiTesting\StockApiTesting.csproj", "{0F6F0B25-B741-4188-A99D-2C79FCD00FDF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EA471008-3964-4A45-86CD-3EE2E2B96FC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA471008-3964-4A45-86CD-3EE2E2B96FC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA471008-3964-4A45-86CD-3EE2E2B96FC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA471008-3964-4A45-86CD-3EE2E2B96FC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F6F0B25-B741-4188-A99D-2C79FCD00FDF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F6F0B25-B741-4188-A99D-2C79FCD00FDF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F6F0B25-B741-4188-A99D-2C79FCD00FDF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F6F0B25-B741-4188-A99D-2C79FCD00FDF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9364E217-D680-466D-8758-C3C23D58F08A}
+	EndGlobalSection
+EndGlobal
