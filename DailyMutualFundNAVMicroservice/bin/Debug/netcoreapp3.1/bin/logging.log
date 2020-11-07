@@ -318,3 +318,39 @@ INFO  05:14:45  07:11:2020 In MutualFundProvider, MutualFundNAVController has Ca
 INFO  05:14:45  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and tata is searched
 INFO  05:14:45  07:11:2020 In MutualFundRepository, MutualFund tata is not found.
 INFO  05:14:45  07:11:2020 tata is invalid MutualFund.
+INFO  05:52:16  07:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  05:52:17  07:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  05:52:17  07:11:2020 Hosting environment: Development
+INFO  05:52:17  07:11:2020 Hosting environment: Development
+INFO  05:52:17  07:11:2020 Content root path: C:\Users\Kanika\source\repos\CDE-Portfolio Management\DailyMutualFundNAVMicroservice
+INFO  05:52:17  07:11:2020 Content root path: C:\Users\Kanika\source\repos\CDE-Portfolio Management\DailyMutualFundNAVMicroservice
+INFO  05:52:35  07:11:2020 MutualFundNAVController Initiated
+INFO  05:52:36  07:11:2020 In MutualFundNAV Controller, Udaan is searched
+INFO  05:52:36  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and Udaan is searched
+INFO  05:52:38  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and Udaan is searched
+INFO  05:52:41  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  05:52:41  07:11:2020 Udaan MutualFund Found.
+INFO  05:53:27  07:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  05:53:27  07:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  05:53:27  07:11:2020 Hosting environment: Development
+INFO  05:53:27  07:11:2020 Hosting environment: Development
+INFO  05:53:27  07:11:2020 Content root path: C:\Users\Kanika\source\repos\CDE-Portfolio Management\DailyMutualFundNAVMicroservice
+INFO  05:53:27  07:11:2020 Content root path: C:\Users\Kanika\source\repos\CDE-Portfolio Management\DailyMutualFundNAVMicroservice
+INFO  05:54:50  07:11:2020 MutualFundNAVController Initiated
+INFO  05:54:50  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  05:54:50  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  05:54:50  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  05:54:51  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  05:54:51  07:11:2020 UDAAN MutualFund Found.
+INFO  06:06:00  07:11:2020 MutualFundNAVController Initiated
+INFO  06:06:00  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  06:06:00  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  06:06:00  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  06:06:00  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  06:06:00  07:11:2020 UDAAN MutualFund Found.
+INFO  06:06:00  07:11:2020 MutualFundNAVController Initiated
+INFO  06:06:00  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  06:06:00  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  06:06:00  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  06:06:00  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  06:06:00  07:11:2020 UDAAN MutualFund Found.

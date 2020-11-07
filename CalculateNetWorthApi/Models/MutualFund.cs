@@ -7,8 +7,8 @@ namespace CalculateNetWorthApi.Models
 {
     public class MutualFund
     {
-        public int MId { get; set; }
-        public string MName { get; set; }
-        public double MValue { get; set; }
+        public int MutualFundId { get; set; }
+        public string MutualFundName { get; set; }
+        public double MutualFundValue { get; set; }
     }
 }

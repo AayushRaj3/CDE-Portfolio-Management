@@ -31,8 +31,8 @@ namespace CalculateNetWorthApi.Repository
                     PortFolioId=12345,
                     MutualFundList = new List<MutualFundDetails>()
                     {
-                        new MutualFundDetails{MutualFundName = "Udaan", MutualFundUnits=44},
-                        new MutualFundDetails{MutualFundName = "Viva", MutualFundUnits=66}
+                        new MutualFundDetails{MutualFundName = "UDAAN", MutualFundUnits=44},
+                        new MutualFundDetails{MutualFundName = "VIVA", MutualFundUnits=66}
                     },
                     StockList = new List<StockDetails>()
                     {
@@ -45,8 +45,8 @@ namespace CalculateNetWorthApi.Repository
                     PortFolioId = 789,
                     MutualFundList = new List<MutualFundDetails>()
                     {
-                        new MutualFundDetails{MutualFundName = "Udaan", MutualFundUnits=34},
-                        new MutualFundDetails{MutualFundName = "Viva", MutualFundUnits=566}
+                        new MutualFundDetails{MutualFundName = "UDAAN", MutualFundUnits=34},
+                        new MutualFundDetails{MutualFundName = "VIVA", MutualFundUnits=566}
                     },
                     StockList = new List<StockDetails>()
                     {
@@ -59,9 +59,9 @@ namespace CalculateNetWorthApi.Repository
                     PortFolioId = 1729,
                     MutualFundList = new List<MutualFundDetails>()
                     {
-                        new MutualFundDetails{MutualFundName = "Cred", MutualFundUnits=8},
-                        new MutualFundDetails{MutualFundName = "Udaan", MutualFundUnits=6},
-                        new MutualFundDetails{MutualFundName = "Viva", MutualFundUnits=6}
+                        new MutualFundDetails{MutualFundName = "CRED", MutualFundUnits=8},
+                        new MutualFundDetails{MutualFundName = "UDAAN", MutualFundUnits=6},
+                        new MutualFundDetails{MutualFundName = "VIVA", MutualFundUnits=6}
                     },
                     StockList = new List<StockDetails>()
                     {
@@ -120,7 +120,7 @@ namespace CalculateNetWorthApi.Repository
                                     string apiResponse = await response.Content.ReadAsStringAsync();
                                     mutualfund = JsonConvert.DeserializeObject<MutualFund>(apiResponse);
                                 }
-                                networth.Networth += mutualFundDetails.MutualFundUnits * mutualfund.MValue;
+                                networth.Networth += mutualFundDetails.MutualFundUnits * mutualfund.MutualFundValue;
                             }
                         }
                     }
@@ -299,7 +299,7 @@ namespace CalculateNetWorthApi.Repository
                             string apiResponse = await response.Content.ReadAsStringAsync();
                             mutualFund = JsonConvert.DeserializeObject<MutualFund>(apiResponse);
                         }
-                        networth += mutualFundDetails.MutualFundUnits * mutualFund.MValue;
+                        networth += mutualFundDetails.MutualFundUnits * mutualFund.MutualFundValue;
                     }
                 }
             }

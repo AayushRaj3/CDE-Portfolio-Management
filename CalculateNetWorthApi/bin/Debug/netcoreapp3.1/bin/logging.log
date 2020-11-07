@@ -3222,3 +3222,23 @@ INFO  03:38:28 The portfolio details are correct.Returning the networth of user 
 INFO  03:38:28 Provider called from Controller to calculate the networth
 INFO  03:38:28 Calculating the networth in the repository method of user with id = 12345
 INFO  03:38:29 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  05:53:41 Application started. Press Ctrl+C to shut down.
+INFO  05:53:41 Hosting environment: Development
+INFO  05:53:41 Content root path: C:\Users\Kanika\source\repos\Integration\CalculateNetWorthApi
+INFO  05:54:02 Returning the portfolio object from the provider method of user :12345
+INFO  05:54:02 Returning portfolio details with the id12345 from the repository method
+INFO  05:54:03 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  05:54:46 Calculating the networth of user with id = 12345
+INFO  05:54:46 The portfolio details are correct.Returning the networth of user with id12345
+INFO  05:54:46 Provider called from Controller to calculate the networth
+INFO  05:54:47 Calculating the networth in the repository method of user with id = 12345
+INFO  05:54:51 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  05:56:47 sellAssets method called to sell assets of user with id = 12345
+ERROR 05:56:47 Exception occured while selling the assets:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+INFO  05:59:11 sellAssets method called to sell assets of user with id = 12345
+ERROR 05:59:11 Exception occured while selling the assets:Index was out of range. Must be non-negative and less than the size of the collection. (Parameter 'index')
+INFO  06:04:48 Returning the portfolio object from the provider method of user :12345
+INFO  06:04:48 Returning portfolio details with the id12345 from the repository method
+INFO  06:04:48 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  06:06:00 sellAssets method called to sell assets of user with id = 12345
+INFO  06:06:00 Selling the assets
