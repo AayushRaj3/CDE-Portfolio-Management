@@ -1,0 +1,441 @@
+INFO  06:30:00 Application started. Press Ctrl+C to shut down.
+INFO  06:30:00 Hosting environment: Development
+INFO  06:30:00 Content root path: D:\Final\CustomerPortal
+INFO  06:30:23  User with Id = 12345 is a valid user
+INFO  06:30:23 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:30:23 Calling the Calculate Networth Api
+ERROR 06:30:24 An unhandled exception has occurred while executing the request.
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at CustomerPortal.Controllers.PortFolioController.Index() in D:\Final\CustomerPortal\Controllers\PortFolioController.cs:line 83
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  06:31:38 Application started. Press Ctrl+C to shut down.
+INFO  06:31:38 Hosting environment: Development
+INFO  06:31:38 Content root path: D:\Final\CustomerPortal
+INFO  06:31:48  User with Id = 12345 is a valid user
+INFO  06:31:48 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:31:48 Calling the Calculate Networth Api
+ERROR 06:32:05 An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: P. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CustomerPortal.Controllers.PortFolioController.SellStock(StockDetails sd) in D:\Final\CustomerPortal\Controllers\PortFolioController.cs:line 159
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  06:35:33 Application started. Press Ctrl+C to shut down.
+INFO  06:35:33 Hosting environment: Development
+INFO  06:35:33 Content root path: D:\Final\CustomerPortal
+INFO  06:36:22  User with Id = 12345 is a valid user
+INFO  06:36:22 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:36:22 Calling the Calculate Networth Api
+INFO  06:36:37  User with Id = 12345 is a valid user
+INFO  06:36:37 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:36:37 Calling the Calculate Networth Api
+INFO  06:36:47  User with Id = 12345 is a valid user
+INFO  06:36:47 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:36:47 Calling the Calculate Networth Api
+INFO  06:36:56  User with Id = 12345 is a valid user
+INFO  06:36:56 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:36:56 Calling the Calculate Networth Api
+INFO  06:37:05  User with Id = 12345 is a valid user
+INFO  06:37:05 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:37:05 Calling the Calculate Networth Api
+INFO  06:37:17  User with Id = 12345 is a valid user
+INFO  06:37:17 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:37:17 Calling the Calculate Networth Api
+INFO  06:42:22 Application started. Press Ctrl+C to shut down.
+INFO  06:42:22 Hosting environment: Development
+INFO  06:42:22 Content root path: D:\Final\CustomerPortal
+INFO  06:42:36 Application started. Press Ctrl+C to shut down.
+INFO  06:42:36 Hosting environment: Development
+INFO  06:42:36 Content root path: D:\Final\CustomerPortal
+INFO  06:42:47  User with Id = 12345 is a valid user
+INFO  06:42:47 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:42:47 Calling the Calculate Networth Api
+INFO  06:43:05  User with Id = 12345 is a valid user
+INFO  06:43:05 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:43:05 Calling the Calculate Networth Api
+INFO  06:43:13  User with Id = 12345 is a valid user
+INFO  06:43:13 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:43:13 Calling the Calculate Networth Api
+INFO  06:43:32  User with Id = 12345 is a valid user
+INFO  06:43:32 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:43:32 Calling the Calculate Networth Api
+INFO  06:43:42  User with Id = 12345 is a valid user
+INFO  06:43:42 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:43:42 Calling the Calculate Networth Api
+INFO  06:44:50  User with Id = 12345 is logging out
+INFO  06:45:06  User with Id = 12345 is a valid user
+INFO  06:45:06 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:45:06 Calling the Calculate Networth Api
+INFO  06:45:14  User with Id = 12345 is logging out
+INFO  06:45:31  User with Id = 12345 is a valid user
+INFO  06:45:31 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:45:31 Calling the Calculate Networth Api
+INFO  06:45:41  User with Id = 12345 is a valid user
+INFO  06:45:41 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  06:45:41 Calling the Calculate Networth Api
+INFO  06:59:14 Application started. Press Ctrl+C to shut down.
+INFO  06:59:14 Hosting environment: Development
+INFO  06:59:14 Content root path: D:\Final\CustomerPortal
+ERROR 06:59:18 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PostAsync(Uri requestUri, HttpContent content, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PostAsync(String requestUri, HttpContent content)
+   at CustomerPortal.Controllers.HomeController.GetToken(String url, Users user) in D:\Final\CustomerPortal\Controllers\HomeController.cs:line 73
+   at CustomerPortal.Controllers.HomeController.Login(Users user) in D:\Final\CustomerPortal\Controllers\HomeController.cs:line 45
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+ERROR 07:00:17 An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An invalid request URI was provided. The request URI must either be an absolute URI or BaseAddress must be set.
+   at System.Net.Http.HttpClient.PrepareRequestMessage(HttpRequestMessage request)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, HttpCompletionOption completionOption, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PostAsync(Uri requestUri, HttpContent content, CancellationToken cancellationToken)
+   at System.Net.Http.HttpClient.PostAsync(String requestUri, HttpContent content)
+   at CustomerPortal.Controllers.HomeController.GetToken(String url, Users user) in D:\Final\CustomerPortal\Controllers\HomeController.cs:line 73
+   at CustomerPortal.Controllers.HomeController.Login(Users user) in D:\Final\CustomerPortal\Controllers\HomeController.cs:line 45
+   at lambda_method(Closure , Object , Object[] )
+   at Microsoft.Extensions.Internal.ObjectMethodExecutor.Execute(Object target, Object[] parameters)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  07:00:34 Application started. Press Ctrl+C to shut down.
+INFO  07:00:34 Hosting environment: Development
+INFO  07:00:34 Content root path: D:\Final\CustomerPortal
+INFO  07:04:21 Application started. Press Ctrl+C to shut down.
+INFO  07:04:21 Hosting environment: Development
+INFO  07:04:21 Content root path: D:\Final\CustomerPortal
+INFO  07:18:02 Application started. Press Ctrl+C to shut down.
+INFO  07:18:02 Hosting environment: Development
+INFO  07:18:02 Content root path: D:\Final\CustomerPortal
+INFO  07:18:18 Application started. Press Ctrl+C to shut down.
+INFO  07:18:18 Hosting environment: Development
+INFO  07:18:18 Content root path: D:\Final\CustomerPortal
+INFO  07:19:35  User with Id = 12345 is a valid user
+INFO  07:19:35 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:19:35 Calling the Calculate Networth Api
+INFO  07:21:20  User with Id = 12345 is logging out
+INFO  07:21:36  User with Id = 12345 is a valid user
+INFO  07:21:36 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:21:36 Calling the Calculate Networth Api
+INFO  07:21:56  User with Id = 12345 is a valid user
+INFO  07:21:56 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:21:56 Calling the Calculate Networth Api
+INFO  07:22:32  User with Id = 12345 is logging out
+INFO  07:45:25 Application started. Press Ctrl+C to shut down.
+INFO  07:45:25 Hosting environment: Development
+INFO  07:45:25 Content root path: D:\Final\CustomerPortal
+INFO  07:45:41  User with Id = 1729 is a valid user
+INFO  07:45:41 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  07:45:41 Calling the Calculate Networth Api
+INFO  07:47:42  User with Id = 1729 is a valid user
+INFO  07:47:42 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  07:47:42 Calling the Calculate Networth Api
+INFO  07:47:54  User with Id = 1729 is a valid user
+INFO  07:47:54 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  07:47:54 Calling the Calculate Networth Api
+INFO  07:48:04  User with Id = 1729 is a valid user
+INFO  07:48:04 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  07:48:04 Calling the Calculate Networth Api
+INFO  07:48:42  User with Id = 1729 is a valid user
+INFO  07:48:42 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  07:48:42 Calling the Calculate Networth Api
+INFO  07:49:18 Application started. Press Ctrl+C to shut down.
+INFO  07:49:18 Hosting environment: Development
+INFO  07:49:18 Content root path: D:\Final\CustomerPortal
+INFO  07:49:28  User with Id = 789 is a valid user
+INFO  07:49:28 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  07:49:28 Calling the Calculate Networth Api
+INFO  07:49:47  User with Id = 789 is logging out
+INFO  08:54:57  User with Id = 789 is a valid user
+INFO  08:54:57 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  08:54:57 Calling the Calculate Networth Api
+INFO  08:55:08  User with Id = 789 is a valid user
+INFO  08:55:08 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  08:55:08 Calling the Calculate Networth Api
+INFO  08:57:16  User with Id = 789 is a valid user
+INFO  08:57:16 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  08:57:16 Calling the Calculate Networth Api
+INFO  08:57:20  User with Id = 789 is a valid user
+INFO  08:57:20 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  08:57:20 Calling the Calculate Networth Api
+INFO  08:57:27  User with Id = 789 is logging out
+INFO  08:57:35  User with Id = 1729 is a valid user
+INFO  08:57:35 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  08:57:35 Calling the Calculate Networth Api
+INFO  08:57:43  User with Id = 1729 is a valid user
+INFO  08:57:43 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  08:57:43 Calling the Calculate Networth Api
+INFO  08:57:45  User with Id = 1729 is logging out
+INFO  09:19:09 Application started. Press Ctrl+C to shut down.
+INFO  09:19:09 Hosting environment: Development
+INFO  09:19:09 Content root path: D:\Final\CustomerPortal
+INFO  09:19:30  User with Id = 1729 is a valid user
+INFO  09:19:30 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  09:19:30 Calling the Calculate Networth Api
+INFO  09:19:36  User with Id = 1729 is logging out
+INFO  09:19:45  User with Id = 12345 is a valid user
+INFO  09:19:45 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:19:45 Calling the Calculate Networth Api
+INFO  09:19:53 sale of user with id12345done
+INFO  09:19:58  User with Id = 12345 is a valid user
+INFO  09:19:58 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:19:58 Calling the Calculate Networth Api
+INFO  09:20:03  User with Id = 12345 is logging out
+INFO  09:20:41  User with Id = 12345 is a valid user
+INFO  09:20:41 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:20:41 Calling the Calculate Networth Api
+INFO  09:20:47 sale of user with id12345done
+INFO  09:20:50  User with Id = 12345 is logging out
+INFO  09:21:04  User with Id = 1729 is a valid user
+INFO  09:21:04 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  09:21:04 Calling the Calculate Networth Api
+INFO  09:21:17 sale of user with id1729done
+INFO  09:21:19  User with Id = 1729 is a valid user
+INFO  09:21:19 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  09:21:19 Calling the Calculate Networth Api
+INFO  09:21:28 sale of user with id1729done
+INFO  09:21:32  User with Id = 1729 is logging out
+INFO  09:24:51 Application started. Press Ctrl+C to shut down.
+INFO  09:24:51 Hosting environment: Development
+INFO  09:24:51 Content root path: D:\Final\CustomerPortal
+INFO  09:25:06  User with Id = 12345 is a valid user
+INFO  09:25:06 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:25:06 Calling the Calculate Networth Api
+INFO  09:25:12  User with Id = 12345 is logging out
+INFO  09:25:23  User with Id = 789 is a valid user
+INFO  09:25:23 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  09:25:23 Calling the Calculate Networth Api
+INFO  09:25:31 sale of user with id789done
+INFO  09:25:34  User with Id = 789 is a valid user
+INFO  09:25:34 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  09:25:34 Calling the Calculate Networth Api
+INFO  09:25:41 sale of user with id789done
+INFO  09:25:43  User with Id = 789 is a valid user
+INFO  09:25:43 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  09:25:43 Calling the Calculate Networth Api
+INFO  09:26:11  User with Id = 789 is a valid user
+INFO  09:26:11 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  09:26:11 Calling the Calculate Networth Api
+INFO  09:26:16 sale of user with id789done
+INFO  09:26:18  User with Id = 789 is a valid user
+INFO  09:26:18 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  09:26:18 Calling the Calculate Networth Api
+INFO  09:29:47  User with Id =  is logging out
+INFO  09:30:29  User with Id = 789 is a valid user
+INFO  09:30:29 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  09:30:29 Calling the Calculate Networth Api
+INFO  09:33:21  User with Id = 789 is logging out
+INFO  09:33:52  User with Id = 12345 is a valid user
+INFO  09:33:52 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:33:52 Calling the Calculate Networth Api
+INFO  09:40:24  User with Id =  is logging out
+INFO  09:41:45  User with Id = 12345 is a valid user
+INFO  09:41:45 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:41:45 Calling the Calculate Networth Api
+INFO  09:42:20  User with Id = 12345 is a valid user
+INFO  09:42:20 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:42:20 Calling the Calculate Networth Api
+INFO  09:42:43  User with Id = 12345 is a valid user
+INFO  09:42:43 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:42:43 Calling the Calculate Networth Api
+INFO  09:42:50 sale of user with id12345done
+INFO  09:43:03  User with Id = 12345 is a valid user
+INFO  09:43:03 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:43:03 Calling the Calculate Networth Api
+INFO  09:44:25 sale of user with id12345done
+INFO  09:44:28  User with Id = 12345 is a valid user
+INFO  09:44:28 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:44:28 Calling the Calculate Networth Api
+INFO  09:44:42 sale of user with id12345done
+INFO  09:44:44  User with Id = 12345 is a valid user
+INFO  09:44:44 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  09:44:44 Calling the Calculate Networth Api
+INFO  09:46:44  User with Id = 12345 is logging out
+INFO  02:35:40 Application started. Press Ctrl+C to shut down.
+INFO  02:35:40 Hosting environment: Development
+INFO  02:35:40 Content root path: D:\Final\CustomerPortal
+INFO  02:35:52  User with Id = 12345 is a valid user
+INFO  02:35:52 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  02:35:52 Calling the Calculate Networth Api
+ERROR 02:35:52 An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Error parsing Infinity value. Path '', line 1, position 1.
+   at Newtonsoft.Json.JsonTextReader.ParseNumberPositiveInfinity(ReadType readType, Boolean matched)
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CustomerPortal.Controllers.PortFolioController.Index() in D:\Final\CustomerPortal\Controllers\PortFolioController.cs:line 68
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  02:41:07  User with Id = 12345 is a valid user
+INFO  02:41:07 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  02:41:07 Calling the Calculate Networth Api
+INFO  02:41:18 sale of user with id12345done
+INFO  02:41:21  User with Id = 12345 is a valid user
+INFO  02:41:21 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  02:41:21 Calling the Calculate Networth Api
+INFO  02:41:37 sale of user with id12345done
+INFO  02:41:40  User with Id = 12345 is a valid user
+INFO  02:41:40 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  02:41:40 Calling the Calculate Networth Api
+INFO  02:41:43  User with Id = 12345 is logging out
+INFO  02:41:52  User with Id = 789 is a valid user
+INFO  02:41:52 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  02:41:52 Calling the Calculate Networth Api
+INFO  02:42:00 sale of user with id789done
+INFO  02:42:02  User with Id = 789 is a valid user
+INFO  02:42:02 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  02:42:02 Calling the Calculate Networth Api
+INFO  02:42:12 sale of user with id789done
+INFO  02:42:15  User with Id = 789 is a valid user
+INFO  02:42:15 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  02:42:15 Calling the Calculate Networth Api
+INFO  02:50:02  User with Id = 1729 is a valid user
+INFO  02:50:02 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  02:50:02 Calling the Calculate Networth Api
+INFO  02:50:10 sale of user with id1729done
+INFO  02:50:13  User with Id = 1729 is a valid user
+INFO  02:50:13 Showing the user with portfolio ID = 1729his networth and the assets he is currently holding
+INFO  02:50:13 Calling the Calculate Networth Api
+INFO  02:58:43 Application started. Press Ctrl+C to shut down.
+INFO  02:58:43 Hosting environment: Development
+INFO  02:58:43 Content root path: D:\Final\CustomerPortal
+INFO  02:59:04  User with Id = 12345 is a valid user
+INFO  02:59:04 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  02:59:04 Calling the Calculate Networth Api
+INFO  02:59:37 sale of user with id12345done
+INFO  03:11:31 Application started. Press Ctrl+C to shut down.
+INFO  03:11:31 Hosting environment: Development
+INFO  03:11:31 Content root path: D:\Final\CustomerPortal
+INFO  03:11:40  User with Id = 789 is a valid user
+INFO  03:11:40 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  03:11:40 Calling the Calculate Networth Api
+INFO  03:11:48 sale of user with id789done
+INFO  03:11:51  User with Id = 789 is a valid user
+INFO  03:11:51 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  03:11:51 Calling the Calculate Networth Api
+INFO  03:11:58 sale of user with id789done
+INFO  03:12:01  User with Id = 789 is a valid user
+INFO  03:12:01 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  03:12:01 Calling the Calculate Networth Api
+INFO  03:12:07 sale of user with id789done
+INFO  03:12:10  User with Id = 789 is a valid user
+INFO  03:12:10 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  03:12:10 Calling the Calculate Networth Api
+INFO  03:12:23 sale of user with id789done
+INFO  03:12:26  User with Id = 789 is a valid user
+INFO  03:12:26 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  03:12:26 Calling the Calculate Networth Api
+INFO  03:15:21  User with Id = 12345 is a valid user
+INFO  03:15:21 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  03:15:21 Calling the Calculate Networth Api
+INFO  03:15:29 sale of user with id12345done
+INFO  03:15:30  User with Id = 12345 is a valid user
+INFO  03:15:30 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  03:15:31 Calling the Calculate Networth Api
+INFO  03:38:05  User with Id = 12345 is a valid user
+INFO  03:38:05 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  03:38:05 Calling the Calculate Networth Api
+INFO  03:38:15  User with Id = 12345 is a valid user
+INFO  03:38:15 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  03:38:15 Calling the Calculate Networth Api
+INFO  03:38:26 sale of user with id12345done
+INFO  03:38:28  User with Id = 12345 is a valid user
+INFO  03:38:28 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  03:38:28 Calling the Calculate Networth Api

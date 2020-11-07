@@ -1,0 +1,27 @@
+﻿@using CustomerPortal.Models;
+@model CustomerPortal.Models.ViewModel.SellingViewModel
+@{
+    ViewData["Title"] = "Buy";
+}
+<h1 class="bg-dark rounded shadow-lg">Sell Your Assets</h1>
+<div class="col-md-4">
+    <form asp-action="Buy">
+        <label asp-for="@Model.PortFolioID"></label>
+        <input class="form-control" asp-for="@Model.PortFolioID" />
+        <br />
+        <label asp-for="@Model.sd.StockName"></label>
+        <input class="form-control" asp-for="@Model.sd.StockName" />
+        <br />
+        <label asp-for="@Model.sd.StockCount"></label>
+        <input class="form-control" asp-for="@Model.sd.StockCount" />
+        <br />
+        <label asp-for="@Model.md.MutualFundName"></label>
+        <input class="form-control" asp-for="@Model.md.MutualFundName" />
+        <br />
+        <label asp-for="@Model.md.MutualFundUnits"></label>
+        <input class="form-control" asp-for="@Model.md.MutualFundUnits" />
+        <br />
+        <input type="submit" value="Buy" class="btn btn-success" />
+    </form>
+</div>
+

@@ -1,0 +1,82 @@
+﻿@model CustomerPortal.Models.ViewModel.CompleteDetails
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div>
+    
+</div>
+<div>
+    <div>
+        <a  asp-action="Logout" class="btn btn-success float-md-right ">LogOut</a>
+        <h1 class="shadow-lg p-3 mb-3 bg-white rounded">PortFolioDetails</h1>
+
+    </div>
+    <hr />
+    <div class="shadow-lg p-3 mb-3 bg-white rounded">
+        <h5>PortFolioID : @Model.PFId</h5>
+    </div>
+    <div class="shadow-lg p-3 mb-3 bg-white rounded">
+        <h5>NetWorth : $@Model.NetWorth</h5>
+    </div>
+    <div class="shadow-lg p-3 mb-3 bg-white rounded">
+        <h4> Stock List</h4>
+        <table class="table table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Stock Name</th>
+                    <th scope="col">Stock Count</th>
+                    <th scope="col">Sell</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int c = 1;
+                    @foreach (StockDetails x in Model.FinalStockList)
+                    {
+                        <tr>
+                            <th scope="row">@c</th>
+                            <td>@x.StockName</td>
+                            <td>@x.StockCount</td>
+                            <td><a asp-action="SellStock" asp-route-name="@x.StockName" class="btn btn-success">Sell</a></td>
+                        </tr>
+                        c = c + 1;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    <div class="shadow-lg p-3 mb-3 bg-white rounded">
+        <h4> Mutual Fund List</h4>
+        <table class="table table-striped">
+
+            <thead class="table-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Mutual Fund Name</th>
+                    <th scope="col">Mutual Fund Units</th>
+                    <th scope="col">Sell</th>
+                </tr>
+            </thead>
+            <tbody>
+                @{int q = 1;
+                    @foreach (MutualFundDetails x in Model.FinalMutualFundList)
+                    {
+                <tr>
+                    <th scope="row">@q</th>
+                    <td>@x.MutualFundName</td>
+                    <td>@x.MutualFundUnits</td>
+                    <td><a asp-action="SellMutualFund" asp-route-name="@x.MutualFundName" class="btn btn-success">Sell</a></td>
+                </tr>
+                        q = q + 1;
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
+    
+
+</div>
+

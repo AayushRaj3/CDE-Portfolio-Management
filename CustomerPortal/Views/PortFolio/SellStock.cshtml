@@ -1,0 +1,27 @@
+﻿@model CustomerPortal.Models.StockDetails
+
+@{
+    ViewData["Title"] = "SellStock";
+}
+<div>
+    <h1 class="bg-dark rounded text-white shadow-lg">Sell Your Stock</h1>
+    <a asp-action="Logout" class="btn btn-success float-md-right ">LogOut</a>
+</div>
+
+<div class="col-md-4">
+    <form asp-action="SellStock">
+        <label asp-for="@Model.StockName"></label>
+        <input class="form-control" asp-for="@Model.StockName" readonly />
+        <br />
+        <label asp-for="@Model.StockCount"></label>
+        <input class="form-control" min="0" asp-for="@Model.StockCount" />
+        <br />
+        <input type="submit" value="Sell" class="btn btn-success" />
+    </form>
+</div>
+
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
