@@ -40,3 +40,45 @@ C:\Users\Dell\source\repos\DailySharePriceApi\bin\Debug\netcoreapp3.1\Newtonsoft
 C:\Users\Dell\source\repos\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.csproj.CoreCompileInputs.cache
 C:\Users\Dell\source\repos\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\Dell\source\repos\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\log4net.config
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\appsettings.json
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\DailySharePriceApi.exe
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\DailySharePriceApi.deps.json
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\DailySharePriceApi.runtimeconfig.json
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\DailySharePriceApi.runtimeconfig.dev.json
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\DailySharePriceApi.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\DailySharePriceApi.pdb
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\log4net.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Log4Net.AspNetCore.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\Portfolio mfpe\DailySharePriceApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.csprojAssemblyReference.cache
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.AssemblyInfoInputs.cache
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.AssemblyInfo.cs
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.csproj.CoreCompileInputs.cache
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.MvcApplicationPartsAssemblyInfo.cs
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.MvcApplicationPartsAssemblyInfo.cache
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.RazorTargetAssemblyInfo.cache
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.csproj.CopyComplete
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\staticwebassets\DailySharePriceApi.StaticWebAssets.Manifest.cache
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\staticwebassets\DailySharePriceApi.StaticWebAssets.xml
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.dll
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.pdb
+D:\Portfolio mfpe\DailySharePriceApi\obj\Debug\netcoreapp3.1\DailySharePriceApi.genruntimeconfig.cache

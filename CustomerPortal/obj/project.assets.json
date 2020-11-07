@@ -8749,11 +8749,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Final\\CustomerPortal\\CustomerPortal.csproj",
+      "projectUniqueName": "D:\\Portfolio mfpe\\CustomerPortal\\CustomerPortal.csproj",
       "projectName": "CustomerPortal",
-      "projectPath": "D:\\Final\\CustomerPortal\\CustomerPortal.csproj",
+      "projectPath": "D:\\Portfolio mfpe\\CustomerPortal\\CustomerPortal.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "D:\\Final\\CustomerPortal\\obj\\",
+      "outputPath": "D:\\Portfolio mfpe\\CustomerPortal\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",

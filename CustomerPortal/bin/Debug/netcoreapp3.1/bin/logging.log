@@ -439,3 +439,173 @@ INFO  03:38:26 sale of user with id12345done
 INFO  03:38:28  User with Id = 12345 is a valid user
 INFO  03:38:28 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
 INFO  03:38:28 Calling the Calculate Networth Api
+INFO  10:14:01 Application started. Press Ctrl+C to shut down.
+INFO  10:14:01 Hosting environment: Development
+INFO  10:14:01 Content root path: D:\Portfolio mfpe\CustomerPortal
+WARN  10:14:01 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:02 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:03 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:03 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:03 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:03 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:03 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+WARN  10:14:14 Error unprotecting the session cookie.
+System.Security.Cryptography.CryptographicException: The payload was invalid.
+   at Microsoft.AspNetCore.DataProtection.Cng.CbcAuthenticatedEncryptor.DecryptImpl(Byte* pbCiphertext, UInt32 cbCiphertext, Byte* pbAdditionalAuthenticatedData, UInt32 cbAdditionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.Cng.Internal.CngAuthenticatedEncryptorBase.Decrypt(ArraySegment`1 ciphertext, ArraySegment`1 additionalAuthenticatedData)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.UnprotectCore(Byte[] protectedData, Boolean allowOperationsOnRevokedKeys, UnprotectStatus& status)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.DangerousUnprotect(Byte[] protectedData, Boolean ignoreRevocationErrors, Boolean& requiresMigration, Boolean& wasRevoked)
+   at Microsoft.AspNetCore.DataProtection.KeyManagement.KeyRingBasedDataProtector.Unprotect(Byte[] protectedData)
+   at Microsoft.AspNetCore.Session.CookieProtection.Unprotect(IDataProtector protector, String protectedText, ILogger logger)
+INFO  10:14:17  User with Id = 12345 is a valid user
+INFO  10:14:17 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:14:17 Calling the Calculate Networth Api
+INFO  10:14:28  User with Id = 12345 is logging out
+INFO  10:14:40  User with Id = 12345 is a valid user
+INFO  10:14:40 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:14:40 Calling the Calculate Networth Api
+INFO  10:14:46 sale of user with id12345done
+INFO  10:14:57  User with Id = 12345 is a valid user
+INFO  10:14:57 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:14:57 Calling the Calculate Networth Api
+INFO  10:15:10 sale of user with id12345done
+INFO  10:15:15  User with Id = 12345 is a valid user
+INFO  10:15:15 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:15:15 Calling the Calculate Networth Api
+INFO  10:15:30 sale of user with id12345done
+INFO  10:15:32  User with Id = 12345 is a valid user
+INFO  10:15:32 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:15:32 Calling the Calculate Networth Api
+INFO  10:19:01 Application started. Press Ctrl+C to shut down.
+INFO  10:19:01 Hosting environment: Development
+INFO  10:19:01 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:19:15  User with Id = 12345 is a valid user
+INFO  10:19:15 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:19:15 Calling the Calculate Networth Api
+INFO  10:19:22 sale of user with id12345done
+INFO  10:19:25  User with Id = 12345 is a valid user
+INFO  10:19:25 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:19:25 Calling the Calculate Networth Api
+INFO  10:19:40 sale of user with id12345done
+INFO  10:19:43  User with Id = 12345 is a valid user
+INFO  10:19:43 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:19:43 Calling the Calculate Networth Api
+INFO  10:19:54  User with Id = 12345 is a valid user
+INFO  10:19:54 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:19:54 Calling the Calculate Networth Api
+INFO  10:20:07  User with Id = 12345 is a valid user
+INFO  10:20:07 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:20:07 Calling the Calculate Networth Api
+INFO  10:20:08  User with Id = 12345 is a valid user
+INFO  10:20:08 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:20:08 Calling the Calculate Networth Api
+INFO  10:20:09  User with Id = 12345 is a valid user
+INFO  10:20:09 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:20:09 Calling the Calculate Networth Api
+INFO  10:25:21 Application started. Press Ctrl+C to shut down.
+INFO  10:25:21 Hosting environment: Development
+INFO  10:25:21 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:25:32  User with Id = 12345 is a valid user
+INFO  10:25:32 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:25:32 Calling the Calculate Networth Api
+INFO  10:26:24 Application started. Press Ctrl+C to shut down.
+INFO  10:26:24 Hosting environment: Development
+INFO  10:26:24 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:26:33  User with Id = 12345 is a valid user
+INFO  10:26:33 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:26:34 Calling the Calculate Networth Api
+INFO  10:30:02 Application started. Press Ctrl+C to shut down.
+INFO  10:30:02 Hosting environment: Development
+INFO  10:30:02 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:30:23  User with Id = 789 is a valid user
+INFO  10:30:23 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  10:30:23 Calling the Calculate Networth Api
+INFO  10:30:38 sale of user with id789done
+INFO  10:30:41  User with Id = 789 is a valid user
+INFO  10:30:41 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  10:30:41 Calling the Calculate Networth Api
+INFO  10:30:44  User with Id = 789 is logging out
+INFO  10:30:52  User with Id = 12345 is a valid user
+INFO  10:30:52 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:30:52 Calling the Calculate Networth Api
+INFO  10:32:13 Application started. Press Ctrl+C to shut down.
+INFO  10:32:13 Hosting environment: Development
+INFO  10:32:13 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:32:23  User with Id = 12345 is a valid user
+INFO  10:32:23 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:32:23 Calling the Calculate Networth Api
+INFO  10:33:16 Application started. Press Ctrl+C to shut down.
+INFO  10:33:16 Hosting environment: Development
+INFO  10:33:16 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:33:26  User with Id = 12345 is a valid user
+INFO  10:33:26 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:33:26 Calling the Calculate Networth Api
+INFO  10:35:51  User with Id = 789 is a valid user
+INFO  10:35:51 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  10:35:51 Calling the Calculate Networth Api
+INFO  10:37:59 Application started. Press Ctrl+C to shut down.
+INFO  10:37:59 Hosting environment: Development
+INFO  10:37:59 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  10:38:16  User with Id = 12345 is a valid user
+INFO  10:38:16 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:38:16 Calling the Calculate Networth Api
+INFO  10:38:23  User with Id = 12345 is a valid user
+INFO  10:38:23 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:38:23 Calling the Calculate Networth Api
+INFO  10:38:29 sale of user with id12345done
+INFO  10:38:32  User with Id = 12345 is a valid user
+INFO  10:38:32 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:38:32 Calling the Calculate Networth Api
+INFO  10:38:39 sale of user with id12345done
+INFO  10:38:42  User with Id = 12345 is a valid user
+INFO  10:38:42 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  10:38:42 Calling the Calculate Networth Api

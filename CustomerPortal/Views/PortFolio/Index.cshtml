@@ -36,15 +36,22 @@
                 @{int c = 1;
                     @foreach (StockDetails x in Model.FinalStockList)
                     {
+                        if (!(x.StockCount == 0))
+                        {
                         <tr>
                             <th scope="row">@c</th>
                             <td>@x.StockName</td>
                             <td>@x.StockCount</td>
                             <td><a asp-action="SellStock" asp-route-name="@x.StockName" class="btn btn-success">Sell</a></td>
                         </tr>
-                        c = c + 1;
+                                c = c + 1;
+                         }
+                     }
+                    if (c == 1)
+                    {
+                        <tr><th colspan=4>You do not have any stocks</th></tr>
                     }
-                }
+                 }
             </tbody>
         </table>
     </div>
@@ -64,13 +71,21 @@
                 @{int q = 1;
                     @foreach (MutualFundDetails x in Model.FinalMutualFundList)
                     {
-                <tr>
-                    <th scope="row">@q</th>
-                    <td>@x.MutualFundName</td>
-                    <td>@x.MutualFundUnits</td>
-                    <td><a asp-action="SellMutualFund" asp-route-name="@x.MutualFundName" class="btn btn-success">Sell</a></td>
-                </tr>
-                        q = q + 1;
+                        if (!(x.MutualFundUnits == 0))
+                        {
+                            <tr>
+                                <th scope="row">@q</th>
+                                <td>@x.MutualFundName</td>
+                                <td>@x.MutualFundUnits</td>
+                                <td><a asp-action="SellMutualFund" asp-route-name="@x.MutualFundName" class="btn btn-success">Sell</a></td>
+                            </tr>
+                            q = q + 1;
+                        }
+
+                    }
+                    if (q== 1)
+                    {
+                        <tr><th colspan=4>You do not have any Mutual Funds</th></tr>
                     }
                 }
             </tbody>

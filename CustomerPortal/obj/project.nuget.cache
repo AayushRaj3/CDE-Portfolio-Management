@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xqbwCTRO1oiXLB/9H8XtcqOCVhxQQMFFC53bC8pJfpxo6Bt7XoDttgA+VfFLvqt++beOCIWBvZIj1XPY1XDBRw==",
+  "dgSpecHash": "Ll/TsZhSSO65oKnPSk0Kh+QNIMf5Gv6bkEzZ7in9ULI6f50eaLE11GkjOxTBE0JnWEcZmH8bIGIUa0RNAgbp9Q==",
   "success": true,
-  "projectFilePath": "D:\\Final\\CustomerPortal\\CustomerPortal.csproj",
+  "projectFilePath": "D:\\Portfolio mfpe\\CustomerPortal\\CustomerPortal.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\user\\.nuget\\packages\\log4net\\2.0.11\\log4net.2.0.11.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

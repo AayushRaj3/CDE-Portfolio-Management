@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj": {}
+    "D:\\Portfolio mfpe\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj": {
+    "D:\\Portfolio mfpe\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
+        "projectUniqueName": "D:\\Portfolio mfpe\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
         "projectName": "DailyMutualFundNAVMicroservice",
-        "projectPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
-        "packagesPath": "C:\\Users\\Kanika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\obj\\",
+        "projectPath": "D:\\Portfolio mfpe\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Portfolio mfpe\\DailyMutualFundNAVMicroservice\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kanika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

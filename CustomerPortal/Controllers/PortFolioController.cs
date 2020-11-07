@@ -82,6 +82,8 @@ namespace CustomerPortal.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
+
+            
             try
             {
                 NetWorth _netWorth = new NetWorth();
@@ -115,7 +117,8 @@ namespace CustomerPortal.Controllers
                         }
                     }
 
-
+                    CompleteMutualFundDetails completeMutualFundDetails= new CompleteMutualFundDetails();
+                    
                     completeDetails.PFId = portFolioDetails.PortFolioId;
                     completeDetails.FinalMutualFundList = portFolioDetails.MutualFundList;
                     completeDetails.FinalStockList = portFolioDetails.StockList;

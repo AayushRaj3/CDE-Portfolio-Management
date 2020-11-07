@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj": {}
+    "D:\\Portfolio mfpe\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj": {
+    "D:\\Portfolio mfpe\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj",
+        "projectUniqueName": "D:\\Portfolio mfpe\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj",
         "projectName": "CalculateNetWorthApi",
-        "projectPath": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj",
-        "packagesPath": "C:\\Users\\Kanika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthApi\\obj\\",
+        "projectPath": "D:\\Portfolio mfpe\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Portfolio mfpe\\CalculateNetWorthApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kanika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -77,17 +77,17 @@
         }
       }
     },
-    "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj": {
+    "D:\\Portfolio mfpe\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj",
+        "projectUniqueName": "D:\\Portfolio mfpe\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj",
         "projectName": "CalculateNetWorthUnitTesting",
-        "projectPath": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj",
-        "packagesPath": "C:\\Users\\Kanika\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthUnitTesting\\obj\\",
+        "projectPath": "D:\\Portfolio mfpe\\CalculateNetWorthUnitTesting\\CalculateNetWorthUnitTesting.csproj",
+        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
+        "outputPath": "D:\\Portfolio mfpe\\CalculateNetWorthUnitTesting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Kanika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -100,8 +100,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj": {
-                "projectPath": "C:\\Users\\Kanika\\source\\repos\\Integration\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj"
+              "D:\\Portfolio mfpe\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj": {
+                "projectPath": "D:\\Portfolio mfpe\\CalculateNetWorthApi\\CalculateNetWorthApi.csproj"
               }
             }
           }
