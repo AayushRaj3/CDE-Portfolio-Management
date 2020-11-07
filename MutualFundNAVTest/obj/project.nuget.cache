@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "s0mc2oOVeNx7NGzm5O/hGVpgJpCMJRr/g9KwA2b+2zEyfbLddr4Oe51xuq45Rtr3q6p1pUtpP2Ku62obi2LHqw==",
+  "dgSpecHash": "lC/bg6Rn82/RtRRqyii7GQT0sua872OMzoF4jdTAeOY0jfe1okJAz3FCHcBzsMAysFvhefdtPXvIZKPe9J25gg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Kanika\\source\\repos\\MutualFundNAVTest\\MutualFundNAVTest.csproj",
+  "projectFilePath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\MutualFundNAVTest\\MutualFundNAVTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kanika\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",
     "C:\\Users\\Kanika\\.nuget\\packages\\log4net\\2.0.11\\log4net.2.0.11.nupkg.sha512",

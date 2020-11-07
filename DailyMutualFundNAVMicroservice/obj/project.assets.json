@@ -2867,11 +2867,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
+      "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
       "projectName": "DailyMutualFundNAVMicroservice",
-      "projectPath": "C:\\Users\\Kanika\\source\\repos\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
+      "projectPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj",
       "packagesPath": "C:\\Users\\Kanika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kanika\\source\\repos\\DailyMutualFundNAVMicroservice\\obj\\",
+      "outputPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kanika\\AppData\\Roaming\\NuGet\\NuGet.Config",

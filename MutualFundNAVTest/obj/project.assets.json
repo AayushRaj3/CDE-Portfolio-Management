@@ -5531,11 +5531,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\MutualFundNAVTest\\MutualFundNAVTest.csproj",
+      "projectUniqueName": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\MutualFundNAVTest\\MutualFundNAVTest.csproj",
       "projectName": "MutualFundNAVTest",
-      "projectPath": "C:\\Users\\Kanika\\source\\repos\\MutualFundNAVTest\\MutualFundNAVTest.csproj",
+      "projectPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\MutualFundNAVTest\\MutualFundNAVTest.csproj",
       "packagesPath": "C:\\Users\\Kanika\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Kanika\\source\\repos\\MutualFundNAVTest\\obj\\",
+      "outputPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\MutualFundNAVTest\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Kanika\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5551,8 +5551,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Kanika\\source\\repos\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj": {
-              "projectPath": "C:\\Users\\Kanika\\source\\repos\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj"
+            "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj": {
+              "projectPath": "C:\\Users\\Kanika\\source\\repos\\CDE-Portfolio Management\\DailyMutualFundNAVMicroservice\\DailyMutualFundNAVMicroservice.csproj"
             }
           }
         }

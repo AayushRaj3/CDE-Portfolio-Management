@@ -15,9 +15,8 @@ namespace DailyMutualFundNAVMicroservice.Repository
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(MutualFundRepository));
         private static List<MutualFundDetails> listOfFunds = new List<MutualFundDetails>()
         { 
-            new MutualFundDetails { MutualFundId = 1, MutualFundName = "TATA EQUITY PE FUND", MutualFundValue = 135.84},
-            new MutualFundDetails { MutualFundId = 2, MutualFundName = "SBI NIFTY INDEX FUND", MutualFundValue = 100.14},
-            new MutualFundDetails { MutualFundId = 3, MutualFundName = "AXIS LIQUID FUND", MutualFundValue = 2244.45}
+            new MutualFundDetails { MutualFundId = 1, MutualFundName = "UDAAN", MutualFundValue = 135.84},
+            new MutualFundDetails { MutualFundId = 2, MutualFundName = "VIVA", MutualFundValue = 100.14}
         };
           /// <summary>
           ///  This will return the MutualFund Details by name
