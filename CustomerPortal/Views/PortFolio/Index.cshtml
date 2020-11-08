@@ -26,12 +26,12 @@
         <table class="table table-striped">
 
             <thead class="table-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Stock Name</th>
-                    <th scope="col">Stock Price</th>
-                    <th scope="col">Stock Count</th>
-                    <th scope="col">Sell</th>
+                <tr  class="justify-content-center  text-center">
+                    <th scope="col" style=" width: 180px;">#</th>
+                    <th scope="col" style=" width: 180px;">Stock Name</th>
+                    <th scope="col" style=" width: 180px;">Stock Price</th>
+                    <th scope="col" style=" width: 180px;">Stock Count</th>
+                    <th scope="col" style=" width: 180px;">Sell</th>
                 </tr>
             </thead>
             <tbody>
@@ -45,12 +45,12 @@
                         int c = 1;
                         @foreach (CompleteStockDetails x in Model.FinalStockList)
                         {
-                            <tr>
+                            <tr  class="justify-content-center  text-center">
                                 <th scope="row">@c</th>
-                                <td>@x.StockName</td>
-                                <td>@x.StockPrice</td>
-                                <td>@x.StockCount</td>
-                                <td><a asp-action="SellStock" asp-route-name="@x.StockName" class="btn btn-success">Sell</a></td>
+                                <td style=" width: 180px;">@x.StockName</td>
+                                <td style=" width: 180px;">@x.StockPrice</td>
+                                <td style=" width: 180px;">@x.StockCount</td>
+                                <td style=" width: 180px;"><a asp-action="SellStock" asp-route-name="@x.StockName" class="btn btn-success">Sell</a></td>
                             </tr>
                             c = c + 1;
                         }
@@ -64,12 +64,12 @@
         <table class="table table-striped">
 
             <thead class="table-dark">
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">Mutual Fund Name</th>
-                    <th scope="col">Mutual Fund Price</th>
-                    <th scope="col">Mutual Fund Units</th>
-                    <th scope="col">Sell</th>
+                <tr  class="justify-content-center  text-center">
+                    <th scope="col" style=" width: 180px;">#</th>
+                    <th scope="col" style=" width: 180px;">Mutual Fund Name</th>
+                    <th scope="col" style=" width: 180px;">Mutual Fund Price</th>
+                    <th scope="col" style=" width: 180px;">Mutual Fund Units</th>
+                    <th scope="col" style=" width: 180px;">Sell</th>
                 </tr>
             </thead>
             <tbody>
@@ -83,12 +83,12 @@
                     {
                         @foreach (CompleteMutualFundDetails x in Model.FinalMutualFundList)
                         {
-                            <tr>
+                            <tr  class="justify-content-center  text-center">
                                 <th scope="row">@q</th>
-                                <td>@x.MutualFundName</td>
-                                <td>@x.MutualFundPrice.</td>
-                                <td>@x.MutualFundUnits</td>
-                                <td><a asp-action="SellMutualFund" asp-route-name="@x.MutualFundName" class="btn btn-success">Sell</a></td>
+                                <td style=" width: 180px;">@x.MutualFundName</td>
+                                <td style=" width: 180px;">@x.MutualFundPrice.</td>
+                                <td style=" width: 180px;">@x.MutualFundUnits</td>
+                                <td style=" width: 180px;"><a asp-action="SellMutualFund" asp-route-name="@x.MutualFundName" class="btn btn-success">Sell</a></td>
                             </tr>
                             q = q + 1;
 
