@@ -609,3 +609,402 @@ INFO  10:38:39 sale of user with id12345done
 INFO  10:38:42  User with Id = 12345 is a valid user
 INFO  10:38:42 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
 INFO  10:38:42 Calling the Calculate Networth Api
+INFO  11:11:55 Application started. Press Ctrl+C to shut down.
+INFO  11:11:55 Hosting environment: Development
+INFO  11:11:55 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  11:12:11  User with Id = 12345 is a valid user
+INFO  11:12:11 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:12:11 Calling the Calculate Networth Api
+INFO  11:12:11 Calling the Networth api to return the networth of sent portfolio
+INFO  11:12:23  User with Id = 789 is a valid user
+INFO  11:12:23 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  11:12:23 Calling the Calculate Networth Api
+INFO  11:12:24 Calling the Networth api to return the networth of sent portfolio
+INFO  07:45:24 Application started. Press Ctrl+C to shut down.
+INFO  07:45:24 Hosting environment: Development
+INFO  07:45:24 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  07:45:50  User with Id = 12345 is a valid user
+INFO  07:45:50 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:45:51 Calling the Calculate Networth Api
+INFO  07:45:52 Calling the Networth api to return the networth of sent portfolio
+INFO  07:45:52 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:45:52 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:45:52 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:45:52 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:46:07 Selling the stocks of user with id = 12345
+INFO  07:46:08 sale of stock of user with id12345done
+INFO  07:46:13  User with Id = 12345 is a valid user
+INFO  07:46:13 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:46:13 Calling the Calculate Networth Api
+INFO  07:46:13 Calling the Networth api to return the networth of sent portfolio
+INFO  07:46:13 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:46:13 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:46:13 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:46:13 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:46:24 sale of  mutual fund of user with id12345done
+INFO  07:46:26  User with Id = 12345 is a valid user
+INFO  07:46:26 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:46:26 Calling the Calculate Networth Api
+INFO  07:46:26 Calling the Networth api to return the networth of sent portfolio
+INFO  07:46:26 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:46:26 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:46:26 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:46:26 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:46:37 sale of  mutual fund of user with id12345done
+INFO  07:46:40  User with Id = 12345 is a valid user
+INFO  07:46:40 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  07:46:40 Calling the Calculate Networth Api
+INFO  07:46:40 Calling the Networth api to return the networth of sent portfolio
+INFO  07:46:40 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:46:40 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  07:46:40 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  07:46:40 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:07:34 Application started. Press Ctrl+C to shut down.
+INFO  11:07:34 Hosting environment: Development
+INFO  11:07:34 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  11:07:46  User with Id = 12345 is a valid user
+INFO  11:07:46 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:07:46 Calling the Calculate Networth Api
+INFO  11:07:46 Calling the Networth api to return the networth of sent portfolio
+INFO  11:07:46 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:07:46 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:07:46 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:07:46 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:07:53 Selling the stocks of user with id = 12345
+INFO  11:07:54 sale of stock of user with id12345done
+INFO  11:07:58  User with Id = 12345 is a valid user
+INFO  11:07:58 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:07:58 Calling the Calculate Networth Api
+INFO  11:07:58 Calling the Networth api to return the networth of sent portfolio
+INFO  11:07:58 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:07:58 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:07:58 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:07:58 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:08:05 Selling the stocks of user with id = 12345
+INFO  11:08:05 sale of stock of user with id12345done
+INFO  11:08:07  User with Id = 12345 is a valid user
+INFO  11:08:07 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:08:07 Calling the Calculate Networth Api
+INFO  11:08:07 Calling the Networth api to return the networth of sent portfolio
+INFO  11:08:07 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:08:07 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:08:07 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:08:07 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:08:13 Selling the stocks of user with id = 12345
+INFO  11:08:13 sale of stock of user with id12345done
+INFO  11:08:15  User with Id = 12345 is a valid user
+INFO  11:08:15 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:08:15 Calling the Calculate Networth Api
+INFO  11:08:15 Calling the Networth api to return the networth of sent portfolio
+INFO  11:08:15 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:08:15 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:08:15 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:08:15 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:08:30 sale of  mutual fund of user with id12345done
+INFO  11:08:35  User with Id = 12345 is a valid user
+INFO  11:08:35 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:08:35 Calling the Calculate Networth Api
+INFO  11:08:35 Calling the Networth api to return the networth of sent portfolio
+INFO  11:08:35 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:08:35 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:08:35 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:33:57 Application started. Press Ctrl+C to shut down.
+INFO  11:33:57 Hosting environment: Development
+INFO  11:33:57 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  11:34:07  User with Id = 12345 is a valid user
+INFO  11:34:07 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:34:07 Calling the Calculate Networth Api
+INFO  11:34:07 Calling the Networth api to return the networth of sent portfolio
+INFO  11:34:07 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:34:07 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:34:07 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:34:07 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:34:15 Selling the stocks of user with id = 12345
+INFO  11:34:15 sale of stock of user with id12345done
+INFO  11:34:19  User with Id = 12345 is a valid user
+INFO  11:34:19 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:34:19 Calling the Calculate Networth Api
+INFO  11:34:19 Calling the Networth api to return the networth of sent portfolio
+INFO  11:34:19 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:34:19 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:34:19 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:34:28 Selling the stocks of user with id = 12345
+INFO  11:34:28 sale of stock of user with id12345done
+INFO  11:34:30  User with Id = 12345 is a valid user
+INFO  11:34:30 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:34:30 Calling the Calculate Networth Api
+INFO  11:34:30 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:34:30 An exception occured while showing the portfolio details to the user. the message is :Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+INFO  11:37:28  User with Id = 12345 is a valid user
+INFO  11:37:28 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:37:28 Calling the Calculate Networth Api
+INFO  11:37:28 Calling the Networth api to return the networth of sent portfolio
+INFO  11:37:28 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:37:28 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:37:28 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:37:28 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:37:42 Selling the stocks of user with id = 12345
+INFO  11:37:42 sale of stock of user with id12345done
+INFO  11:37:44  User with Id = 12345 is a valid user
+INFO  11:37:44 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:37:44 Calling the Calculate Networth Api
+INFO  11:37:44 Calling the Networth api to return the networth of sent portfolio
+INFO  11:37:44 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:37:44 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:37:44 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:37:50 Selling the stocks of user with id = 12345
+INFO  11:37:50 sale of stock of user with id12345done
+INFO  11:37:53  User with Id = 12345 is a valid user
+INFO  11:37:53 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:37:53 Calling the Calculate Networth Api
+INFO  11:37:53 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:37:53 An exception occured while showing the portfolio details to the user. the message is :Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+INFO  11:38:01  User with Id = 12345 is a valid user
+INFO  11:38:01 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:38:01 Calling the Calculate Networth Api
+INFO  11:38:01 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:38:01 An exception occured while showing the portfolio details to the user. the message is :Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+INFO  11:42:42 Application started. Press Ctrl+C to shut down.
+INFO  11:42:42 Hosting environment: Development
+INFO  11:42:42 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  11:42:57  User with Id = 12345 is a valid user
+INFO  11:42:57 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:42:57 Calling the Calculate Networth Api
+INFO  11:42:58 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:42:58 An exception occured while showing the portfolio details to the user. the message is :Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+INFO  11:43:31  User with Id = 12345 is a valid user
+INFO  11:43:31 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:43:31 Calling the Calculate Networth Api
+INFO  11:43:31 Calling the Networth api to return the networth of sent portfolio
+INFO  11:43:31 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:43:31 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:43:31 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:43:31 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:43:41 Selling the stocks of user with id = 12345
+INFO  11:43:41 sale of stock of user with id12345done
+INFO  11:43:44  User with Id = 12345 is a valid user
+INFO  11:43:44 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:43:44 Calling the Calculate Networth Api
+INFO  11:43:44 Calling the Networth api to return the networth of sent portfolio
+INFO  11:43:44 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:43:44 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:43:44 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:43:56 Selling the stocks of user with id = 12345
+INFO  11:43:56 sale of stock of user with id12345done
+INFO  11:43:57  User with Id = 12345 is a valid user
+INFO  11:43:57 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:43:57 Calling the Calculate Networth Api
+INFO  11:43:57 Calling the Networth api to return the networth of sent portfolio
+INFO  11:43:57 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:43:57 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:43:57 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:44:05 Selling the stocks of user with id = 12345
+INFO  11:44:05 sale of stock of user with id12345done
+INFO  11:44:10  User with Id = 12345 is a valid user
+INFO  11:44:10 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:44:10 Calling the Calculate Networth Api
+INFO  11:44:10 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:44:11 An exception occured while showing the portfolio details to the user. the message is :Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+INFO  11:45:31 Application started. Press Ctrl+C to shut down.
+INFO  11:45:31 Hosting environment: Development
+INFO  11:45:31 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  11:45:50  User with Id = 12345 is a valid user
+INFO  11:45:50 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:45:50 Calling the Calculate Networth Api
+INFO  11:45:50 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:45:51 An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadAndMoveToContent()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CustomerPortal.Controllers.PortFolioController.Index() in D:\Portfolio mfpe\CustomerPortal\Controllers\PortFolioController.cs:line 113
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:56:16 Application started. Press Ctrl+C to shut down.
+INFO  11:56:16 Hosting environment: Development
+INFO  11:56:16 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  11:56:26  User with Id = 12345 is a valid user
+INFO  11:56:26 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:56:26 Calling the Calculate Networth Api
+INFO  11:56:26 Calling the Networth api to return the networth of sent portfolio
+INFO  11:56:26 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:56:26 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:56:26 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:26 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:34 Selling the stocks of user with id = 12345
+INFO  11:56:34 sale of stock of user with id12345done
+INFO  11:56:37  User with Id = 12345 is a valid user
+INFO  11:56:37 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:56:37 Calling the Calculate Networth Api
+INFO  11:56:37 Calling the Networth api to return the networth of sent portfolio
+INFO  11:56:37 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  11:56:37 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:37 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:43 Selling the stocks of user with id = 12345
+INFO  11:56:43 sale of stock of user with id12345done
+INFO  11:56:46  User with Id = 12345 is a valid user
+INFO  11:56:46 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:56:46 Calling the Calculate Networth Api
+INFO  11:56:46 Calling the Networth api to return the networth of sent portfolio
+INFO  11:56:46 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:46 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:54  User with Id = 12345 is a valid user
+INFO  11:56:54 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:56:54 Calling the Calculate Networth Api
+INFO  11:56:54 Calling the Networth api to return the networth of sent portfolio
+INFO  11:56:54 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:56:54 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:57:01 sale of  mutual fund of user with id12345done
+INFO  11:57:03  User with Id = 12345 is a valid user
+INFO  11:57:03 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:57:03 Calling the Calculate Networth Api
+INFO  11:57:03 Calling the Networth api to return the networth of sent portfolio
+INFO  11:57:03 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:57:08  User with Id = 12345 is a valid user
+INFO  11:57:08 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:57:08 Calling the Calculate Networth Api
+INFO  11:57:08 Calling the Networth api to return the networth of sent portfolio
+INFO  11:57:08 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  11:57:14 sale of  mutual fund of user with id12345done
+INFO  11:57:16  User with Id = 12345 is a valid user
+INFO  11:57:16 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  11:57:16 Calling the Calculate Networth Api
+INFO  11:57:16 Calling the Networth api to return the networth of sent portfolio
+ERROR 11:57:16 An unhandled exception has occurred while executing the request.
+Newtonsoft.Json.JsonReaderException: Unexpected character encountered while parsing value: T. Path '', line 0, position 0.
+   at Newtonsoft.Json.JsonTextReader.ParseValue()
+   at Newtonsoft.Json.JsonReader.ReadForType(JsonContract contract, Boolean hasConverter)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType, Boolean checkAdditionalContent)
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Deserialize(JsonReader reader, Type objectType)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject(String value, Type type, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value, JsonSerializerSettings settings)
+   at Newtonsoft.Json.JsonConvert.DeserializeObject[T](String value)
+   at CustomerPortal.Controllers.PortFolioController.Index() in D:\Portfolio mfpe\CustomerPortal\Controllers\PortFolioController.cs:line 113
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Awaited|12_0(ControllerActionInvoker invoker, ValueTask`1 actionResultValueTask)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|19_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+INFO  11:58:32 Application started. Press Ctrl+C to shut down.
+INFO  11:58:32 Hosting environment: Development
+INFO  11:58:32 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  12:04:21 Application started. Press Ctrl+C to shut down.
+INFO  12:04:21 Hosting environment: Development
+INFO  12:04:21 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  12:04:30  User with Id = 12345 is a valid user
+INFO  12:04:30 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  12:04:30 Calling the Calculate Networth Api
+INFO  12:04:30 Calling the Networth api to return the networth of sent portfolio
+INFO  12:04:30 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:04:30 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:04:30 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:04:30 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:04:37 Selling the stocks of user with id = 12345
+INFO  12:04:38 sale of stock of user with id12345done
+INFO  12:04:41  User with Id = 12345 is a valid user
+INFO  12:04:41 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  12:04:41 Calling the Calculate Networth Api
+INFO  12:04:41 Calling the Networth api to return the networth of sent portfolio
+INFO  12:04:41 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:04:41 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:04:41 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:04:48 Selling the stocks of user with id = 12345
+INFO  12:04:48 sale of stock of user with id12345done
+INFO  12:04:51  User with Id = 12345 is a valid user
+INFO  12:04:51 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  12:04:51 Calling the Calculate Networth Api
+INFO  12:04:51 Calling the Networth api to return the networth of sent portfolio
+INFO  12:04:51 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:04:51 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:04:57 sale of  mutual fund of user with id12345done
+INFO  12:04:58  User with Id = 12345 is a valid user
+INFO  12:04:58 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  12:04:58 Calling the Calculate Networth Api
+INFO  12:04:58 Calling the Networth api to return the networth of sent portfolio
+INFO  12:04:58 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:05:03 sale of  mutual fund of user with id12345done
+INFO  12:05:05  User with Id = 12345 is a valid user
+INFO  12:05:05 Showing the user with portfolio ID = 12345his networth and the assets he is currently holding
+INFO  12:05:05 Calling the Calculate Networth Api
+INFO  12:05:05 Calling the Networth api to return the networth of sent portfolio
+INFO  12:12:26 Application started. Press Ctrl+C to shut down.
+INFO  12:12:26 Hosting environment: Development
+INFO  12:12:26 Content root path: D:\Portfolio mfpe\CustomerPortal
+INFO  12:12:38  User with Id = 789 is a valid user
+INFO  12:12:38 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  12:12:38 Calling the Calculate Networth Api
+INFO  12:12:38 Calling the Networth api to return the networth of sent portfolio
+INFO  12:12:38 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:12:38 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:12:38 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:12:38 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:12:46 Selling the stocks of user with id = 789
+INFO  12:12:46 sale of stock of user with id789done
+INFO  12:12:49  User with Id = 789 is a valid user
+INFO  12:12:49 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  12:12:49 Calling the Calculate Networth Api
+INFO  12:12:49 Calling the Networth api to return the networth of sent portfolio
+INFO  12:12:49 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:12:49 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:12:49 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:12:49 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:13:01 Selling the stocks of user with id = 789
+INFO  12:13:01 sale of stock of user with id789done
+INFO  12:13:03  User with Id = 789 is a valid user
+INFO  12:13:03 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  12:13:03 Calling the Calculate Networth Api
+INFO  12:13:03 Calling the Networth api to return the networth of sent portfolio
+INFO  12:13:03 Calling the StockPriceApi from:Index of portfolio management controller
+INFO  12:13:03 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:13:03 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:13:12 Selling the stocks of user with id = 789
+INFO  12:13:12 sale of stock of user with id789done
+INFO  12:13:13  User with Id = 789 is a valid user
+INFO  12:13:13 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  12:13:13 Calling the Calculate Networth Api
+INFO  12:13:13 Calling the Networth api to return the networth of sent portfolio
+INFO  12:13:13 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:13:13 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:13:22 sale of  mutual fund of user with id789done
+INFO  12:13:25  User with Id = 789 is a valid user
+INFO  12:13:25 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  12:13:25 Calling the Calculate Networth Api
+INFO  12:13:25 Calling the Networth api to return the networth of sent portfolio
+INFO  12:13:25 Calling the MutualFundPriceApi from:Index of portfolio management controller
+INFO  12:13:30 sale of  mutual fund of user with id789done
+INFO  12:13:32  User with Id = 789 is a valid user
+INFO  12:13:32 Showing the user with portfolio ID = 789his networth and the assets he is currently holding
+INFO  12:13:32 Calling the Calculate Networth Api
+INFO  12:13:32 Calling the Networth api to return the networth of sent portfolio

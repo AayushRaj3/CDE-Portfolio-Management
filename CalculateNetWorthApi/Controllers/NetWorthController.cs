@@ -6,10 +6,10 @@ using CalculateNetWorthApi.Models;
 using CalculateNetWorthApi.Provider;
 using CalculateNetWorthApi.Repository;
 using Microsoft.AspNetCore.Mvc;
-
+using Newtonsoft.Json;
 namespace CalculateNetWorthApi.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/[controller]/[action]")]
     [ApiController]
     public class NetWorthController : ControllerBase
     {
@@ -26,6 +26,7 @@ namespace CalculateNetWorthApi.Controllers
         /// Returns the portfolio of the user with id equal to the one in parameter
         /// </summary>
         /// <param name="id"></param>
+        /// the PortFolio ID of the User
         /// <returns></returns>
         
 
@@ -46,13 +47,13 @@ namespace CalculateNetWorthApi.Controllers
                 }
                 else
                 {
-                    _log4net.Info("The deatils of the user are" +portFolioDetails);
+                    _log4net.Info("The deatils of the user are" +JsonConvert.SerializeObject(portFolioDetails));
                     return Ok(portFolioDetails);
                 }
             }
             catch(Exception ex)
             {
-                _log4net.Info(ex.Message);
+                _log4net.Info("An exception occured while fetching the portfolio by id in the "+nameof(GetPortFolioDetailsByID)+". The message is:"+ex.Message);
                 return new StatusCodeResult(500);
             }  
         }
@@ -69,7 +70,7 @@ namespace CalculateNetWorthApi.Controllers
         {
 
             NetWorth _netWorth = new NetWorth();
-            _log4net.Info("Calculating the networth of user with id = "+ portFolioDetails.PortFolioId);
+            _log4net.Info("Calculating the networth of user with id = "+ portFolioDetails.PortFolioId+"In the method:"+ nameof(GetNetWorth));
 
             try
             {
@@ -81,26 +82,17 @@ namespace CalculateNetWorthApi.Controllers
                 {
                     return NotFound("The user with that id not found");
                 }
-                else if(portFolioDetails.StockList.Any() == false && portFolioDetails.MutualFundList.Any())
-                {
-                    return NotFound("The user doesn't hold any assets");
-                }
-                else if ((portFolioDetails.MutualFundList == null || portFolioDetails.MutualFundList.Any()==false) && (portFolioDetails.StockList == null || portFolioDetails.StockList.Any()==false))
-                {
-                    _log4net.Info("The user does not hold any assets");
-                    return NotFound("Sorry, the user doesn't hold any assets");
-                }
                 else
                 {
                     _log4net.Info("The portfolio details are correct.Returning the networth of user with id"+portFolioDetails.PortFolioId);
                     _netWorth = _netWorthProvider.calculateNetWorthAsync(portFolioDetails).Result;
-                    _log4net.Info("The networth is:"+_netWorth);
+                    _log4net.Info("The networth is:"+JsonConvert.SerializeObject(_netWorth));
                     return Ok(_netWorth);
                 }     
             }
             catch (Exception ex)
             {
-                _log4net.Info("An exception occured:"+ex);
+                _log4net.Info("An exception occured while calculating the networth:"+ex+" In the controller"+ nameof(GetNetWorth));
                 return new StatusCodeResult(500);
             }
         }
@@ -112,10 +104,10 @@ namespace CalculateNetWorthApi.Controllers
         ///successful or not.
         /// </summary>
         /// <param name="listOfAssetsCurrentlyHoldingAndAssetsToSell"></param>
+        /// the list contains two portfolios. One is the current portfolio of the user, and the other contains the assets he wants to sell
         /// <returns></returns>
         // POST api/<NetWorthController>
         [HttpPost]
-        [Route("SellAssets")]
         public IActionResult SellAssets(List<PortFolioDetails> listOfAssetsCurrentlyHoldingAndAssetsToSell)
         {
             try
@@ -147,8 +139,8 @@ namespace CalculateNetWorthApi.Controllers
             }
             catch(Exception ex)
             {
-                _log4net.Info(ex);
-                return NotFound(ex.Message);
+                _log4net.Info("An exception occured while calculating the networth:" + ex + " In the controller" + nameof(SellAssets));
+                return new StatusCodeResult(500);
             }
         }
     }

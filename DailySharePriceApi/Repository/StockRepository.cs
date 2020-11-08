@@ -31,19 +31,16 @@ namespace DailySharePriceApi.Repository
             Stock stockData = null;
             try
             {
-                if(!string.IsNullOrEmpty(stockname))
+                _log4net.Info("In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and " + stockname + " is being searched");
+                stockData = stocklist.FirstOrDefault(s => s.StockName == stockname);
+                if (stockData != null)
                 {
-                    _log4net.Info("In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and " + stockname + " is being searched");
-                    stockData = stocklist.FirstOrDefault(s => s.StockName == stockname);
-                    if(stockData != null)
-                    {
-                        var jsonStock = JsonConvert.SerializeObject(stockData);
-                        _log4net.Info("Stock Found " + jsonStock);
-                    }
-                    else
-                    {
-                        _log4net.Info("In StockRepository, Stock " + stockname + " is not found");
-                    }
+                    var jsonStock = JsonConvert.SerializeObject(stockData);
+                    _log4net.Info("Stock Found " + jsonStock);
+                }
+                else
+                {
+                    _log4net.Info("In StockRepository, Stock " + stockname + " is not found");
                 }
             }
             catch(Exception ex)

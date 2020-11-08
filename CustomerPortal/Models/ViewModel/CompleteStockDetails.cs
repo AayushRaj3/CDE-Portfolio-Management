@@ -9,7 +9,7 @@ namespace CustomerPortal.Models.ViewModel
     {
         public string StockName { get; set; }
 
-        public int StockUnits { get; set; }
+        public int StockCount{ get; set; }
 
         public double StockPrice { get; set; }
     }

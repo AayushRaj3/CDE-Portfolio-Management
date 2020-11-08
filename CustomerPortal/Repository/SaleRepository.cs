@@ -20,10 +20,22 @@ namespace CustomerPortal.Repository
         {
             _saleContext = saleContext;
         }
+        /// <summary>
+        /// This method adds the sale data to the database
+        /// </summary>
+        /// <param name="sale"></param>
         public void Add(Sale sale)
         {
-            _saleContext.Sales.Add(sale);
-            _saleContext.SaveChanges();
+            try
+            {
+                _log4net.Info("Entering the data in the database. The data is " + JsonConvert.SerializeObject(sale));
+                _saleContext.Sales.Add(sale);
+                _saleContext.SaveChanges();
+            }
+            catch(Exception ex)
+            {
+                _log4net.Error("An exception occured: "+ ex.Message);
+            }
 
         }
     }

@@ -1,4 +1,5 @@
-﻿@model CustomerPortal.Models.ViewModel.CompleteDetails
+﻿@using CustomerPortal.Models.ViewModel
+@model CustomerPortal.Models.ViewModel.CompleteDetails
 
 @{
     ViewData["Title"] = "Index";
@@ -28,30 +29,33 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Stock Name</th>
+                    <th scope="col">Stock Price</th>
                     <th scope="col">Stock Count</th>
                     <th scope="col">Sell</th>
                 </tr>
             </thead>
             <tbody>
-                @{int c = 1;
-                    @foreach (StockDetails x in Model.FinalStockList)
+                @{
+                    if (Model.FinalStockList.Any() == false)
                     {
-                        if (!(x.StockCount == 0))
-                        {
-                        <tr>
-                            <th scope="row">@c</th>
-                            <td>@x.StockName</td>
-                            <td>@x.StockCount</td>
-                            <td><a asp-action="SellStock" asp-route-name="@x.StockName" class="btn btn-success">Sell</a></td>
-                        </tr>
-                                c = c + 1;
-                         }
-                     }
-                    if (c == 1)
-                    {
-                        <tr><th colspan=4>You do not have any stocks</th></tr>
+                        <tr><th colspan=5>You do not have any Stocks</th></tr>
                     }
-                 }
+                    else
+                    {
+                        int c = 1;
+                        @foreach (CompleteStockDetails x in Model.FinalStockList)
+                        {
+                            <tr>
+                                <th scope="row">@c</th>
+                                <td>@x.StockName</td>
+                                <td>@x.StockPrice</td>
+                                <td>@x.StockCount</td>
+                                <td><a asp-action="SellStock" asp-route-name="@x.StockName" class="btn btn-success">Sell</a></td>
+                            </tr>
+                            c = c + 1;
+                        }
+                    }
+                  }
             </tbody>
         </table>
     </div>
@@ -63,31 +67,34 @@
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">Mutual Fund Name</th>
+                    <th scope="col">Mutual Fund Price</th>
                     <th scope="col">Mutual Fund Units</th>
                     <th scope="col">Sell</th>
                 </tr>
             </thead>
             <tbody>
-                @{int q = 1;
-                    @foreach (MutualFundDetails x in Model.FinalMutualFundList)
+                @{
+                    int q = 1;
+                    if (Model.FinalMutualFundList.Any() == false)
                     {
-                        if (!(x.MutualFundUnits == 0))
+                        <tr><th colspan=5>You do not have any Mutual Funds</th></tr>
+                    }
+                    else
+                    {
+                        @foreach (CompleteMutualFundDetails x in Model.FinalMutualFundList)
                         {
                             <tr>
                                 <th scope="row">@q</th>
                                 <td>@x.MutualFundName</td>
+                                <td>@x.MutualFundPrice.</td>
                                 <td>@x.MutualFundUnits</td>
                                 <td><a asp-action="SellMutualFund" asp-route-name="@x.MutualFundName" class="btn btn-success">Sell</a></td>
                             </tr>
                             q = q + 1;
-                        }
 
+                        }
                     }
-                    if (q== 1)
-                    {
-                        <tr><th colspan=4>You do not have any Mutual Funds</th></tr>
-                    }
-                }
+                  }
             </tbody>
         </table>
     </div>

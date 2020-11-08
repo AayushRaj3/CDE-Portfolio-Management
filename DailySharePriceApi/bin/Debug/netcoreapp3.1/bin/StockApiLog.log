@@ -538,3 +538,1250 @@ INFO  03:11:03 In StockProvider, Controller has called GetStockByNameProvider an
 INFO  03:11:03 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
 INFO  03:11:03 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
 INFO  03:11:03 StockController Stock Found
+INFO  10:12:05 Application started. Press Ctrl+C to shut down.
+INFO  10:12:05 Application started. Press Ctrl+C to shut down.
+INFO  10:12:05 Hosting environment: Development
+INFO  10:12:05 Hosting environment: Development
+INFO  10:12:05 Content root path: D:\Portfolio mfpe\DailySharePriceApi
+INFO  10:12:05 Content root path: D:\Portfolio mfpe\DailySharePriceApi
+INFO  10:14:17 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:14:17 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:14:17 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:14:18 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:14:18 StockController Stock Found
+INFO  10:14:18 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:14:18 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:14:18 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:14:18 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:14:18 StockController Stock Found
+INFO  10:14:40 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:14:40 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:14:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:14:40 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:14:40 StockController Stock Found
+INFO  10:14:40 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:14:40 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:14:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:14:40 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:14:40 StockController Stock Found
+INFO  10:14:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:14:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:14:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:14:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:14:46 StockController Stock Found
+INFO  10:14:46 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:14:46 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:14:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:14:46 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:14:46 StockController Stock Found
+INFO  10:14:46 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:14:46 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:14:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:14:46 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:14:46 StockController Stock Found
+INFO  10:14:57 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:14:57 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:14:57 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:14:57 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:14:57 StockController Stock Found
+INFO  10:14:57 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:14:57 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:14:57 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:14:57 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:14:57 StockController Stock Found
+INFO  10:15:10 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:15:10 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:15:10 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:15:10 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:15:10 StockController Stock Found
+INFO  10:15:10 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:15:10 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:15:10 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:15:10 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:15:10 StockController Stock Found
+INFO  10:15:15 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:15:15 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:15:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:15:15 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:15:15 StockController Stock Found
+INFO  10:15:15 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:15:15 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:15:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:15:15 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:15:15 StockController Stock Found
+INFO  10:15:30 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:15:30 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:15:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:15:30 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:15:30 StockController Stock Found
+INFO  10:15:30 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:15:30 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:15:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:15:30 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:15:30 StockController Stock Found
+INFO  10:15:32 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:15:32 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:15:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:15:32 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:15:32 StockController Stock Found
+INFO  10:15:32 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:15:32 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:15:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:15:32 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:15:32 StockController Stock Found
+INFO  10:19:15 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:15 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:15 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:15 StockController Stock Found
+INFO  10:19:15 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:15 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:15 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:15 StockController Stock Found
+INFO  10:19:22 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:22 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:22 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:22 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:22 StockController Stock Found
+INFO  10:19:22 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:22 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:22 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:22 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:22 StockController Stock Found
+INFO  10:19:22 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:22 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:22 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:22 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:22 StockController Stock Found
+INFO  10:19:25 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:25 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:25 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:25 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:25 StockController Stock Found
+INFO  10:19:25 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:25 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:25 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:25 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:25 StockController Stock Found
+INFO  10:19:40 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:40 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:40 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:40 StockController Stock Found
+INFO  10:19:40 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:40 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:40 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:40 StockController Stock Found
+INFO  10:19:40 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:40 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:40 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:40 StockController Stock Found
+INFO  10:19:43 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:43 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:43 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:43 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:43 StockController Stock Found
+INFO  10:19:43 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:43 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:43 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:43 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:43 StockController Stock Found
+INFO  10:19:54 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:19:54 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:19:54 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:19:54 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:19:54 StockController Stock Found
+INFO  10:19:54 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:19:54 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:19:54 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:19:54 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:19:54 StockController Stock Found
+INFO  10:20:07 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:20:07 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:20:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:20:07 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:20:07 StockController Stock Found
+INFO  10:20:07 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:20:07 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:20:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:20:07 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:20:07 StockController Stock Found
+INFO  10:20:08 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:20:08 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:20:08 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:20:08 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:20:08 StockController Stock Found
+INFO  10:20:08 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:20:08 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:20:08 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:20:08 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:20:08 StockController Stock Found
+INFO  10:20:09 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:20:09 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:20:09 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:20:09 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:20:09 StockController Stock Found
+INFO  10:20:09 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:20:09 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:20:09 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:20:09 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:20:09 StockController Stock Found
+INFO  10:25:32 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:25:32 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:25:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:25:32 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:25:32 StockController Stock Found
+INFO  10:25:32 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:25:32 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:25:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:25:32 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:25:32 StockController Stock Found
+INFO  10:26:34 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:26:34 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:26:34 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:26:34 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:26:34 StockController Stock Found
+INFO  10:26:34 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:26:34 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:26:34 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:26:34 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:26:34 StockController Stock Found
+INFO  10:30:24 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:30:24 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:30:24 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:30:24 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:30:24 StockController Stock Found
+INFO  10:30:24 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  10:30:24 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  10:30:24 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  10:30:24 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  10:30:24 StockController Stock Found
+INFO  10:30:38 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:30:38 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:30:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:30:38 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:30:38 StockController Stock Found
+INFO  10:30:38 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  10:30:38 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  10:30:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  10:30:38 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  10:30:38 StockController Stock Found
+INFO  10:30:41 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:30:41 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:30:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:30:41 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:30:41 StockController Stock Found
+INFO  10:30:41 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  10:30:41 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  10:30:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  10:30:41 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  10:30:41 StockController Stock Found
+INFO  10:30:52 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:30:52 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:30:52 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:30:52 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:30:52 StockController Stock Found
+INFO  10:30:52 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:30:52 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:30:52 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:30:52 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:30:52 StockController Stock Found
+INFO  10:32:23 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:32:23 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:32:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:32:23 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:32:23 StockController Stock Found
+INFO  10:32:23 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:32:23 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:32:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:32:23 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:32:23 StockController Stock Found
+INFO  10:33:26 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:33:26 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:33:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:33:26 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:33:26 StockController Stock Found
+INFO  10:33:26 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:33:26 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:33:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:33:26 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:33:26 StockController Stock Found
+INFO  10:35:51 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:35:51 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:35:51 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:35:51 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:35:51 StockController Stock Found
+INFO  10:35:51 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  10:35:51 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  10:35:51 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  10:35:51 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  10:35:51 StockController Stock Found
+INFO  10:38:16 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:38:16 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:38:16 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:38:16 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:38:16 StockController Stock Found
+INFO  10:38:16 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:38:16 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:38:16 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:38:16 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:38:16 StockController Stock Found
+INFO  10:38:23 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:38:23 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:38:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:38:23 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:38:23 StockController Stock Found
+INFO  10:38:23 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:38:23 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:38:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:38:23 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:38:23 StockController Stock Found
+INFO  10:38:29 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:38:29 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:38:29 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:38:29 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:38:29 StockController Stock Found
+INFO  10:38:29 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:38:29 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:38:29 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:38:29 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:38:29 StockController Stock Found
+INFO  10:38:32 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:38:32 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:38:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:38:32 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:38:32 StockController Stock Found
+INFO  10:38:32 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:38:32 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:38:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:38:32 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:38:32 StockController Stock Found
+INFO  10:38:39 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:38:39 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:38:39 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:38:39 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:38:39 StockController Stock Found
+INFO  10:38:39 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:38:39 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:38:39 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:38:39 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:38:39 StockController Stock Found
+INFO  10:38:42 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:38:42 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:38:42 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:38:42 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:38:42 StockController Stock Found
+INFO  10:38:42 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:38:42 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:38:42 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:38:42 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:38:42 StockController Stock Found
+INFO  11:12:11 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:12:11 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:12:11 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:12:11 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:12:11 StockController Stock Found
+INFO  11:12:11 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:12:11 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:12:11 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:12:11 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:12:11 StockController Stock Found
+INFO  11:12:23 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:12:23 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:12:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:12:23 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:12:23 StockController Stock Found
+INFO  11:12:23 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  11:12:23 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  11:12:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  11:12:23 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  11:12:23 StockController Stock Found
+INFO  07:43:53 Application started. Press Ctrl+C to shut down.
+INFO  07:43:54 Application started. Press Ctrl+C to shut down.
+INFO  07:43:54 Hosting environment: Development
+INFO  07:43:54 Hosting environment: Development
+INFO  07:43:54 Content root path: D:\Portfolio mfpe\DailySharePriceApi
+INFO  07:43:54 Content root path: D:\Portfolio mfpe\DailySharePriceApi
+INFO  07:45:51 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:45:51 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:45:51 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:45:51 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:45:51 StockController Stock Found
+INFO  07:45:51 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:45:51 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:45:51 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:45:51 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:45:51 StockController Stock Found
+INFO  07:45:52 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:45:52 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:45:52 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:45:52 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:45:52 StockController Stock Found
+INFO  07:45:52 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:45:52 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:45:52 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:45:52 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:45:52 StockController Stock Found
+INFO  07:46:08 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:08 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:08 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:08 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:08 StockController Stock Found
+INFO  07:46:08 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:08 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:08 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:08 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:08 StockController Stock Found
+INFO  07:46:08 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:08 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:08 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:08 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:08 StockController Stock Found
+INFO  07:46:13 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:13 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:13 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:13 StockController Stock Found
+INFO  07:46:13 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:13 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:13 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:13 StockController Stock Found
+INFO  07:46:13 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:13 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:13 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:13 StockController Stock Found
+INFO  07:46:13 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:13 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:13 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:13 StockController Stock Found
+INFO  07:46:24 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:24 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:24 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:24 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:24 StockController Stock Found
+INFO  07:46:24 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:24 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:24 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:24 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:24 StockController Stock Found
+INFO  07:46:26 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:26 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:26 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:26 StockController Stock Found
+INFO  07:46:26 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:26 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:26 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:26 StockController Stock Found
+INFO  07:46:26 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:26 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:26 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:26 StockController Stock Found
+INFO  07:46:26 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:26 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:26 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:26 StockController Stock Found
+INFO  07:46:37 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:37 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:37 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:37 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:37 StockController Stock Found
+INFO  07:46:37 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:37 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:37 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:37 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:37 StockController Stock Found
+INFO  07:46:40 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:40 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:40 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:40 StockController Stock Found
+INFO  07:46:40 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:40 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:40 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:40 StockController Stock Found
+INFO  07:46:40 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  07:46:40 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  07:46:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  07:46:40 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  07:46:40 StockController Stock Found
+INFO  07:46:40 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  07:46:40 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  07:46:40 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  07:46:40 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  07:46:40 StockController Stock Found
+INFO  08:28:06 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  08:28:06 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  08:28:06 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  08:28:06 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  08:28:06 StockController Stock Found
+INFO  08:28:06 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  08:28:06 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  08:28:06 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  08:28:06 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  08:28:06 StockController Stock Found
+INFO  08:28:06 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  08:28:06 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  08:28:06 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  08:28:06 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  08:28:06 StockController Stock Found
+INFO  10:34:22 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:34:22 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:34:22 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:34:22 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:34:22 StockController Stock Found
+INFO  10:34:23 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:34:23 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:34:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:34:23 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:34:23 StockController Stock Found
+INFO  10:34:23 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:34:23 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:34:23 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:34:23 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:34:23 StockController Stock Found
+INFO  10:37:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:37:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:37:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:37:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:37:46 StockController Stock Found
+INFO  10:37:46 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:37:46 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:37:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:37:46 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:37:46 StockController Stock Found
+INFO  10:37:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:37:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:37:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:37:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:37:46 StockController Stock Found
+INFO  10:39:58 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:39:58 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:39:58 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:39:58 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:39:58 StockController Stock Found
+INFO  10:39:58 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:39:58 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:39:58 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:39:58 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:39:58 StockController Stock Found
+INFO  10:41:12 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:41:12 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:41:12 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:41:12 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:41:12 StockController Stock Found
+INFO  10:43:48 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:43:48 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:43:48 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:43:48 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:43:48 StockController Stock Found
+INFO  10:43:48 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:43:48 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:43:48 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:43:48 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:43:48 StockController Stock Found
+INFO  10:44:00 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:44:00 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:44:00 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:44:00 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:44:00 StockController Stock Found
+INFO  10:48:04 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:48:04 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:48:04 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:48:04 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:48:04 StockController Stock Found
+INFO  10:48:04 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:48:04 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:48:04 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:48:04 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:48:04 StockController Stock Found
+INFO  10:48:14 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:48:14 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:48:14 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:48:14 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:48:14 StockController Stock Found
+INFO  10:59:48 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  10:59:48 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  10:59:48 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  10:59:48 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  10:59:48 StockController Stock Found
+INFO  10:59:48 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  10:59:48 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  10:59:48 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  10:59:48 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  10:59:48 StockController Stock Found
+INFO  11:00:03 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:00:03 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:00:03 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:00:03 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:00:03 StockController Stock Found
+INFO  11:00:22 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:00:22 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:00:22 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:00:22 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:00:22 StockController Stock Found
+INFO  11:00:22 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:00:22 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:00:22 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:00:22 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:00:22 StockController Stock Found
+INFO  11:06:32 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:06:32 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:06:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:06:32 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:06:32 StockController Stock Found
+INFO  11:06:32 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:06:32 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:06:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:06:32 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:06:32 StockController Stock Found
+INFO  11:06:32 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:06:32 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:06:32 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:06:32 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:06:32 StockController Stock Found
+INFO  11:07:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:07:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:07:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:07:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:07:46 StockController Stock Found
+INFO  11:07:46 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:07:46 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:07:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:07:46 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:07:46 StockController Stock Found
+INFO  11:07:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:07:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:07:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:07:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:07:46 StockController Stock Found
+INFO  11:07:46 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:07:46 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:07:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:07:46 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:07:46 StockController Stock Found
+INFO  11:07:53 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:07:53 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:07:53 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:07:53 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:07:53 StockController Stock Found
+INFO  11:07:53 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:07:53 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:07:53 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:07:53 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:07:53 StockController Stock Found
+INFO  11:07:53 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:07:53 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:07:53 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:07:53 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:07:53 StockController Stock Found
+INFO  11:07:58 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:07:58 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:07:58 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:07:58 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:07:58 StockController Stock Found
+INFO  11:07:58 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:07:58 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:07:58 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:07:58 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:07:58 StockController Stock Found
+INFO  11:07:58 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:07:58 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:07:58 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:07:58 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:07:58 StockController Stock Found
+INFO  11:07:58 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:07:58 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:07:58 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:07:58 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:07:58 StockController Stock Found
+INFO  11:08:05 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:05 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:05 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:05 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:05 StockController Stock Found
+INFO  11:08:05 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:05 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:05 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:05 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:05 StockController Stock Found
+INFO  11:08:05 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:05 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:05 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:05 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:05 StockController Stock Found
+INFO  11:08:07 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:07 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:07 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:07 StockController Stock Found
+INFO  11:08:07 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:07 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:07 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:07 StockController Stock Found
+INFO  11:08:07 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:07 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:07 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:07 StockController Stock Found
+INFO  11:08:07 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:07 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:07 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:07 StockController Stock Found
+INFO  11:08:13 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:13 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:13 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:13 StockController Stock Found
+INFO  11:08:13 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:13 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:13 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:13 StockController Stock Found
+INFO  11:08:13 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:13 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:13 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:13 StockController Stock Found
+INFO  11:08:15 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:15 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:15 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:15 StockController Stock Found
+INFO  11:08:15 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:15 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:15 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:15 StockController Stock Found
+INFO  11:08:15 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:15 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:15 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:15 StockController Stock Found
+INFO  11:08:15 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:15 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:15 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:15 StockController Stock Found
+INFO  11:08:30 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:30 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:30 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:30 StockController Stock Found
+INFO  11:08:30 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:30 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:30 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:30 StockController Stock Found
+INFO  11:08:30 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:30 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:30 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:30 StockController Stock Found
+INFO  11:08:30 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:30 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:30 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:30 StockController Stock Found
+INFO  11:08:35 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:35 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:35 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:35 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:35 StockController Stock Found
+INFO  11:08:35 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:35 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:35 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:35 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:35 StockController Stock Found
+INFO  11:08:35 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:08:35 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:08:35 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:08:35 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:08:35 StockController Stock Found
+INFO  11:08:35 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:08:35 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:08:35 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:08:35 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:08:35 StockController Stock Found
+INFO  11:15:09 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:15:09 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:15:09 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:15:09 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:15:09 StockController Stock Found
+INFO  11:15:09 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:15:09 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:15:09 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:15:09 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:15:09 StockController Stock Found
+INFO  11:18:19 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:18:19 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:18:19 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:18:19 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:18:19 StockController Stock Found
+INFO  11:18:19 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:18:19 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:18:19 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:18:19 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:18:19 StockController Stock Found
+INFO  11:18:31 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:18:31 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:18:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:18:31 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:18:31 StockController Stock Found
+INFO  11:18:31 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:18:31 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:18:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:18:31 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:18:31 StockController Stock Found
+INFO  11:20:13 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:20:13 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:20:13 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:20:13 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:20:13 StockController Stock Found
+INFO  11:23:24 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:23:24 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:23:24 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:23:24 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:23:24 StockController Stock Found
+INFO  11:23:24 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:23:24 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:23:24 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:23:24 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:23:24 StockController Stock Found
+INFO  11:23:47 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:23:47 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:23:47 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:23:47 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:23:47 StockController Stock Found
+INFO  11:23:47 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:23:47 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:23:47 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:23:47 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:23:47 StockController Stock Found
+INFO  11:23:53 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:23:53 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:23:53 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:23:53 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:23:53 StockController Stock Found
+INFO  11:24:27 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:24:27 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:24:27 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:24:27 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:24:27 StockController Stock Found
+INFO  11:26:16 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:26:16 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:26:16 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:26:16 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:26:16 StockController Stock Found
+INFO  11:26:16 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:26:16 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:26:16 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:26:16 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:26:16 StockController Stock Found
+INFO  11:26:33 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:26:33 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:26:33 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:26:33 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:26:33 StockController Stock Found
+INFO  11:26:33 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:26:33 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:26:33 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:26:33 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:26:33 StockController Stock Found
+INFO  11:34:07 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:34:07 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:34:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:34:07 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:34:07 StockController Stock Found
+INFO  11:34:07 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:07 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:07 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:07 StockController Stock Found
+INFO  11:34:07 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:34:07 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:34:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:34:07 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:34:07 StockController Stock Found
+INFO  11:34:07 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:07 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:07 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:07 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:07 StockController Stock Found
+INFO  11:34:15 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:34:15 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:34:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:34:15 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:34:15 StockController Stock Found
+INFO  11:34:15 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:15 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:15 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:15 StockController Stock Found
+INFO  11:34:15 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:34:15 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:34:15 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:34:15 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:34:15 StockController Stock Found
+INFO  11:34:19 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:19 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:19 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:19 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:19 StockController Stock Found
+INFO  11:34:19 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:19 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:19 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:19 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:19 StockController Stock Found
+INFO  11:34:28 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:28 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:28 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:28 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:28 StockController Stock Found
+INFO  11:34:28 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:34:28 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:34:28 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:34:28 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:34:28 StockController Stock Found
+INFO  11:37:28 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:37:28 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:37:28 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:37:28 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:37:28 StockController Stock Found
+INFO  11:37:28 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:28 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:28 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:28 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:28 StockController Stock Found
+INFO  11:37:28 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:37:28 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:37:28 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:37:28 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:37:28 StockController Stock Found
+INFO  11:37:28 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:28 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:28 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:28 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:28 StockController Stock Found
+INFO  11:37:42 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:37:42 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:37:42 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:37:42 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:37:42 StockController Stock Found
+INFO  11:37:42 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:42 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:42 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:42 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:42 StockController Stock Found
+INFO  11:37:42 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:37:42 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:37:42 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:37:42 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:37:42 StockController Stock Found
+INFO  11:37:44 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:44 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:44 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:44 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:44 StockController Stock Found
+INFO  11:37:44 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:44 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:44 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:44 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:44 StockController Stock Found
+INFO  11:37:50 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:50 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:50 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:50 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:50 StockController Stock Found
+INFO  11:37:50 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:37:50 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:37:50 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:37:50 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:37:50 StockController Stock Found
+INFO  11:43:31 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:43:31 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:43:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:43:31 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:43:31 StockController Stock Found
+INFO  11:43:31 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:31 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:31 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:31 StockController Stock Found
+INFO  11:43:31 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:43:31 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:43:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:43:31 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:43:31 StockController Stock Found
+INFO  11:43:31 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:31 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:31 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:31 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:31 StockController Stock Found
+INFO  11:43:41 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:43:41 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:43:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:43:41 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:43:41 StockController Stock Found
+INFO  11:43:41 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:41 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:41 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:41 StockController Stock Found
+INFO  11:43:41 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:43:41 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:43:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:43:41 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:43:41 StockController Stock Found
+INFO  11:43:44 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:44 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:44 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:44 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:44 StockController Stock Found
+INFO  11:43:44 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:44 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:44 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:44 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:44 StockController Stock Found
+INFO  11:43:56 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:56 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:56 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:56 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:56 StockController Stock Found
+INFO  11:43:56 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:56 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:56 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:56 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:56 StockController Stock Found
+INFO  11:43:57 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:57 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:57 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:57 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:57 StockController Stock Found
+INFO  11:43:57 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:43:57 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:43:57 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:43:57 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:43:57 StockController Stock Found
+INFO  11:44:05 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:44:05 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:44:05 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:44:05 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:44:05 StockController Stock Found
+INFO  11:44:05 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:44:05 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:44:05 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:44:05 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:44:05 StockController Stock Found
+INFO  11:56:26 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:56:26 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:56:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:56:26 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:56:26 StockController Stock Found
+INFO  11:56:26 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:26 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:26 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:26 StockController Stock Found
+INFO  11:56:26 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:56:26 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:56:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:56:26 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:56:26 StockController Stock Found
+INFO  11:56:26 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:26 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:26 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:26 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:26 StockController Stock Found
+INFO  11:56:34 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:56:34 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:56:34 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:56:34 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:56:34 StockController Stock Found
+INFO  11:56:34 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:34 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:34 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:34 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:34 StockController Stock Found
+INFO  11:56:34 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  11:56:34 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  11:56:34 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  11:56:34 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  11:56:34 StockController Stock Found
+INFO  11:56:37 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:37 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:37 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:37 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:37 StockController Stock Found
+INFO  11:56:37 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:37 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:37 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:37 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:37 StockController Stock Found
+INFO  11:56:43 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:43 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:43 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:43 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:43 StockController Stock Found
+INFO  11:56:43 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  11:56:43 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  11:56:43 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  11:56:43 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  11:56:43 StockController Stock Found
+INFO  12:04:30 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:04:30 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:04:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:04:30 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:04:30 StockController Stock Found
+INFO  12:04:30 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:30 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:30 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:30 StockController Stock Found
+INFO  12:04:30 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:04:30 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:04:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:04:30 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:04:30 StockController Stock Found
+INFO  12:04:30 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:30 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:30 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:30 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:30 StockController Stock Found
+INFO  12:04:38 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:04:38 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:04:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:04:38 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:04:38 StockController Stock Found
+INFO  12:04:38 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:38 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:38 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:38 StockController Stock Found
+INFO  12:04:38 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:04:38 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:04:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:04:38 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:04:38 StockController Stock Found
+INFO  12:04:41 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:41 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:41 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:41 StockController Stock Found
+INFO  12:04:41 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:41 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:41 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:41 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:41 StockController Stock Found
+INFO  12:04:48 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:48 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:48 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:48 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:48 StockController Stock Found
+INFO  12:04:48 In StockController, HttpGet GetStockByName and ETH is searched
+INFO  12:04:48 In StockProvider, Controller has called GetStockByNameProvider and ETH is searched
+INFO  12:04:48 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and ETH is being searched
+INFO  12:04:48 Stock Found {"StockId":102,"StockName":"ETH","StockValue":40.2}
+INFO  12:04:48 StockController Stock Found
+INFO  12:12:38 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:12:38 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:12:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:12:38 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:12:38 StockController Stock Found
+INFO  12:12:38 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:12:38 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:12:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:12:38 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:12:38 StockController Stock Found
+INFO  12:12:38 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:12:38 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:12:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:12:38 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:12:38 StockController Stock Found
+INFO  12:12:38 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:12:38 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:12:38 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:12:38 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:12:38 StockController Stock Found
+INFO  12:12:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:12:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:12:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:12:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:12:46 StockController Stock Found
+INFO  12:12:46 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:12:46 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:12:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:12:46 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:12:46 StockController Stock Found
+INFO  12:12:46 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:12:46 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:12:46 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:12:46 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:12:46 StockController Stock Found
+INFO  12:12:49 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:12:49 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:12:49 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:12:49 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:12:49 StockController Stock Found
+INFO  12:12:49 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:12:49 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:12:49 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:12:49 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:12:49 StockController Stock Found
+INFO  12:12:49 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:12:49 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:12:49 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:12:49 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:12:49 StockController Stock Found
+INFO  12:12:49 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:12:49 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:12:49 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:12:49 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:12:49 StockController Stock Found
+INFO  12:13:01 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:13:01 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:13:01 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:13:01 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:13:01 StockController Stock Found
+INFO  12:13:01 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:13:01 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:13:01 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:13:01 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:13:01 StockController Stock Found
+INFO  12:13:01 In StockController, HttpGet GetStockByName and LTC is searched
+INFO  12:13:01 In StockProvider, Controller has called GetStockByNameProvider and LTC is searched
+INFO  12:13:01 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and LTC is being searched
+INFO  12:13:01 Stock Found {"StockId":103,"StockName":"LTC","StockValue":23.6}
+INFO  12:13:01 StockController Stock Found
+INFO  12:13:03 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:13:03 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:13:03 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:13:03 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:13:03 StockController Stock Found
+INFO  12:13:03 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:13:03 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:13:03 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:13:03 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:13:03 StockController Stock Found
+INFO  12:13:12 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:13:12 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:13:12 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:13:12 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:13:12 StockController Stock Found
+INFO  12:13:12 In StockController, HttpGet GetStockByName and BTC is searched
+INFO  12:13:12 In StockProvider, Controller has called GetStockByNameProvider and BTC is searched
+INFO  12:13:12 In Stock Repository, StockProvider is calling the Method GetStockByNameRepository and BTC is being searched
+INFO  12:13:12 Stock Found {"StockId":101,"StockName":"BTC","StockValue":99.95}
+INFO  12:13:12 StockController Stock Found

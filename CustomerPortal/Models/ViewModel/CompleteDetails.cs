@@ -9,9 +9,9 @@ namespace CustomerPortal.Models.ViewModel
     {
         public int PFId { get; set; }
 
-        public List<StockDetails> FinalStockList { get; set; }
+        public List<CompleteStockDetails> FinalStockList { get; set; }
 
-        public List<MutualFundDetails> FinalMutualFundList { get; set; }
+        public List<CompleteMutualFundDetails> FinalMutualFundList { get; set; }
 
         public double NetWorth { get; set; }
     }

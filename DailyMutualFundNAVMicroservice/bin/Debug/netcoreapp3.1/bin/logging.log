@@ -354,3 +354,597 @@ INFO  06:06:00  07:11:2020 In MutualFundProvider, MutualFundNAVController has Ca
 INFO  06:06:00  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
 INFO  06:06:00  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
 INFO  06:06:00  07:11:2020 UDAAN MutualFund Found.
+INFO  10:12:24  07:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  10:12:24  07:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  10:12:24  07:11:2020 Hosting environment: Development
+INFO  10:12:24  07:11:2020 Hosting environment: Development
+INFO  10:12:24  07:11:2020 Content root path: D:\Portfolio mfpe\DailyMutualFundNAVMicroservice
+INFO  10:12:24  07:11:2020 Content root path: D:\Portfolio mfpe\DailyMutualFundNAVMicroservice
+INFO  10:13:08  07:11:2020 MutualFundNAVController Initiated
+INFO  10:13:08  07:11:2020 In MutualFundNAV Controller, Viva is searched
+INFO  10:13:08  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and Viva is searched
+INFO  10:13:09  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and Viva is searched
+INFO  10:13:09  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:13:09  07:11:2020 Viva MutualFund Found.
+INFO  10:14:18  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:18  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:14:18  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:14:18  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:14:18  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:14:18  07:11:2020 UDAAN MutualFund Found.
+INFO  10:14:18  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:18  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:14:18  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:14:18  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:14:18  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:14:18  07:11:2020 VIVA MutualFund Found.
+INFO  10:14:40  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:40  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:14:40  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:14:40  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:14:40  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:14:40  07:11:2020 UDAAN MutualFund Found.
+INFO  10:14:40  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:40  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:14:40  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:14:40  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:14:40  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:14:40  07:11:2020 VIVA MutualFund Found.
+INFO  10:14:46  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:46  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:14:46  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:14:46  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:14:46  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:14:46  07:11:2020 UDAAN MutualFund Found.
+INFO  10:14:46  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:46  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:14:46  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:14:46  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:14:46  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:14:46  07:11:2020 VIVA MutualFund Found.
+INFO  10:14:57  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:57  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:14:57  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:14:57  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:14:57  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:14:57  07:11:2020 UDAAN MutualFund Found.
+INFO  10:14:57  07:11:2020 MutualFundNAVController Initiated
+INFO  10:14:57  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:14:57  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:14:57  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:14:57  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:14:57  07:11:2020 VIVA MutualFund Found.
+INFO  10:15:10  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:10  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:15:10  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:15:10  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:15:10  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:15:10  07:11:2020 UDAAN MutualFund Found.
+INFO  10:15:10  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:10  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:15:10  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:15:10  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:15:10  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:15:10  07:11:2020 VIVA MutualFund Found.
+INFO  10:15:15  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:15  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:15:15  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:15:15  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:15:15  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:15:15  07:11:2020 UDAAN MutualFund Found.
+INFO  10:15:15  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:15  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:15:15  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:15:15  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:15:15  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:15:15  07:11:2020 VIVA MutualFund Found.
+INFO  10:15:30  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:30  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:15:30  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:15:30  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:15:30  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:15:30  07:11:2020 UDAAN MutualFund Found.
+INFO  10:15:30  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:30  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:15:30  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:15:30  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:15:30  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:15:30  07:11:2020 VIVA MutualFund Found.
+INFO  10:15:32  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:32  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:15:32  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:15:32  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:15:32  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:15:32  07:11:2020 UDAAN MutualFund Found.
+INFO  10:15:32  07:11:2020 MutualFundNAVController Initiated
+INFO  10:15:32  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:15:32  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:15:32  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:15:32  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:15:32  07:11:2020 VIVA MutualFund Found.
+INFO  10:19:15  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:15  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:19:15  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:19:15  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:19:15  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:19:15  07:11:2020 UDAAN MutualFund Found.
+INFO  10:19:15  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:15  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:19:15  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:19:15  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:19:15  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:19:15  07:11:2020 VIVA MutualFund Found.
+INFO  10:19:22  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:22  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:19:22  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:19:22  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:19:22  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:19:22  07:11:2020 UDAAN MutualFund Found.
+INFO  10:19:22  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:22  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:19:22  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:19:22  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:19:22  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:19:22  07:11:2020 VIVA MutualFund Found.
+INFO  10:19:25  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:25  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:19:25  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:19:25  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:19:25  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:19:25  07:11:2020 UDAAN MutualFund Found.
+INFO  10:19:25  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:25  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:19:25  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:19:25  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:19:25  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:19:25  07:11:2020 VIVA MutualFund Found.
+INFO  10:19:40  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:40  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:19:40  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:19:40  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:19:40  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:19:40  07:11:2020 UDAAN MutualFund Found.
+INFO  10:19:40  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:40  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:19:40  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:19:40  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:19:40  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:19:40  07:11:2020 VIVA MutualFund Found.
+INFO  10:19:43  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:43  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:19:43  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:19:43  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:19:43  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:19:43  07:11:2020 UDAAN MutualFund Found.
+INFO  10:19:43  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:43  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:19:43  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:19:43  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:19:43  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:19:43  07:11:2020 VIVA MutualFund Found.
+INFO  10:19:54  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:54  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:19:54  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:19:54  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:19:54  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:19:54  07:11:2020 UDAAN MutualFund Found.
+INFO  10:19:54  07:11:2020 MutualFundNAVController Initiated
+INFO  10:19:54  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:19:54  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:19:54  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:19:54  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:19:54  07:11:2020 VIVA MutualFund Found.
+INFO  10:20:07  07:11:2020 MutualFundNAVController Initiated
+INFO  10:20:07  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:20:07  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:20:07  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:20:07  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:20:07  07:11:2020 UDAAN MutualFund Found.
+INFO  10:20:07  07:11:2020 MutualFundNAVController Initiated
+INFO  10:20:07  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:20:07  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:20:07  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:20:07  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:20:07  07:11:2020 VIVA MutualFund Found.
+INFO  10:20:08  07:11:2020 MutualFundNAVController Initiated
+INFO  10:20:08  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:20:08  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:20:08  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:20:08  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:20:08  07:11:2020 UDAAN MutualFund Found.
+INFO  10:20:08  07:11:2020 MutualFundNAVController Initiated
+INFO  10:20:08  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:20:08  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:20:08  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:20:08  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:20:08  07:11:2020 VIVA MutualFund Found.
+INFO  10:20:09  07:11:2020 MutualFundNAVController Initiated
+INFO  10:20:09  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:20:09  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:20:09  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:20:09  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:20:09  07:11:2020 UDAAN MutualFund Found.
+INFO  10:20:09  07:11:2020 MutualFundNAVController Initiated
+INFO  10:20:09  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:20:09  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:20:09  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:20:09  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:20:09  07:11:2020 VIVA MutualFund Found.
+INFO  10:25:32  07:11:2020 MutualFundNAVController Initiated
+INFO  10:25:32  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:25:32  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:25:32  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:25:32  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:25:32  07:11:2020 UDAAN MutualFund Found.
+INFO  10:25:32  07:11:2020 MutualFundNAVController Initiated
+INFO  10:25:32  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:25:32  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:25:32  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:25:32  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:25:32  07:11:2020 VIVA MutualFund Found.
+INFO  10:26:34  07:11:2020 MutualFundNAVController Initiated
+INFO  10:26:34  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:26:34  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:26:34  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:26:34  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:26:34  07:11:2020 UDAAN MutualFund Found.
+INFO  10:26:34  07:11:2020 MutualFundNAVController Initiated
+INFO  10:26:34  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:26:34  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:26:34  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:26:34  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:26:34  07:11:2020 VIVA MutualFund Found.
+INFO  10:30:24  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:24  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:30:24  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:30:24  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:30:24  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:30:24  07:11:2020 UDAAN MutualFund Found.
+INFO  10:30:24  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:24  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:30:24  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:30:24  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:30:24  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:30:24  07:11:2020 VIVA MutualFund Found.
+INFO  10:30:38  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:38  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:30:38  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:30:38  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:30:38  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:30:38  07:11:2020 UDAAN MutualFund Found.
+INFO  10:30:38  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:38  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:30:38  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:30:38  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:30:38  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:30:38  07:11:2020 VIVA MutualFund Found.
+INFO  10:30:41  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:41  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:30:41  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:30:41  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:30:41  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:30:41  07:11:2020 UDAAN MutualFund Found.
+INFO  10:30:41  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:41  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:30:41  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:30:41  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:30:41  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:30:41  07:11:2020 VIVA MutualFund Found.
+INFO  10:30:52  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:52  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:30:52  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:30:52  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:30:52  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:30:52  07:11:2020 UDAAN MutualFund Found.
+INFO  10:30:52  07:11:2020 MutualFundNAVController Initiated
+INFO  10:30:52  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:30:52  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:30:52  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:30:52  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:30:52  07:11:2020 VIVA MutualFund Found.
+INFO  10:32:23  07:11:2020 MutualFundNAVController Initiated
+INFO  10:32:23  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:32:23  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:32:23  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:32:23  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:32:23  07:11:2020 UDAAN MutualFund Found.
+INFO  10:32:23  07:11:2020 MutualFundNAVController Initiated
+INFO  10:32:23  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:32:23  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:32:23  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:32:23  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:32:23  07:11:2020 VIVA MutualFund Found.
+INFO  10:33:26  07:11:2020 MutualFundNAVController Initiated
+INFO  10:33:26  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:33:26  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:33:26  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:33:26  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:33:26  07:11:2020 UDAAN MutualFund Found.
+INFO  10:33:26  07:11:2020 MutualFundNAVController Initiated
+INFO  10:33:26  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:33:26  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:33:26  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:33:26  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:33:26  07:11:2020 VIVA MutualFund Found.
+INFO  10:35:51  07:11:2020 MutualFundNAVController Initiated
+INFO  10:35:51  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:35:51  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:35:51  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:35:51  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:35:51  07:11:2020 UDAAN MutualFund Found.
+INFO  10:35:51  07:11:2020 MutualFundNAVController Initiated
+INFO  10:35:51  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:35:51  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:35:51  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:35:51  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:35:51  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:16  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:16  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:16  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:16  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:16  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:16  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:16  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:16  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:16  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:16  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:16  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:16  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:23  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:23  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:23  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:23  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:23  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:23  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:23  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:23  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:23  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:23  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:23  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:23  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:29  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:29  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:29  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:29  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:29  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:29  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:29  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:29  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:29  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:29  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:29  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:29  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:29  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:29  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:29  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:29  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:29  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:29  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:32  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:32  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:32  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:32  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:32  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:32  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:32  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:32  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:32  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:32  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:32  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:32  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:39  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:39  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:39  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:39  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:39  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:39  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:39  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:39  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:39  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:39  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:39  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:39  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:39  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:39  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:39  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:39  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:39  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:39  07:11:2020 VIVA MutualFund Found.
+INFO  10:38:42  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:42  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  10:38:42  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  10:38:42  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  10:38:42  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  10:38:42  07:11:2020 UDAAN MutualFund Found.
+INFO  10:38:42  07:11:2020 MutualFundNAVController Initiated
+INFO  10:38:42  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  10:38:42  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  10:38:42  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  10:38:42  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  10:38:42  07:11:2020 VIVA MutualFund Found.
+INFO  11:12:11  07:11:2020 MutualFundNAVController Initiated
+INFO  11:12:11  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  11:12:11  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  11:12:11  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  11:12:11  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  11:12:11  07:11:2020 UDAAN MutualFund Found.
+INFO  11:12:11  07:11:2020 MutualFundNAVController Initiated
+INFO  11:12:11  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  11:12:11  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  11:12:11  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  11:12:11  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  11:12:11  07:11:2020 VIVA MutualFund Found.
+INFO  11:12:24  07:11:2020 MutualFundNAVController Initiated
+INFO  11:12:24  07:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  11:12:24  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  11:12:24  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  11:12:24  07:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  11:12:24  07:11:2020 UDAAN MutualFund Found.
+INFO  11:12:24  07:11:2020 MutualFundNAVController Initiated
+INFO  11:12:24  07:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  11:12:24  07:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  11:12:24  07:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  11:12:24  07:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  11:12:24  07:11:2020 VIVA MutualFund Found.
+INFO  07:44:16  08:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  07:44:16  08:11:2020 Application started. Press Ctrl+C to shut down.
+INFO  07:44:16  08:11:2020 Hosting environment: Development
+INFO  07:44:16  08:11:2020 Hosting environment: Development
+INFO  07:44:16  08:11:2020 Content root path: D:\Portfolio mfpe\DailyMutualFundNAVMicroservice
+INFO  07:44:16  08:11:2020 Content root path: D:\Portfolio mfpe\DailyMutualFundNAVMicroservice
+INFO  07:45:51  08:11:2020 MutualFundNAVController Initiated
+INFO  07:45:51  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:45:51  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:45:51  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:45:52  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:45:52  08:11:2020 UDAAN MutualFund Found.
+INFO  07:45:52  08:11:2020 MutualFundNAVController Initiated
+INFO  07:45:52  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:45:52  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:45:52  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:45:52  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:45:52  08:11:2020 VIVA MutualFund Found.
+INFO  07:45:52  08:11:2020 MutualFundNAVController Initiated
+INFO  07:45:52  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:45:52  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:45:52  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:45:52  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:45:52  08:11:2020 UDAAN MutualFund Found.
+INFO  07:45:52  08:11:2020 MutualFundNAVController Initiated
+INFO  07:45:52  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:45:52  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:45:52  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:45:52  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:45:52  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:08  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:08  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:08  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:08  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:08  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:08  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:08  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:08  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:08  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:08  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:08  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:08  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:13  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:13  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:13  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:13  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:13  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:13  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:13  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:13  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:13  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:13  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:13  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:13  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:13  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:13  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:13  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:13  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:13  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:13  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:13  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:13  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:13  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:13  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:13  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:13  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:24  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:24  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:24  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:24  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:24  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:24  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:24  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:24  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:24  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:24  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:24  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:24  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:24  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:24  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:24  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:24  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:24  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:24  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:26  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:26  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:26  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:26  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:26  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:26  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:26  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:26  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:26  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:26  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:26  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:26  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:26  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:26  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:26  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:26  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:26  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:26  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:26  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:26  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:26  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:26  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:26  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:26  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:37  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:37  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:37  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:37  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:37  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:37  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:37  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:37  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:37  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:37  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:37  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:37  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:37  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:37  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:37  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:37  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:37  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:37  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:40  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:40  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:40  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:40  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:40  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:40  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:40  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:40  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:40  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:40  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:40  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:40  08:11:2020 VIVA MutualFund Found.
+INFO  07:46:40  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:40  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  07:46:40  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  07:46:40  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  07:46:40  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  07:46:40  08:11:2020 UDAAN MutualFund Found.
+INFO  07:46:40  08:11:2020 MutualFundNAVController Initiated
+INFO  07:46:40  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  07:46:40  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  07:46:40  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  07:46:40  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  07:46:40  08:11:2020 VIVA MutualFund Found.
+INFO  08:28:06  08:11:2020 MutualFundNAVController Initiated
+INFO  08:28:06  08:11:2020 In MutualFundNAV Controller, UDAAN is searched
+INFO  08:28:06  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and UDAAN is searched
+INFO  08:28:06  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and UDAAN is searched
+INFO  08:28:06  08:11:2020 Mutual Fund Found {"MutualFundId":1,"MutualFundName":"UDAAN","MutualFundValue":135.84}
+INFO  08:28:06  08:11:2020 UDAAN MutualFund Found.
+INFO  08:28:06  08:11:2020 MutualFundNAVController Initiated
+INFO  08:28:06  08:11:2020 In MutualFundNAV Controller, VIVA is searched
+INFO  08:28:06  08:11:2020 In MutualFundProvider, MutualFundNAVController has Called GetMutualFundByNameProvider and VIVA is searched
+INFO  08:28:06  08:11:2020 In MutualFundRepository, MutualFundProvider has Called GetMutualFundByNameRepository and VIVA is searched
+INFO  08:28:06  08:11:2020 Mutual Fund Found {"MutualFundId":2,"MutualFundName":"VIVA","MutualFundValue":100.14}
+INFO  08:28:06  08:11:2020 VIVA MutualFund Found.

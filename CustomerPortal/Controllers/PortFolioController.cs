@@ -22,8 +22,12 @@ namespace CustomerPortal.Controllers
     {
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(PortFolioController));
         private ISaleRepository _saleRepository;
-        private IConfiguration configuration;
         
+
+        /// <summary>
+        /// Injecting the SaleRepository here
+        /// </summary>
+        /// <param name="saleRepository"></param>
         public PortFolioController(ISaleRepository saleRepository)
         {
             _saleRepository = saleRepository;
@@ -82,25 +86,21 @@ namespace CustomerPortal.Controllers
         [HttpGet]
         public async Task<IActionResult> Index()
         {
-
-            
             try
             {
                 NetWorth _netWorth = new NetWorth();
                 if (CheckValid())
                 {
                     int portfolioid = Convert.ToInt32(HttpContext.Session.GetString("Id"));
-                    //CompleteDetails completeDetails = _saleRepository.CalculateNetWorth(portfolioid).Result;
                     _log4net.Info("Showing the user with portfolio ID = " + portfolioid + "his networth and the assets he is currently holding");
                     CompleteDetails completeDetails = new CompleteDetails();
                     PortFolioDetails portFolioDetails = new PortFolioDetails();
 
-
-                    using (var client = new HttpClient())
+                using (var client = new HttpClient())
                     {
-                        using (var response = await client.GetAsync("https://localhost:44375/api/NetWorth/" + portfolioid))
+                        using (var response = await client.GetAsync("https://localhost:44375/api/NetWorth/GetPortFolioDetailsByID/" + portfolioid))
                         {
-                            _log4net.Info("Calling the Calculate Networth Api");
+                            _log4net.Info("Calling the Calculate Networth Api for id"+ portfolioid);
                             string apiResponse = await response.Content.ReadAsStringAsync();
                             portFolioDetails = JsonConvert.DeserializeObject<PortFolioDetails>(apiResponse);
                         }
@@ -108,21 +108,60 @@ namespace CustomerPortal.Controllers
                     StringContent content = new StringContent(JsonConvert.SerializeObject(portFolioDetails), Encoding.UTF8, "application/json");
                     using (var client = new HttpClient())
                     {
-                        using (var response = await client.PostAsync("https://localhost:44375/api/NetWorth", content))
+                        using (var response = await client.PostAsync("https://localhost:44375/api/NetWorth/GetNetWorth", content))
                         {
-                            _log4net.Info("Calling the Networth api to return the networth of sent portfolio");
+                            _log4net.Info("Calling the Networth api to return the networth of sent portfolio: "+ content);
                             string apiResponse = await response.Content.ReadAsStringAsync();
                             _netWorth = JsonConvert.DeserializeObject<NetWorth>(apiResponse);
 
                         }
                     }
-
-                    CompleteMutualFundDetails completeMutualFundDetails= new CompleteMutualFundDetails();
-                    
                     completeDetails.PFId = portFolioDetails.PortFolioId;
-                    completeDetails.FinalMutualFundList = portFolioDetails.MutualFundList;
-                    completeDetails.FinalStockList = portFolioDetails.StockList;
+                    completeDetails.FinalMutualFundList= new List<CompleteMutualFundDetails>();
+                    completeDetails.FinalStockList = new List<CompleteStockDetails>();
+                    Stock stock = new Stock();
+                    MutualFundViewModel mutualFundViewModel = new MutualFundViewModel();
+                    foreach(StockDetails stockDetails in portFolioDetails.StockList)
+                    {
+                        using (var client = new HttpClient())
+                        {
+                            using (var response = await client.GetAsync("http://localhost:58451/api/Stock/" + stockDetails.StockName))
+                            {
+                                _log4net.Info("Calling the StockPriceApi from:"+nameof(Index)+" for fetching the details of stock"+ stockDetails.StockName);
+                                string apiResponse = await response.Content.ReadAsStringAsync();
+                                stock = JsonConvert.DeserializeObject<Stock>(apiResponse);
+                            }
 
+                            CompleteStockDetails completeStockDetails = new CompleteStockDetails();
+                            completeStockDetails.StockName = stockDetails.StockName;
+                            completeStockDetails.StockCount = stockDetails.StockCount;
+                            completeStockDetails.StockPrice = stock.StockValue;
+
+                            completeDetails.FinalStockList.Add(completeStockDetails);
+                        }
+
+                    }
+
+                    foreach (MutualFundDetails mutualFundDetails in portFolioDetails.MutualFundList)
+                    {
+                        using (var client = new HttpClient())
+                        {
+                            using (var response = await client.GetAsync("http://localhost:55953/api/MutualFundNAV/" + mutualFundDetails.MutualFundName))
+                            {
+                                _log4net.Info("Calling the MutualFundPriceApi from:" + nameof(Index) + " for fetching the details of the mutual fund:"+mutualFundDetails.MutualFundName);
+                                string apiResponse = await response.Content.ReadAsStringAsync();
+                                mutualFundViewModel = JsonConvert.DeserializeObject<MutualFundViewModel>(apiResponse);
+                            }
+
+                            CompleteMutualFundDetails completeMutualFundDetails = new CompleteMutualFundDetails();
+                            completeMutualFundDetails.MutualFundName = mutualFundDetails.MutualFundName;
+                            completeMutualFundDetails.MutualFundUnits= mutualFundDetails.MutualFundUnits;
+                            completeMutualFundDetails.MutualFundPrice= mutualFundViewModel.MutualFundValue;
+
+                            completeDetails.FinalMutualFundList.Add(completeMutualFundDetails);
+                        }
+
+                    }
                     completeDetails.NetWorth = _netWorth.networth;
                     return View(completeDetails);
                 }
@@ -143,9 +182,17 @@ namespace CustomerPortal.Controllers
         /// <returns></returns>
         public IActionResult SellStock(string name)
         {
-            StockDetails stockdetail = new StockDetails();
-            stockdetail.StockName = name;
-            return View(stockdetail);
+            try
+            {
+                StockDetails stockdetail = new StockDetails();
+                stockdetail.StockName = name;
+                return View(stockdetail);
+            }
+            catch(Exception ex)
+            {
+                _log4net.Error("An exception occured in the" + nameof(SellStock) + " while selling stocks. The message is:" +ex.Message);
+                return RedirectToAction("Index", "Home");
+            }
 
         }
 
@@ -157,107 +204,159 @@ namespace CustomerPortal.Controllers
         /// <returns></returns>
         public IActionResult SellMutualFund(string name)
         {
-            MutualFundDetails mutualdetail = new MutualFundDetails();
-            mutualdetail.MutualFundName = name;
-            return View(mutualdetail);
+            try
+            {
+                MutualFundDetails mutualdetail = new MutualFundDetails();
+                mutualdetail.MutualFundName = name;
+                return View(mutualdetail);
+            }
+            catch (Exception ex)
+            {
+                _log4net.Error("An exception occured in the" + nameof(SellMutualFund) + " while selling MutualFunds. The message is:" + ex.Message);
+                return RedirectToAction("Index", "Home");
+            }
         }
 
 
-
+        /// <summary>
+        /// This method takes the details of the stocks the user wants to sell. 
+        /// It then reduces the networth and the the units of stocks from his portfolio
+        /// </summary>
+        /// <param name="stockdetails"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> SellStock(StockDetails stockdetails)
         {
-            PortFolioDetails current = new PortFolioDetails();
-            PortFolioDetails toSell = new PortFolioDetails();
-            int id = Convert.ToInt32(HttpContext.Session.GetString("Id"));
-            _log4net.Info("Selling the stocks of user with id = " +id);
-            using (var client = new HttpClient())
+            try
             {
-                using (var response = await client.GetAsync("https://localhost:44375/api/NetWorth/" + id))
+                if (CheckValid())
                 {
-                    string apiResponse = await response.Content.ReadAsStringAsync();
-                    current = JsonConvert.DeserializeObject<PortFolioDetails>(apiResponse);
+                    PortFolioDetails current = new PortFolioDetails();
+                    PortFolioDetails toSell = new PortFolioDetails();
+                    int id = Convert.ToInt32(HttpContext.Session.GetString("Id"));
+                    _log4net.Info("Selling the stocks of user with id = " + id);
+                    using (var client = new HttpClient())
+                    {
+                        using (var response = await client.GetAsync("https://localhost:44375/api/NetWorth/GetPortFolioDetailsByID/" + id))
+                        {
+                            string apiResponse = await response.Content.ReadAsStringAsync();
+                            current = JsonConvert.DeserializeObject<PortFolioDetails>(apiResponse);
+                        }
+                    }
+                    toSell.PortFolioId = id;
+                    toSell.StockList = new List<StockDetails>
+                    {
+                        stockdetails
+                    };
+                    toSell.MutualFundList = new List<MutualFundDetails>() { };
+
+                    List<PortFolioDetails> list = new List<PortFolioDetails>
+                    {
+                        current,
+                        toSell
+                    };
+
+                    AssetSaleResponse assetSaleResponse = new AssetSaleResponse();
+                    StringContent content = new StringContent(JsonConvert.SerializeObject(list), Encoding.UTF8, "application/json");
+                    using (var client = new HttpClient())
+                    {
+                        using (var response = await client.PostAsync("https://localhost:44375/api/NetWorth/SellAssets", content))
+                        {
+                            string apiResponse = await response.Content.ReadAsStringAsync();
+                            assetSaleResponse = JsonConvert.DeserializeObject<AssetSaleResponse>(apiResponse);
+                        }
+                    }
+                    _log4net.Info("sale of stock of user with id" + current.PortFolioId + "done");
+                    Sale _sale = new Sale();
+                    _sale.PortFolioID = current.PortFolioId;
+                    _sale.NetWorth = assetSaleResponse.Networth;
+                    _sale.status = assetSaleResponse.SaleStatus;
+                    _saleRepository.Add(_sale);
+
+                    return View("Reciept", assetSaleResponse);
                 }
-            }
-            toSell.PortFolioId = id;
-            toSell.StockList = new List<StockDetails>
-            {
-                stockdetails
-            };
-            toSell.MutualFundList = new List<MutualFundDetails>() { };
-
-            List<PortFolioDetails> list = new List<PortFolioDetails>
-            {
-                current,
-                toSell
-            };
-
-            AssetSaleResponse assetSaleResponse = new AssetSaleResponse();
-            StringContent content = new StringContent(JsonConvert.SerializeObject(list), Encoding.UTF8, "application/json");
-            using (var client = new HttpClient())
-            {
-                using (var response = await client.PostAsync("https://localhost:44375/api/NetWorth/SellAssets", content))
+                else
                 {
-                    string apiResponse = await response.Content.ReadAsStringAsync();
-                    assetSaleResponse = JsonConvert.DeserializeObject<AssetSaleResponse>(apiResponse);
+                    return RedirectToAction("Index", "Home");
                 }
+
             }
-            _log4net.Info("sale of stock of user with id" +current.PortFolioId+ "done");
-            Sale _sale = new Sale();
-            _sale.PortFolioID = current.PortFolioId;
-            _sale.NetWorth = assetSaleResponse.Networth;
-            _sale.status = assetSaleResponse.SaleStatus;
-            _saleRepository.Add(_sale);
-            
-            return View("Reciept", assetSaleResponse);
+            catch (Exception ex)
+            {
+                _log4net.Error("An exception occured in the" + nameof(SellStock) + " while selling mutualFund. The message is:" + ex.Message);
+                return RedirectToAction("Index", "Home");
+            }
+
         }
 
+
+        /// <summary>
+        /// This method takes the details of the mutual fund the user wants to sell. 
+        /// It then reduces the networth and the the units of mutual funds from his portfolio
+        /// </summary>
+        /// <param name="mutualFundDetails"></param>
+        /// <returns></returns>
         [HttpPost]
         public async Task<IActionResult> SellMutualFund(MutualFundDetails mutualFundDetails)
         {
-            PortFolioDetails current = new PortFolioDetails();
-            PortFolioDetails toSell = new PortFolioDetails();
-            int id = Convert.ToInt32(HttpContext.Session.GetString("Id"));
-
-            using (var client = new HttpClient())
-            {
-                using (var response = await client.GetAsync("https://localhost:44375/api/NetWorth/" + id))
+            try{
+                if (CheckValid())
                 {
-                    string apiResponse = await response.Content.ReadAsStringAsync();
-                    current = JsonConvert.DeserializeObject<PortFolioDetails>(apiResponse);
+                    
+                    PortFolioDetails current = new PortFolioDetails();
+                    PortFolioDetails toSell = new PortFolioDetails();
+                    int id = Convert.ToInt32(HttpContext.Session.GetString("Id"));
+                    _log4net.Info("Selling mutual fund" + mutualFundDetails.MutualFundName + " of user with id:" +id);
+                    using (var client = new HttpClient())
+                    {
+                        using (var response = await client.GetAsync("https://localhost:44375/api/NetWorth/GetPortFolioDetailsByID/" + id))
+                        {
+                            string apiResponse = await response.Content.ReadAsStringAsync();
+                            current = JsonConvert.DeserializeObject<PortFolioDetails>(apiResponse);
+                        }
+                    }
+                    toSell.PortFolioId = id;
+                    toSell.MutualFundList = new List<MutualFundDetails>
+                    {
+                        mutualFundDetails
+                    };
+                    toSell.StockList = new List<StockDetails>();
+
+                    List<PortFolioDetails> list = new List<PortFolioDetails>
+                    {
+                        current,
+                        toSell
+                    };
+
+                    AssetSaleResponse assetSaleResponse = new AssetSaleResponse();
+                    StringContent content = new StringContent(JsonConvert.SerializeObject(list), Encoding.UTF8, "application/json");
+                    using (var client = new HttpClient())
+                    {
+                        using (var response = await client.PostAsync("https://localhost:44375/api/NetWorth/SellAssets", content))
+                        {
+                            string apiResponse = await response.Content.ReadAsStringAsync();
+                            assetSaleResponse = JsonConvert.DeserializeObject<AssetSaleResponse>(apiResponse);
+                        }
+                    }
+                    _log4net.Info("sale of  mutual fund of user with id" + current.PortFolioId + "done");
+                    Sale _sale = new Sale();
+                    _sale.PortFolioID = current.PortFolioId;
+                    _sale.NetWorth = assetSaleResponse.Networth;
+                    _sale.status = assetSaleResponse.SaleStatus;
+                    _saleRepository.Add(_sale);
+
+                    return View("Reciept", assetSaleResponse);
+                }
+                else
+                {
+                    return RedirectToAction("Index", "Home");
                 }
             }
-            toSell.PortFolioId = id;
-            toSell.MutualFundList = new List<MutualFundDetails>
+            catch (Exception ex)
             {
-                mutualFundDetails
-            };
-            toSell.StockList = new List<StockDetails>();
-
-            List<PortFolioDetails> list = new List<PortFolioDetails>
-            {
-                current,
-                toSell
-            };
-
-            AssetSaleResponse assetSaleResponse = new AssetSaleResponse();
-            StringContent content = new StringContent(JsonConvert.SerializeObject(list), Encoding.UTF8, "application/json");
-            using (var client = new HttpClient())
-            {
-                using (var response = await client.PostAsync("https://localhost:44375/api/NetWorth/SellAssets", content))
-                {
-                    string apiResponse = await response.Content.ReadAsStringAsync();
-                    assetSaleResponse = JsonConvert.DeserializeObject<AssetSaleResponse>(apiResponse);
-                }
+                _log4net.Error("An exception occured in the" + nameof(SellStock) + " while selling mutualFund. The message is:" + ex.Message);
+                return RedirectToAction("Index", "Home");
             }
-            _log4net.Info("sale of  mutual fund of user with id" + current.PortFolioId + "done");
-            Sale _sale = new Sale();
-            _sale.PortFolioID = current.PortFolioId;
-            _sale.NetWorth = assetSaleResponse.Networth;
-            _sale.status = assetSaleResponse.SaleStatus;
-            _saleRepository.Add(_sale);
-
-            return View("Reciept", assetSaleResponse);
         }
 
     }

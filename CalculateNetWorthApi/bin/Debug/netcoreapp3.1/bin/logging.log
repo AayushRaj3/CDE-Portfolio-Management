@@ -3242,3 +3242,894 @@ INFO  06:04:48 Returning portfolio details with the id12345 from the repository 
 INFO  06:04:48 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
 INFO  06:06:00 sellAssets method called to sell assets of user with id = 12345
 INFO  06:06:00 Selling the assets
+INFO  10:13:21 Application started. Press Ctrl+C to shut down.
+INFO  10:13:21 Hosting environment: Development
+INFO  10:13:21 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:14:17 Returning the portfolio object from the provider method of user :12345
+INFO  10:14:17 Returning portfolio details with the id12345 from the repository method
+INFO  10:14:17 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:14:17 Calculating the networth of user with id = 12345
+INFO  10:14:17 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:14:17 Provider called from Controller to calculate the networth
+INFO  10:14:17 Calculating the networth in the repository method of user with id = 12345
+INFO  10:14:18 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:14:40 Returning the portfolio object from the provider method of user :12345
+INFO  10:14:40 Returning portfolio details with the id12345 from the repository method
+INFO  10:14:40 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:14:40 Calculating the networth of user with id = 12345
+INFO  10:14:40 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:14:40 Provider called from Controller to calculate the networth
+INFO  10:14:40 Calculating the networth in the repository method of user with id = 12345
+INFO  10:14:40 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:14:46 Returning the portfolio object from the provider method of user :12345
+INFO  10:14:46 Returning portfolio details with the id12345 from the repository method
+INFO  10:14:46 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:14:46 sellAssets method called to sell assets of user with id = 12345
+INFO  10:14:46 Selling the assets
+INFO  10:14:57 Returning the portfolio object from the provider method of user :12345
+INFO  10:14:57 Returning portfolio details with the id12345 from the repository method
+INFO  10:14:57 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:14:57 Calculating the networth of user with id = 12345
+INFO  10:14:57 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:14:57 Provider called from Controller to calculate the networth
+INFO  10:14:57 Calculating the networth in the repository method of user with id = 12345
+INFO  10:14:57 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:15:10 Returning the portfolio object from the provider method of user :12345
+INFO  10:15:10 Returning portfolio details with the id12345 from the repository method
+INFO  10:15:10 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:15:10 sellAssets method called to sell assets of user with id = 12345
+INFO  10:15:10 Selling the assets
+INFO  10:15:10 Not enough stocks to sell
+INFO  10:15:15 Returning the portfolio object from the provider method of user :12345
+INFO  10:15:15 Returning portfolio details with the id12345 from the repository method
+INFO  10:15:15 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:15:15 Calculating the networth of user with id = 12345
+INFO  10:15:15 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:15:15 Provider called from Controller to calculate the networth
+INFO  10:15:15 Calculating the networth in the repository method of user with id = 12345
+INFO  10:15:15 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:15:30 Returning the portfolio object from the provider method of user :12345
+INFO  10:15:30 Returning portfolio details with the id12345 from the repository method
+INFO  10:15:30 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:15:30 sellAssets method called to sell assets of user with id = 12345
+INFO  10:15:30 Selling the assets
+INFO  10:15:30 Not enough stocks to sell
+INFO  10:15:32 Returning the portfolio object from the provider method of user :12345
+INFO  10:15:32 Returning portfolio details with the id12345 from the repository method
+INFO  10:15:32 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:15:32 Calculating the networth of user with id = 12345
+INFO  10:15:32 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:15:32 Provider called from Controller to calculate the networth
+INFO  10:15:32 Calculating the networth in the repository method of user with id = 12345
+INFO  10:15:32 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:19:15 Returning the portfolio object from the provider method of user :12345
+INFO  10:19:15 Returning portfolio details with the id12345 from the repository method
+INFO  10:19:15 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:19:15 Calculating the networth of user with id = 12345
+INFO  10:19:15 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:19:15 Provider called from Controller to calculate the networth
+INFO  10:19:15 Calculating the networth in the repository method of user with id = 12345
+INFO  10:19:15 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:19:21 Returning the portfolio object from the provider method of user :12345
+INFO  10:19:21 Returning portfolio details with the id12345 from the repository method
+INFO  10:19:21 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:19:22 sellAssets method called to sell assets of user with id = 12345
+INFO  10:19:22 Selling the assets
+INFO  10:19:25 Returning the portfolio object from the provider method of user :12345
+INFO  10:19:25 Returning portfolio details with the id12345 from the repository method
+INFO  10:19:25 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:19:25 Calculating the networth of user with id = 12345
+INFO  10:19:25 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:19:25 Provider called from Controller to calculate the networth
+INFO  10:19:25 Calculating the networth in the repository method of user with id = 12345
+INFO  10:19:25 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:19:40 Returning the portfolio object from the provider method of user :12345
+INFO  10:19:40 Returning portfolio details with the id12345 from the repository method
+INFO  10:19:40 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:19:40 sellAssets method called to sell assets of user with id = 12345
+INFO  10:19:40 Selling the assets
+INFO  10:19:43 Returning the portfolio object from the provider method of user :12345
+INFO  10:19:43 Returning portfolio details with the id12345 from the repository method
+INFO  10:19:43 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:19:43 Calculating the networth of user with id = 12345
+INFO  10:19:43 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:19:43 Provider called from Controller to calculate the networth
+INFO  10:19:43 Calculating the networth in the repository method of user with id = 12345
+INFO  10:19:43 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:19:54 Returning the portfolio object from the provider method of user :12345
+INFO  10:19:54 Returning portfolio details with the id12345 from the repository method
+INFO  10:19:54 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:19:54 Calculating the networth of user with id = 12345
+INFO  10:19:54 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:19:54 Provider called from Controller to calculate the networth
+INFO  10:19:54 Calculating the networth in the repository method of user with id = 12345
+INFO  10:19:54 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:20:07 Returning the portfolio object from the provider method of user :12345
+INFO  10:20:07 Returning portfolio details with the id12345 from the repository method
+INFO  10:20:07 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:20:07 Calculating the networth of user with id = 12345
+INFO  10:20:07 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:20:07 Provider called from Controller to calculate the networth
+INFO  10:20:07 Calculating the networth in the repository method of user with id = 12345
+INFO  10:20:07 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:20:08 Returning the portfolio object from the provider method of user :12345
+INFO  10:20:08 Returning portfolio details with the id12345 from the repository method
+INFO  10:20:08 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:20:08 Calculating the networth of user with id = 12345
+INFO  10:20:08 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:20:08 Provider called from Controller to calculate the networth
+INFO  10:20:08 Calculating the networth in the repository method of user with id = 12345
+INFO  10:20:08 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:20:09 Returning the portfolio object from the provider method of user :12345
+INFO  10:20:09 Returning portfolio details with the id12345 from the repository method
+INFO  10:20:09 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:20:09 Calculating the networth of user with id = 12345
+INFO  10:20:09 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:20:09 Provider called from Controller to calculate the networth
+INFO  10:20:09 Calculating the networth in the repository method of user with id = 12345
+INFO  10:20:09 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:25:32 Returning the portfolio object from the provider method of user :12345
+INFO  10:25:32 Returning portfolio details with the id12345 from the repository method
+INFO  10:25:32 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:25:32 Calculating the networth of user with id = 12345
+INFO  10:25:32 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:25:32 Provider called from Controller to calculate the networth
+INFO  10:25:32 Calculating the networth in the repository method of user with id = 12345
+INFO  10:25:32 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:26:34 Returning the portfolio object from the provider method of user :12345
+INFO  10:26:34 Returning portfolio details with the id12345 from the repository method
+INFO  10:26:34 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:26:34 Calculating the networth of user with id = 12345
+INFO  10:26:34 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:26:34 Provider called from Controller to calculate the networth
+INFO  10:26:34 Calculating the networth in the repository method of user with id = 12345
+INFO  10:26:34 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:30:23 Returning the portfolio object from the provider method of user :789
+INFO  10:30:23 Returning portfolio details with the id789 from the repository method
+INFO  10:30:23 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:30:24 Calculating the networth of user with id = 789
+INFO  10:30:24 The portfolio details are correct.Returning the networth of user with id789
+INFO  10:30:24 Provider called from Controller to calculate the networth
+INFO  10:30:24 Calculating the networth in the repository method of user with id = 789
+INFO  10:30:24 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:30:38 Returning the portfolio object from the provider method of user :789
+INFO  10:30:38 Returning portfolio details with the id789 from the repository method
+INFO  10:30:38 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:30:38 sellAssets method called to sell assets of user with id = 789
+INFO  10:30:38 Selling the assets
+INFO  10:30:38 Not enough stocks to sell
+INFO  10:30:41 Returning the portfolio object from the provider method of user :789
+INFO  10:30:41 Returning portfolio details with the id789 from the repository method
+INFO  10:30:41 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:30:41 Calculating the networth of user with id = 789
+INFO  10:30:41 The portfolio details are correct.Returning the networth of user with id789
+INFO  10:30:41 Provider called from Controller to calculate the networth
+INFO  10:30:41 Calculating the networth in the repository method of user with id = 789
+INFO  10:30:41 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:30:52 Returning the portfolio object from the provider method of user :12345
+INFO  10:30:52 Returning portfolio details with the id12345 from the repository method
+INFO  10:30:52 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:30:52 Calculating the networth of user with id = 12345
+INFO  10:30:52 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:30:52 Provider called from Controller to calculate the networth
+INFO  10:30:52 Calculating the networth in the repository method of user with id = 12345
+INFO  10:30:52 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:32:23 Returning the portfolio object from the provider method of user :12345
+INFO  10:32:23 Returning portfolio details with the id12345 from the repository method
+INFO  10:32:23 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:32:23 Calculating the networth of user with id = 12345
+INFO  10:32:23 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:32:23 Provider called from Controller to calculate the networth
+INFO  10:32:23 Calculating the networth in the repository method of user with id = 12345
+INFO  10:32:23 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:33:26 Returning the portfolio object from the provider method of user :12345
+INFO  10:33:26 Returning portfolio details with the id12345 from the repository method
+INFO  10:33:26 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:33:26 Calculating the networth of user with id = 12345
+INFO  10:33:26 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:33:26 Provider called from Controller to calculate the networth
+INFO  10:33:26 Calculating the networth in the repository method of user with id = 12345
+INFO  10:33:26 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:35:51 Returning the portfolio object from the provider method of user :789
+INFO  10:35:51 Returning portfolio details with the id789 from the repository method
+INFO  10:35:51 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:35:51 Calculating the networth of user with id = 789
+INFO  10:35:51 The portfolio details are correct.Returning the networth of user with id789
+INFO  10:35:51 Provider called from Controller to calculate the networth
+INFO  10:35:51 Calculating the networth in the repository method of user with id = 789
+INFO  10:35:51 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:38:16 Returning the portfolio object from the provider method of user :12345
+INFO  10:38:16 Returning portfolio details with the id12345 from the repository method
+INFO  10:38:16 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:38:16 Calculating the networth of user with id = 12345
+INFO  10:38:16 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:38:16 Provider called from Controller to calculate the networth
+INFO  10:38:16 Calculating the networth in the repository method of user with id = 12345
+INFO  10:38:16 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:38:23 Returning the portfolio object from the provider method of user :12345
+INFO  10:38:23 Returning portfolio details with the id12345 from the repository method
+INFO  10:38:23 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:38:23 Calculating the networth of user with id = 12345
+INFO  10:38:23 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:38:23 Provider called from Controller to calculate the networth
+INFO  10:38:23 Calculating the networth in the repository method of user with id = 12345
+INFO  10:38:23 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:38:29 Returning the portfolio object from the provider method of user :12345
+INFO  10:38:29 Returning portfolio details with the id12345 from the repository method
+INFO  10:38:29 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:38:29 sellAssets method called to sell assets of user with id = 12345
+INFO  10:38:29 Selling the assets
+INFO  10:38:32 Returning the portfolio object from the provider method of user :12345
+INFO  10:38:32 Returning portfolio details with the id12345 from the repository method
+INFO  10:38:32 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:38:32 Calculating the networth of user with id = 12345
+INFO  10:38:32 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:38:32 Provider called from Controller to calculate the networth
+INFO  10:38:32 Calculating the networth in the repository method of user with id = 12345
+INFO  10:38:32 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  10:38:39 Returning the portfolio object from the provider method of user :12345
+INFO  10:38:39 Returning portfolio details with the id12345 from the repository method
+INFO  10:38:39 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:38:39 sellAssets method called to sell assets of user with id = 12345
+INFO  10:38:39 Selling the assets
+INFO  10:38:42 Returning the portfolio object from the provider method of user :12345
+INFO  10:38:42 Returning portfolio details with the id12345 from the repository method
+INFO  10:38:42 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:38:42 Calculating the networth of user with id = 12345
+INFO  10:38:42 The portfolio details are correct.Returning the networth of user with id12345
+INFO  10:38:42 Provider called from Controller to calculate the networth
+INFO  10:38:42 Calculating the networth in the repository method of user with id = 12345
+INFO  10:38:42 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:12:11 Returning the portfolio object from the provider method of user :12345
+INFO  11:12:11 Returning portfolio details with the id12345 from the repository method
+INFO  11:12:11 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:12:11 Calculating the networth of user with id = 12345
+INFO  11:12:11 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:12:11 Provider called from Controller to calculate the networth
+INFO  11:12:11 Calculating the networth in the repository method of user with id = 12345
+INFO  11:12:11 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:12:23 Returning the portfolio object from the provider method of user :789
+INFO  11:12:23 Returning portfolio details with the id789 from the repository method
+INFO  11:12:23 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:12:23 Calculating the networth of user with id = 789
+INFO  11:12:23 The portfolio details are correct.Returning the networth of user with id789
+INFO  11:12:23 Provider called from Controller to calculate the networth
+INFO  11:12:23 Calculating the networth in the repository method of user with id = 789
+INFO  11:12:24 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  07:44:39 Application started. Press Ctrl+C to shut down.
+INFO  07:44:39 Hosting environment: Development
+INFO  07:44:39 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  07:45:51 Returning the portfolio object from the provider method of user :12345
+INFO  07:45:51 Returning portfolio details with the id12345 from the repository method
+INFO  07:45:51 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:45:51 Calculating the networth of user with id = 12345
+INFO  07:45:51 The portfolio details are correct.Returning the networth of user with id12345
+INFO  07:45:51 Provider called from Controller to calculate the networth
+INFO  07:45:51 Calculating the networth in the repository method of user with id = 12345
+INFO  07:45:52 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  07:46:08 Returning the portfolio object from the provider method of user :12345
+INFO  07:46:08 Returning portfolio details with the id12345 from the repository method
+INFO  07:46:08 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:46:08 sellAssets method called to sell assets of user with id = 12345
+INFO  07:46:08 Selling the assets
+INFO  07:46:13 Returning the portfolio object from the provider method of user :12345
+INFO  07:46:13 Returning portfolio details with the id12345 from the repository method
+INFO  07:46:13 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:46:13 Calculating the networth of user with id = 12345
+INFO  07:46:13 The portfolio details are correct.Returning the networth of user with id12345
+INFO  07:46:13 Provider called from Controller to calculate the networth
+INFO  07:46:13 Calculating the networth in the repository method of user with id = 12345
+INFO  07:46:13 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  07:46:24 Returning the portfolio object from the provider method of user :12345
+INFO  07:46:24 Returning portfolio details with the id12345 from the repository method
+INFO  07:46:24 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:46:24 sellAssets method called to sell assets of user with id = 12345
+INFO  07:46:24 Selling the assets
+INFO  07:46:26 Returning the portfolio object from the provider method of user :12345
+INFO  07:46:26 Returning portfolio details with the id12345 from the repository method
+INFO  07:46:26 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:46:26 Calculating the networth of user with id = 12345
+INFO  07:46:26 The portfolio details are correct.Returning the networth of user with id12345
+INFO  07:46:26 Provider called from Controller to calculate the networth
+INFO  07:46:26 Calculating the networth in the repository method of user with id = 12345
+INFO  07:46:26 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  07:46:37 Returning the portfolio object from the provider method of user :12345
+INFO  07:46:37 Returning portfolio details with the id12345 from the repository method
+INFO  07:46:37 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:46:37 sellAssets method called to sell assets of user with id = 12345
+INFO  07:46:37 Selling the assets
+INFO  07:46:40 Returning the portfolio object from the provider method of user :12345
+INFO  07:46:40 Returning portfolio details with the id12345 from the repository method
+INFO  07:46:40 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  07:46:40 Calculating the networth of user with id = 12345
+INFO  07:46:40 The portfolio details are correct.Returning the networth of user with id12345
+INFO  07:46:40 Provider called from Controller to calculate the networth
+INFO  07:46:40 Calculating the networth in the repository method of user with id = 12345
+INFO  07:46:40 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  08:25:21 Application started. Press Ctrl+C to shut down.
+INFO  08:25:21 Hosting environment: Development
+INFO  08:25:21 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  08:25:39 Returning the portfolio object from the provider method of user :12345
+INFO  08:25:39 Returning portfolio details with the id12345 from the repository method
+INFO  08:25:39 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  08:28:05 sellAssets method called to sell assets of user with id = 12345
+INFO  08:28:05 Selling the assets
+INFO  08:29:22 Returning the portfolio object from the provider method of user :12345
+INFO  08:29:22 Returning portfolio details with the id12345 from the repository method
+INFO  08:29:22 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:33:30 Application started. Press Ctrl+C to shut down.
+INFO  10:33:30 Hosting environment: Development
+INFO  10:33:30 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:33:44 Returning the portfolio object from the provider method of user :12345
+INFO  10:33:44 Returning portfolio details with the id12345 from the repository method
+INFO  10:33:44 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:34:22 sellAssets method called to sell assets of user with id = 12345
+INFO  10:34:22 Selling the assets
+ERROR 10:34:23 An exception occured while selling the assets:Collection was modified; enumeration operation may not execute.
+INFO  10:34:34 Returning the portfolio object from the provider method of user :12345
+INFO  10:34:34 Returning portfolio details with the id12345 from the repository method
+INFO  10:34:34 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:37:11 Application started. Press Ctrl+C to shut down.
+INFO  10:37:11 Hosting environment: Development
+INFO  10:37:11 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:37:21 Returning the portfolio object from the provider method of user :12345
+INFO  10:37:21 Returning portfolio details with the id12345 from the repository method
+INFO  10:37:21 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:37:45 sellAssets method called to sell assets of user with id = 12345
+INFO  10:37:45 Selling the assets
+ERROR 10:37:47 An exception occured while selling the assets:Collection was modified; enumeration operation may not execute.
+INFO  10:39:33 Application started. Press Ctrl+C to shut down.
+INFO  10:39:33 Hosting environment: Development
+INFO  10:39:33 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:39:42 Returning the portfolio object from the provider method of user :12345
+INFO  10:39:42 Returning portfolio details with the id12345 from the repository method
+INFO  10:39:42 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:39:57 sellAssets method called to sell assets of user with id = 12345
+INFO  10:39:57 Selling the assets
+ERROR 10:42:24 An exception occured while selling the assets:Collection was modified; enumeration operation may not execute.
+INFO  10:43:18 Application started. Press Ctrl+C to shut down.
+INFO  10:43:18 Hosting environment: Development
+INFO  10:43:18 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:43:28 Returning the portfolio object from the provider method of user :12345
+INFO  10:43:28 Returning portfolio details with the id12345 from the repository method
+INFO  10:43:28 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  10:43:48 sellAssets method called to sell assets of user with id = 12345
+INFO  10:43:48 Selling the assets
+ERROR 10:44:07 An exception occured while selling the assets:Collection was modified; enumeration operation may not execute.
+INFO  10:47:37 Application started. Press Ctrl+C to shut down.
+INFO  10:47:37 Hosting environment: Development
+INFO  10:47:37 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:48:04 sellAssets method called to sell assets of user with id = 12345
+INFO  10:48:04 Selling the assets
+ERROR 10:48:18 An exception occured while selling the assets:Collection was modified; enumeration operation may not execute.
+INFO  10:52:04 Application started. Press Ctrl+C to shut down.
+INFO  10:52:04 Hosting environment: Development
+INFO  10:52:04 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:59:21 Application started. Press Ctrl+C to shut down.
+INFO  10:59:21 Hosting environment: Development
+INFO  10:59:21 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  10:59:48 sellAssets method called to sell assets of user with id = 12345
+INFO  10:59:48 Selling the assets
+INFO  11:01:04 Returning the portfolio object from the provider method of user :12345
+INFO  11:01:04 Returning portfolio details with the id12345 from the repository method
+INFO  11:01:04 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:01:38 Returning the portfolio object from the provider method of user :12345
+INFO  11:01:38 Returning portfolio details with the id12345 from the repository method
+INFO  11:01:38 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:05:48 Application started. Press Ctrl+C to shut down.
+INFO  11:05:48 Hosting environment: Development
+INFO  11:05:48 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:06:01 Returning the portfolio object from the provider method of user :12345
+INFO  11:06:01 Returning portfolio details with the id12345 from the repository method
+INFO  11:06:01 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:06:32 sellAssets method called to sell assets of user with id = 12345
+INFO  11:06:32 Selling the assets
+INFO  11:06:46 Returning the portfolio object from the provider method of user :12345
+INFO  11:06:46 Returning portfolio details with the id12345 from the repository method
+INFO  11:06:46 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:07:46 Returning the portfolio object from the provider method of user :12345
+INFO  11:07:46 Returning portfolio details with the id12345 from the repository method
+INFO  11:07:46 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:07:46 Calculating the networth of user with id = 12345
+INFO  11:07:46 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:07:46 Provider called from Controller to calculate the networth
+INFO  11:07:46 Calculating the networth in the repository method of user with id = 12345
+INFO  11:07:46 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:07:53 Returning the portfolio object from the provider method of user :12345
+INFO  11:07:53 Returning portfolio details with the id12345 from the repository method
+INFO  11:07:53 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:07:53 sellAssets method called to sell assets of user with id = 12345
+INFO  11:07:53 Selling the assets
+INFO  11:07:58 Returning the portfolio object from the provider method of user :12345
+INFO  11:07:58 Returning portfolio details with the id12345 from the repository method
+INFO  11:07:58 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:07:58 Calculating the networth of user with id = 12345
+INFO  11:07:58 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:07:58 Provider called from Controller to calculate the networth
+INFO  11:07:58 Calculating the networth in the repository method of user with id = 12345
+INFO  11:07:58 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:08:05 Returning the portfolio object from the provider method of user :12345
+INFO  11:08:05 Returning portfolio details with the id12345 from the repository method
+INFO  11:08:05 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:08:05 sellAssets method called to sell assets of user with id = 12345
+INFO  11:08:05 Selling the assets
+INFO  11:08:07 Returning the portfolio object from the provider method of user :12345
+INFO  11:08:07 Returning portfolio details with the id12345 from the repository method
+INFO  11:08:07 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:08:07 Calculating the networth of user with id = 12345
+INFO  11:08:07 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:08:07 Provider called from Controller to calculate the networth
+INFO  11:08:07 Calculating the networth in the repository method of user with id = 12345
+INFO  11:08:07 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:08:13 Returning the portfolio object from the provider method of user :12345
+INFO  11:08:13 Returning portfolio details with the id12345 from the repository method
+INFO  11:08:13 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:08:13 sellAssets method called to sell assets of user with id = 12345
+INFO  11:08:13 Selling the assets
+INFO  11:08:15 Returning the portfolio object from the provider method of user :12345
+INFO  11:08:15 Returning portfolio details with the id12345 from the repository method
+INFO  11:08:15 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:08:15 Calculating the networth of user with id = 12345
+INFO  11:08:15 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:08:15 Provider called from Controller to calculate the networth
+INFO  11:08:15 Calculating the networth in the repository method of user with id = 12345
+INFO  11:08:15 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:08:30 Returning the portfolio object from the provider method of user :12345
+INFO  11:08:30 Returning portfolio details with the id12345 from the repository method
+INFO  11:08:30 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:08:30 sellAssets method called to sell assets of user with id = 12345
+INFO  11:08:30 Selling the assets
+INFO  11:08:35 Returning the portfolio object from the provider method of user :12345
+INFO  11:08:35 Returning portfolio details with the id12345 from the repository method
+INFO  11:08:35 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:08:35 Calculating the networth of user with id = 12345
+INFO  11:08:35 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:08:35 Provider called from Controller to calculate the networth
+INFO  11:08:35 Calculating the networth in the repository method of user with id = 12345
+INFO  11:08:35 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:14:15 Application started. Press Ctrl+C to shut down.
+INFO  11:14:15 Hosting environment: Development
+INFO  11:14:15 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:14:31 Returning the portfolio object from the provider method of user :12345
+INFO  11:14:31 Returning portfolio details with the id12345 from the repository method
+INFO  11:14:31 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:15:09 Calculating the networth of user with id = 12345
+INFO  11:15:09 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:15:09 Provider called from Controller to calculate the networth
+INFO  11:15:09 Calculating the networth in the repository method of user with id = 12345
+INFO  11:15:09 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:18:03 sellAssets method called to sell assets of user with id = 12345
+INFO  11:18:03 Selling the assets
+INFO  11:20:00 Returning the portfolio object from the provider method of user :12345
+INFO  11:20:00 Returning portfolio details with the id12345 from the repository method
+INFO  11:20:00 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:20:13 Calculating the networth of user with id = 12345
+INFO  11:20:13 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:20:13 Provider called from Controller to calculate the networth
+INFO  11:20:13 Calculating the networth in the repository method of user with id = 12345
+INFO  11:20:13 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:22:45 Application started. Press Ctrl+C to shut down.
+INFO  11:22:45 Hosting environment: Development
+INFO  11:22:45 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:23:03 Returning the portfolio object from the provider method of user :12345
+INFO  11:23:03 Returning portfolio details with the id12345 from the repository method
+INFO  11:23:03 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:23:24 Calculating the networth of user with id = 12345
+INFO  11:23:24 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:23:24 Provider called from Controller to calculate the networth
+INFO  11:23:24 Calculating the networth in the repository method of user with id = 12345
+INFO  11:23:24 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:23:40 sellAssets method called to sell assets of user with id = 12345
+INFO  11:23:40 Selling the assets
+INFO  11:24:12 Returning the portfolio object from the provider method of user :12345
+INFO  11:24:12 Returning portfolio details with the id12345 from the repository method
+INFO  11:24:12 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:24:27 Calculating the networth of user with id = 12345
+INFO  11:24:27 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:24:27 Provider called from Controller to calculate the networth
+INFO  11:24:27 Calculating the networth in the repository method of user with id = 12345
+INFO  11:24:27 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:25:18 Application started. Press Ctrl+C to shut down.
+INFO  11:25:18 Hosting environment: Development
+INFO  11:25:18 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:26:09 sellAssets method called to sell assets of user with id = 12345
+INFO  11:26:09 Selling the assets
+INFO  11:27:03 Returning the portfolio object from the provider method of user :12345
+INFO  11:27:03 Returning portfolio details with the id12345 from the repository method
+INFO  11:27:03 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:28:03 Application started. Press Ctrl+C to shut down.
+INFO  11:28:03 Hosting environment: Development
+INFO  11:28:03 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:34:07 Returning the portfolio object from the provider method of user :12345
+INFO  11:34:07 Returning portfolio details with the id12345 from the repository method
+INFO  11:34:07 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:34:07 Calculating the networth of user with id = 12345
+INFO  11:34:07 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:34:07 Provider called from Controller to calculate the networth
+INFO  11:34:07 Calculating the networth in the repository method of user with id = 12345
+INFO  11:34:07 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:34:15 Returning the portfolio object from the provider method of user :12345
+INFO  11:34:15 Returning portfolio details with the id12345 from the repository method
+INFO  11:34:15 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:34:15 sellAssets method called to sell assets of user with id = 12345
+INFO  11:34:15 Selling the assets
+INFO  11:34:19 Returning the portfolio object from the provider method of user :12345
+INFO  11:34:19 Returning portfolio details with the id12345 from the repository method
+INFO  11:34:19 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:34:19 Calculating the networth of user with id = 12345
+INFO  11:34:19 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:34:19 Provider called from Controller to calculate the networth
+INFO  11:34:19 Calculating the networth in the repository method of user with id = 12345
+INFO  11:34:19 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:34:28 Returning the portfolio object from the provider method of user :12345
+INFO  11:34:28 Returning portfolio details with the id12345 from the repository method
+INFO  11:34:28 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:34:28 sellAssets method called to sell assets of user with id = 12345
+INFO  11:34:28 Selling the assets
+INFO  11:34:30 Returning the portfolio object from the provider method of user :12345
+INFO  11:34:30 Returning portfolio details with the id12345 from the repository method
+INFO  11:34:30 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:34:30 Calculating the networth of user with id = 12345
+INFO  11:37:14 Application started. Press Ctrl+C to shut down.
+INFO  11:37:14 Hosting environment: Development
+INFO  11:37:14 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:37:28 Returning the portfolio object from the provider method of user :12345
+INFO  11:37:28 Returning portfolio details with the id12345 from the repository method
+INFO  11:37:28 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:37:28 Calculating the networth of user with id = 12345
+INFO  11:37:28 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:37:28 Provider called from Controller to calculate the networth
+INFO  11:37:28 Calculating the networth in the repository method of user with id = 12345
+INFO  11:37:28 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:37:42 Returning the portfolio object from the provider method of user :12345
+INFO  11:37:42 Returning portfolio details with the id12345 from the repository method
+INFO  11:37:42 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:37:42 sellAssets method called to sell assets of user with id = 12345
+INFO  11:37:42 Selling the assets
+INFO  11:37:44 Returning the portfolio object from the provider method of user :12345
+INFO  11:37:44 Returning portfolio details with the id12345 from the repository method
+INFO  11:37:44 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:37:44 Calculating the networth of user with id = 12345
+INFO  11:37:44 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:37:44 Provider called from Controller to calculate the networth
+INFO  11:37:44 Calculating the networth in the repository method of user with id = 12345
+INFO  11:37:44 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:37:50 Returning the portfolio object from the provider method of user :12345
+INFO  11:37:50 Returning portfolio details with the id12345 from the repository method
+INFO  11:37:50 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:37:50 sellAssets method called to sell assets of user with id = 12345
+INFO  11:37:50 Selling the assets
+INFO  11:37:53 Returning the portfolio object from the provider method of user :12345
+INFO  11:37:53 Returning portfolio details with the id12345 from the repository method
+INFO  11:37:53 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:37:53 Calculating the networth of user with id = 12345
+INFO  11:38:01 Returning the portfolio object from the provider method of user :12345
+INFO  11:38:01 Returning portfolio details with the id12345 from the repository method
+INFO  11:38:01 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:38:01 Calculating the networth of user with id = 12345
+INFO  11:42:57 Returning the portfolio object from the provider method of user :12345
+INFO  11:42:57 Returning portfolio details with the id12345 from the repository method
+INFO  11:42:57 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:42:58 Calculating the networth of user with id = 12345
+INFO  11:43:22 Application started. Press Ctrl+C to shut down.
+INFO  11:43:22 Hosting environment: Development
+INFO  11:43:22 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:43:31 Returning the portfolio object from the provider method of user :12345
+INFO  11:43:31 Returning portfolio details with the id12345 from the repository method
+INFO  11:43:31 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:43:31 Calculating the networth of user with id = 12345
+INFO  11:43:31 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:43:31 Provider called from Controller to calculate the networth
+INFO  11:43:31 Calculating the networth in the repository method of user with id = 12345
+INFO  11:43:31 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:43:41 Returning the portfolio object from the provider method of user :12345
+INFO  11:43:41 Returning portfolio details with the id12345 from the repository method
+INFO  11:43:41 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:43:41 sellAssets method called to sell assets of user with id = 12345
+INFO  11:43:41 Selling the assets
+INFO  11:43:44 Returning the portfolio object from the provider method of user :12345
+INFO  11:43:44 Returning portfolio details with the id12345 from the repository method
+INFO  11:43:44 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:43:44 Calculating the networth of user with id = 12345
+INFO  11:43:44 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:43:44 Provider called from Controller to calculate the networth
+INFO  11:43:44 Calculating the networth in the repository method of user with id = 12345
+INFO  11:43:44 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:43:56 Returning the portfolio object from the provider method of user :12345
+INFO  11:43:56 Returning portfolio details with the id12345 from the repository method
+INFO  11:43:56 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:43:56 sellAssets method called to sell assets of user with id = 12345
+INFO  11:43:56 Selling the assets
+INFO  11:43:57 Returning the portfolio object from the provider method of user :12345
+INFO  11:43:57 Returning portfolio details with the id12345 from the repository method
+INFO  11:43:57 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:43:57 Calculating the networth of user with id = 12345
+INFO  11:43:57 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:43:57 Provider called from Controller to calculate the networth
+INFO  11:43:57 Calculating the networth in the repository method of user with id = 12345
+INFO  11:43:57 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:44:05 Returning the portfolio object from the provider method of user :12345
+INFO  11:44:05 Returning portfolio details with the id12345 from the repository method
+INFO  11:44:05 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:44:05 sellAssets method called to sell assets of user with id = 12345
+INFO  11:44:05 Selling the assets
+INFO  11:44:10 Returning the portfolio object from the provider method of user :12345
+INFO  11:44:10 Returning portfolio details with the id12345 from the repository method
+INFO  11:44:10 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:44:10 Calculating the networth of user with id = 12345
+INFO  11:45:50 Returning the portfolio object from the provider method of user :12345
+INFO  11:45:50 Returning portfolio details with the id12345 from the repository method
+INFO  11:45:50 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:45:50 Calculating the networth of user with id = 12345
+INFO  11:46:57 Returning the portfolio object from the provider method of user :12345
+INFO  11:46:57 Returning portfolio details with the id12345 from the repository method
+INFO  11:46:57 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:48:01 Calculating the networth of user with id = 12345
+INFO  11:50:16 Application started. Press Ctrl+C to shut down.
+INFO  11:50:16 Hosting environment: Development
+INFO  11:50:16 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:50:35 Calculating the networth of user with id = 12345
+INFO  11:51:13 Application started. Press Ctrl+C to shut down.
+INFO  11:51:13 Hosting environment: Development
+INFO  11:51:13 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:51:25 Calculating the networth of user with id = 12345
+INFO  11:51:25 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:51:25 Provider called from Controller to calculate the networth
+INFO  11:51:25 Calculating the networth in the repository method of user with id = 12345
+INFO  11:51:25 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:53:53 Application started. Press Ctrl+C to shut down.
+INFO  11:53:53 Hosting environment: Development
+INFO  11:53:53 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:54:18 Calculating the networth of user with id = 12345
+INFO  11:54:18 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:54:18 Provider called from Controller to calculate the networth
+INFO  11:54:18 Calculating the networth in the repository method of user with id = 12345
+INFO  11:54:18 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:56:12 Application started. Press Ctrl+C to shut down.
+INFO  11:56:12 Hosting environment: Development
+INFO  11:56:12 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:56:26 Returning the portfolio object from the provider method of user :12345
+INFO  11:56:26 Returning portfolio details with the id12345 from the repository method
+INFO  11:56:26 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:56:26 Calculating the networth of user with id = 12345
+INFO  11:56:26 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:56:26 Provider called from Controller to calculate the networth
+INFO  11:56:26 Calculating the networth in the repository method of user with id = 12345
+INFO  11:56:26 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:56:34 Returning the portfolio object from the provider method of user :12345
+INFO  11:56:34 Returning portfolio details with the id12345 from the repository method
+INFO  11:56:34 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:56:34 sellAssets method called to sell assets of user with id = 12345
+INFO  11:56:34 Selling the assets
+INFO  11:56:37 Returning the portfolio object from the provider method of user :12345
+INFO  11:56:37 Returning portfolio details with the id12345 from the repository method
+INFO  11:56:37 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:56:37 Calculating the networth of user with id = 12345
+INFO  11:56:37 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:56:37 Provider called from Controller to calculate the networth
+INFO  11:56:37 Calculating the networth in the repository method of user with id = 12345
+INFO  11:56:37 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:56:43 Returning the portfolio object from the provider method of user :12345
+INFO  11:56:43 Returning portfolio details with the id12345 from the repository method
+INFO  11:56:43 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:56:43 sellAssets method called to sell assets of user with id = 12345
+INFO  11:56:43 Selling the assets
+INFO  11:56:46 Returning the portfolio object from the provider method of user :12345
+INFO  11:56:46 Returning portfolio details with the id12345 from the repository method
+INFO  11:56:46 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:56:46 Calculating the networth of user with id = 12345
+INFO  11:56:46 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:56:46 Provider called from Controller to calculate the networth
+INFO  11:56:46 Calculating the networth in the repository method of user with id = 12345
+INFO  11:56:46 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:56:54 Returning the portfolio object from the provider method of user :12345
+INFO  11:56:54 Returning portfolio details with the id12345 from the repository method
+INFO  11:56:54 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:56:54 Calculating the networth of user with id = 12345
+INFO  11:56:54 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:56:54 Provider called from Controller to calculate the networth
+INFO  11:56:54 Calculating the networth in the repository method of user with id = 12345
+INFO  11:56:54 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:57:01 Returning the portfolio object from the provider method of user :12345
+INFO  11:57:01 Returning portfolio details with the id12345 from the repository method
+INFO  11:57:01 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:57:01 sellAssets method called to sell assets of user with id = 12345
+INFO  11:57:01 Selling the assets
+INFO  11:57:03 Returning the portfolio object from the provider method of user :12345
+INFO  11:57:03 Returning portfolio details with the id12345 from the repository method
+INFO  11:57:03 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:57:03 Calculating the networth of user with id = 12345
+INFO  11:57:03 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:57:03 Provider called from Controller to calculate the networth
+INFO  11:57:03 Calculating the networth in the repository method of user with id = 12345
+INFO  11:57:03 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:57:08 Returning the portfolio object from the provider method of user :12345
+INFO  11:57:08 Returning portfolio details with the id12345 from the repository method
+INFO  11:57:08 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:57:08 Calculating the networth of user with id = 12345
+INFO  11:57:08 The portfolio details are correct.Returning the networth of user with id12345
+INFO  11:57:08 Provider called from Controller to calculate the networth
+INFO  11:57:08 Calculating the networth in the repository method of user with id = 12345
+INFO  11:57:08 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  11:57:14 Returning the portfolio object from the provider method of user :12345
+INFO  11:57:14 Returning portfolio details with the id12345 from the repository method
+INFO  11:57:14 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:57:14 sellAssets method called to sell assets of user with id = 12345
+INFO  11:57:14 Selling the assets
+INFO  11:57:16 Returning the portfolio object from the provider method of user :12345
+INFO  11:57:16 Returning portfolio details with the id12345 from the repository method
+INFO  11:57:16 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:57:16 Calculating the networth of user with id = 12345
+INFO  11:57:43 Returning the portfolio object from the provider method of user :12345
+INFO  11:57:43 Returning portfolio details with the id12345 from the repository method
+INFO  11:57:43 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  11:58:01 Calculating the networth of user with id = 12345
+INFO  11:58:56 Application started. Press Ctrl+C to shut down.
+INFO  11:58:56 Hosting environment: Development
+INFO  11:58:56 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  11:59:07 Calculating the networth of user with id = 12345
+INFO  12:00:34 Calculating the networth of user with id = 0
+INFO  12:00:56 Calculating the networth of user with id = 12345
+INFO  12:00:56 An exception occured:System.ArgumentNullException: Value cannot be null. (Parameter 'source')
+   at System.Linq.ThrowHelper.ThrowArgumentNullException(ExceptionArgument argument)
+   at System.Linq.Enumerable.Any[TSource](IEnumerable`1 source)
+   at CalculateNetWorthApi.Controllers.NetWorthController.GetNetWorth(PortFolioDetails portFolioDetails) in D:\Portfolio mfpe\CalculateNetWorthApi\Controllers\NetWorthController.cs:line 84
+INFO  12:01:53 Application started. Press Ctrl+C to shut down.
+INFO  12:01:53 Hosting environment: Development
+INFO  12:01:53 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  12:02:14 Calculating the networth of user with id = 12345
+INFO  12:02:14 The user does not hold any assets
+INFO  12:02:38 Application started. Press Ctrl+C to shut down.
+INFO  12:02:38 Hosting environment: Development
+INFO  12:02:38 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  12:02:50 Calculating the networth of user with id = 12345
+INFO  12:03:40 Application started. Press Ctrl+C to shut down.
+INFO  12:03:40 Hosting environment: Development
+INFO  12:03:40 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  12:03:53 Calculating the networth of user with id = 12345
+INFO  12:04:01 The portfolio details are correct.Returning the networth of user with id12345
+INFO  12:04:01 Provider called from Controller to calculate the networth
+INFO  12:04:01 Calculating the networth in the repository method of user with id = 12345
+INFO  12:04:01 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:04:16 Application started. Press Ctrl+C to shut down.
+INFO  12:04:16 Hosting environment: Development
+INFO  12:04:16 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  12:04:30 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:30 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:30 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:30 Calculating the networth of user with id = 12345
+INFO  12:04:30 The portfolio details are correct.Returning the networth of user with id12345
+INFO  12:04:30 Provider called from Controller to calculate the networth
+INFO  12:04:30 Calculating the networth in the repository method of user with id = 12345
+INFO  12:04:30 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:04:37 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:37 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:37 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:38 sellAssets method called to sell assets of user with id = 12345
+INFO  12:04:38 Selling the assets
+INFO  12:04:41 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:41 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:41 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:41 Calculating the networth of user with id = 12345
+INFO  12:04:41 The portfolio details are correct.Returning the networth of user with id12345
+INFO  12:04:41 Provider called from Controller to calculate the networth
+INFO  12:04:41 Calculating the networth in the repository method of user with id = 12345
+INFO  12:04:41 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:04:48 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:48 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:48 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:48 sellAssets method called to sell assets of user with id = 12345
+INFO  12:04:48 Selling the assets
+INFO  12:04:51 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:51 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:51 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:51 Calculating the networth of user with id = 12345
+INFO  12:04:51 The portfolio details are correct.Returning the networth of user with id12345
+INFO  12:04:51 Provider called from Controller to calculate the networth
+INFO  12:04:51 Calculating the networth in the repository method of user with id = 12345
+INFO  12:04:51 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:04:57 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:57 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:57 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:57 sellAssets method called to sell assets of user with id = 12345
+INFO  12:04:57 Selling the assets
+INFO  12:04:58 Returning the portfolio object from the provider method of user :12345
+INFO  12:04:58 Returning portfolio details with the id12345 from the repository method
+INFO  12:04:58 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:04:58 Calculating the networth of user with id = 12345
+INFO  12:04:58 The portfolio details are correct.Returning the networth of user with id12345
+INFO  12:04:58 Provider called from Controller to calculate the networth
+INFO  12:04:58 Calculating the networth in the repository method of user with id = 12345
+INFO  12:04:58 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:05:03 Returning the portfolio object from the provider method of user :12345
+INFO  12:05:03 Returning portfolio details with the id12345 from the repository method
+INFO  12:05:03 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:05:03 sellAssets method called to sell assets of user with id = 12345
+INFO  12:05:03 Selling the assets
+INFO  12:05:05 Returning the portfolio object from the provider method of user :12345
+INFO  12:05:05 Returning portfolio details with the id12345 from the repository method
+INFO  12:05:05 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:05:05 Calculating the networth of user with id = 12345
+INFO  12:05:05 The portfolio details are correct.Returning the networth of user with id12345
+INFO  12:05:05 Provider called from Controller to calculate the networth
+INFO  12:05:05 Calculating the networth in the repository method of user with id = 12345
+INFO  12:05:05 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:07:55 Application started. Press Ctrl+C to shut down.
+INFO  12:07:55 Hosting environment: Development
+INFO  12:07:55 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  12:12:09 Application started. Press Ctrl+C to shut down.
+INFO  12:12:09 Hosting environment: Development
+INFO  12:12:09 Content root path: D:\Portfolio mfpe\CalculateNetWorthApi
+INFO  12:12:38 Returning the portfolio object from the provider method of user :789
+INFO  12:12:38 Returning portfolio details with the id789 from the repository method
+INFO  12:12:38 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:12:38 Calculating the networth of user with id = 789
+INFO  12:12:38 The portfolio details are correct.Returning the networth of user with id789
+INFO  12:12:38 Provider called from Controller to calculate the networth
+INFO  12:12:38 Calculating the networth in the repository method of user with id = 789
+INFO  12:12:38 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:12:46 Returning the portfolio object from the provider method of user :789
+INFO  12:12:46 Returning portfolio details with the id789 from the repository method
+INFO  12:12:46 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:12:46 sellAssets method called to sell assets of user with id = 789
+INFO  12:12:46 Selling the assets
+INFO  12:12:49 Returning the portfolio object from the provider method of user :789
+INFO  12:12:49 Returning portfolio details with the id789 from the repository method
+INFO  12:12:49 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:12:49 Calculating the networth of user with id = 789
+INFO  12:12:49 The portfolio details are correct.Returning the networth of user with id789
+INFO  12:12:49 Provider called from Controller to calculate the networth
+INFO  12:12:49 Calculating the networth in the repository method of user with id = 789
+INFO  12:12:49 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:13:01 Returning the portfolio object from the provider method of user :789
+INFO  12:13:01 Returning portfolio details with the id789 from the repository method
+INFO  12:13:01 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:01 sellAssets method called to sell assets of user with id = 789
+INFO  12:13:01 Selling the assets
+INFO  12:13:03 Returning the portfolio object from the provider method of user :789
+INFO  12:13:03 Returning portfolio details with the id789 from the repository method
+INFO  12:13:03 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:03 Calculating the networth of user with id = 789
+INFO  12:13:03 The portfolio details are correct.Returning the networth of user with id789
+INFO  12:13:03 Provider called from Controller to calculate the networth
+INFO  12:13:03 Calculating the networth in the repository method of user with id = 789
+INFO  12:13:03 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:13:12 Returning the portfolio object from the provider method of user :789
+INFO  12:13:12 Returning portfolio details with the id789 from the repository method
+INFO  12:13:12 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:12 sellAssets method called to sell assets of user with id = 789
+INFO  12:13:12 Selling the assets
+INFO  12:13:13 Returning the portfolio object from the provider method of user :789
+INFO  12:13:13 Returning portfolio details with the id789 from the repository method
+INFO  12:13:13 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:13 Calculating the networth of user with id = 789
+INFO  12:13:13 The portfolio details are correct.Returning the networth of user with id789
+INFO  12:13:13 Provider called from Controller to calculate the networth
+INFO  12:13:13 Calculating the networth in the repository method of user with id = 789
+INFO  12:13:13 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:13:22 Returning the portfolio object from the provider method of user :789
+INFO  12:13:22 Returning portfolio details with the id789 from the repository method
+INFO  12:13:22 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:22 sellAssets method called to sell assets of user with id = 789
+INFO  12:13:22 Selling the assets
+INFO  12:13:25 Returning the portfolio object from the provider method of user :789
+INFO  12:13:25 Returning portfolio details with the id789 from the repository method
+INFO  12:13:25 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:25 Calculating the networth of user with id = 789
+INFO  12:13:25 The portfolio details are correct.Returning the networth of user with id789
+INFO  12:13:25 Provider called from Controller to calculate the networth
+INFO  12:13:25 Calculating the networth in the repository method of user with id = 789
+INFO  12:13:25 The networth is:CalculateNetWorthApi.Models.NetWorth
+INFO  12:13:30 Returning the portfolio object from the provider method of user :789
+INFO  12:13:30 Returning portfolio details with the id789 from the repository method
+INFO  12:13:30 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:30 sellAssets method called to sell assets of user with id = 789
+INFO  12:13:30 Selling the assets
+INFO  12:13:32 Returning the portfolio object from the provider method of user :789
+INFO  12:13:32 Returning portfolio details with the id789 from the repository method
+INFO  12:13:32 The deatils of the user areCalculateNetWorthApi.Models.PortFolioDetails
+INFO  12:13:32 Calculating the networth of user with id = 789
+INFO  12:13:32 The portfolio details are correct.Returning the networth of user with id789
+INFO  12:13:32 Provider called from Controller to calculate the networth
+INFO  12:13:32 Calculating the networth in the repository method of user with id = 789
+INFO  12:13:32 The networth is:CalculateNetWorthApi.Models.NetWorth

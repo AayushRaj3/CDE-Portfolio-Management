@@ -19,9 +19,14 @@ namespace CalculateNetWorthApi.Repository
 
         private IConfiguration configuration;
 
-        public NetworthRepository(IConfiguration config)
+
+        /// <summary>
+        /// Injecting IConfiguration for reading 
+        /// </summary>
+        /// <param name="_configuration"></param>
+        public NetworthRepository(IConfiguration _configuration)
         {
-            configuration = config;
+            configuration = _configuration;
         }
         static readonly log4net.ILog _log4net = log4net.LogManager.GetLogger(typeof(NetworthRepository));
 
@@ -94,7 +99,7 @@ namespace CalculateNetWorthApi.Repository
 
                     var fetchStock = configuration["GetStockDetails"];
                     var fetchMutualFund = configuration["GetMutualFundDetails"];
-                    if (portFolioDetails.StockList != null || portFolioDetails.StockList.Any() == true)
+                    if (portFolioDetails.StockList != null && portFolioDetails.StockList.Any() == true)
                     {
                         foreach (StockDetails stockDetails in portFolioDetails.StockList)
                         {
@@ -102,6 +107,7 @@ namespace CalculateNetWorthApi.Repository
                             {
                                 using (var response = await httpClient.GetAsync(fetchStock + stockDetails.StockName))
                                 {
+                                    _log4net.Info("Fetching the details of stock "+stockDetails.StockName+"from the stock api");
                                     string apiResponse = await response.Content.ReadAsStringAsync();
                                     stock = JsonConvert.DeserializeObject<Stock>(apiResponse);
                                 }
@@ -109,7 +115,7 @@ namespace CalculateNetWorthApi.Repository
                             }
                         }
                     }
-                    if (portFolioDetails.MutualFundList != null || portFolioDetails.StockList.Any() == true)
+                    if (portFolioDetails.MutualFundList != null && portFolioDetails.MutualFundList.Any() == true)
                     {
                         foreach (MutualFundDetails mutualFundDetails in portFolioDetails.MutualFundList)
                         {
@@ -117,6 +123,7 @@ namespace CalculateNetWorthApi.Repository
                             {
                                 using (var response = await httpClient.GetAsync(fetchMutualFund + mutualFundDetails.MutualFundName))
                                 {
+                                    _log4net.Info("Fetching the details of mutual Fund " + mutualFundDetails.MutualFundName + "from the MutualFundNAV api");
                                     string apiResponse = await response.Content.ReadAsStringAsync();
                                     mutualfund = JsonConvert.DeserializeObject<MutualFund>(apiResponse);
                                 }
@@ -145,12 +152,17 @@ namespace CalculateNetWorthApi.Repository
             NetWorth networth = new NetWorth();
             NetWorth networth2 = new NetWorth();
 
+            int flag1 = 1;
+            int flag2 = 1;
+            StockDetails stocktoremove = new StockDetails();
+            MutualFundDetails fundToRemove = new MutualFundDetails();
+
             AssetSaleResponse assetSaleResponse = new AssetSaleResponse();
             PortFolioDetails current = details[0];
             PortFolioDetails toSell = details[1];
             try
             {
-                _log4net.Info("Selling the assets");
+                
                 foreach (PortFolioDetails portFolioDetails in details)
                 {
                     if (portFolioDetails == null)
@@ -158,26 +170,25 @@ namespace CalculateNetWorthApi.Repository
                         return null;
                     }
                 }
+
+                _log4net.Info("Selling the assets of user with id" + details[0].PortFolioId);
                 networth = calculateNetWorth(current).Result;
                 assetSaleResponse.SaleStatus = true;
-                foreach (StockDetails currentStock in current.StockList)
+
+
+                foreach (StockDetails toSellStock in toSell.StockList)
                 {
-                    foreach (StockDetails toSellStock in toSell.StockList)
+                    foreach (StockDetails currentStock in current.StockList)
                     {
                         if (currentStock.StockName == toSellStock.StockName)
                         {
                             if (currentStock.StockCount < toSellStock.StockCount)
                             {
-                                _log4net.Info("Not enough stocks to sell");
+                                _log4net.Info("Not enough stocks to sell for user :"+current.PortFolioId);
                                 assetSaleResponse.SaleStatus = false;
                                 assetSaleResponse.Networth = networth.Networth;
                                 return assetSaleResponse;
                             }
-                            currentStock.StockCount = currentStock.StockCount - toSellStock.StockCount;
-                            /*if (x.StockCount == 0)
-                            {
-                                both[0].StockList.Remove(x);
-                            }*/
                             break;
                         }
                         
@@ -185,29 +196,27 @@ namespace CalculateNetWorthApi.Repository
                 }
 
 
-                foreach (MutualFundDetails currentMutualFund in current.MutualFundList)
+                foreach (MutualFundDetails toSellMutualFund in toSell.MutualFundList)
                 {
-                    foreach (MutualFundDetails toSellMutualFund in toSell.MutualFundList)
+                    foreach (MutualFundDetails currentMutualFund in current.MutualFundList)
                     {
                         if (currentMutualFund.MutualFundName == toSellMutualFund.MutualFundName)
                         {
                             if (currentMutualFund.MutualFundUnits < toSellMutualFund.MutualFundUnits)
                             {
-                                _log4net.Info("Not enough mutualFunds to sell");
+                                _log4net.Info("Not enough mutualFunds to sell for user"+current.PortFolioId);
                                 assetSaleResponse.SaleStatus = false;
                                 assetSaleResponse.Networth = networth.Networth;
                                 return assetSaleResponse;
                             }
-                            currentMutualFund.MutualFundUnits = currentMutualFund.MutualFundUnits - toSellMutualFund.MutualFundUnits;
-                            /* if (x.MutualFundUnits == 0)
-                             {
-                                 both[0].MutualFundList.Remove(x);
-                             }*/
                             break;
                         }
                         
                     }
                 }
+
+                
+
 
                 foreach (PortFolioDetails portfolio in _portFolioDetails)
                 {
@@ -220,11 +229,15 @@ namespace CalculateNetWorthApi.Repository
                                 if (sellstock.StockName == currentstock.StockName)
                                 {
                                     currentstock.StockCount = currentstock.StockCount - sellstock.StockCount;
-                                    /*if (currentstock.StockCount == 0)
+                                    if (currentstock.StockCount == 0)
                                     {
-                                        portfolio.StockList.Remove(currentstock);
+                                        _log4net.Info("The user with id = "+ current.PortFolioId+ "sold all of his "+currentstock.StockName+" stocks.");
+                                        flag1 = 0;
+                                        stocktoremove = currentstock;
+                                        
+                                        break;
                                     }
-                                    break;*/
+                                    
                                 }
        
                             }
@@ -239,19 +252,45 @@ namespace CalculateNetWorthApi.Repository
                                 if (sellmutualfund.MutualFundName == currentmutualfund.MutualFundName)
                                 {
                                     currentmutualfund.MutualFundUnits = currentmutualfund.MutualFundUnits - sellmutualfund.MutualFundUnits;
-                                    /*if (currentmutualfund.MutualFundUnits == 0)
+                                    if (currentmutualfund.MutualFundUnits == 0)
                                     {
-                                        portfolio.MutualFundList.Remove(currentmutualfund);
-                                    }*/
+                                        _log4net.Info("The user with id = " + current.PortFolioId + " has sold all of his mutual funds of" + currentmutualfund.MutualFundName);
+                                        flag2 = 0;
+                                        fundToRemove = currentmutualfund;
+                                        
+                                        break;
+                                    }
+                                    
                                 }
-                                break;
+                                
                             }
                         }
                     }
                 }
-
+                if (flag1 == 0)
+                {
+                    foreach (PortFolioDetails portfolio in _portFolioDetails)
+                    {
+                        if (portfolio.PortFolioId == current.PortFolioId)
+                        {
+                            portfolio.StockList.Remove(stocktoremove);
+                        }
+                    }
+                }
+                if (flag2 == 0)
+                {
+                    foreach (PortFolioDetails portfolio in _portFolioDetails)
+                    {
+                        if (portfolio.PortFolioId == current.PortFolioId)
+                        {
+                            portfolio.MutualFundList.Remove(fundToRemove);
+                        }
+                    }
+                }
+                
                 networth2 = calculateNetWorth(toSell).Result;
                 assetSaleResponse.Networth = networth.Networth - networth2.Networth;
+                //
             }
             catch(Exception ex)
             {
@@ -267,45 +306,56 @@ namespace CalculateNetWorthApi.Repository
         /// <returns></returns>
         public async Task<NetWorth> calculateNetWorth(PortFolioDetails portFolio)
         {
-            NetWorth _networth = new NetWorth();
-
-            Stock stock = new Stock();
-            MutualFund mutualFund = new MutualFund();
-            double networth = 0;
-            
-            using (var httpClient = new HttpClient())
+            try
             {
+                NetWorth _networth = new NetWorth();
 
-                var fetchStock = configuration["GetStockDetails"];
-                var fetchMutualFund = configuration["GetMutualFundDetails"];
-                if (portFolio.StockList != null)
+                Stock stock = new Stock();
+                MutualFund mutualFund = new MutualFund();
+                double networth = 0;
+
+                using (var httpClient = new HttpClient())
                 {
-                    foreach (StockDetails stockDetails in portFolio.StockList)
+
+                    var fetchStock = configuration["GetStockDetails"];
+                    var fetchMutualFund = configuration["GetMutualFundDetails"];
+                    if (portFolio.StockList != null || portFolio.MutualFundList.Any() != false)
                     {
-                        using (var response = await httpClient.GetAsync(fetchStock+ stockDetails.StockName))
+                        foreach (StockDetails stockDetails in portFolio.StockList)
                         {
-                            string apiResponse = await response.Content.ReadAsStringAsync();
-                            stock = JsonConvert.DeserializeObject<Stock>(apiResponse);
+                            using (var response = await httpClient.GetAsync(fetchStock + stockDetails.StockName))
+                            {
+                                _log4net.Info("Fetching the details of stock "+ stockDetails.StockName+" from the stock api");
+                                string apiResponse = await response.Content.ReadAsStringAsync();
+                                stock = JsonConvert.DeserializeObject<Stock>(apiResponse);
+                            }
+                            networth += stockDetails.StockCount * stock.StockValue;
                         }
-                        networth += stockDetails.StockCount * stock.StockValue;
+                    }
+                    if (portFolio.MutualFundList != null || portFolio.MutualFundList.Any() != false)
+                    {
+                        foreach (MutualFundDetails mutualFundDetails in portFolio.MutualFundList)
+                        {
+                            using (var response = await httpClient.GetAsync(fetchMutualFund + mutualFundDetails.MutualFundName))
+                            {
+                                _log4net.Info("Fetching the details of stock " + mutualFundDetails.MutualFundName + " from the stock api");
+                                string apiResponse = await response.Content.ReadAsStringAsync();
+                                mutualFund = JsonConvert.DeserializeObject<MutualFund>(apiResponse);
+                            }
+                            networth += mutualFundDetails.MutualFundUnits * mutualFund.MutualFundValue;
+                        }
                     }
                 }
-                if (portFolio.MutualFundList != null)
-                {
-                    foreach (MutualFundDetails mutualFundDetails in portFolio.MutualFundList)
-                    {
-                        using (var response = await httpClient.GetAsync(fetchMutualFund + mutualFundDetails.MutualFundName))
-                        {
-                            string apiResponse = await response.Content.ReadAsStringAsync();
-                            mutualFund = JsonConvert.DeserializeObject<MutualFund>(apiResponse);
-                        }
-                        networth += mutualFundDetails.MutualFundUnits * mutualFund.MutualFundValue;
-                    }
-                }
+                networth = Math.Round(networth, 2);
+                _networth.Networth = networth;
+                return _networth;
+
             }
-            networth = Math.Round(networth, 2);
-            _networth.Networth = networth;
-            return _networth;
+            catch (Exception ex)
+            {
+                _log4net.Error("An exception occured while selling the assets:" + ex.Message);
+                return null;
+            }
         }
 
 
@@ -326,6 +376,7 @@ namespace CalculateNetWorthApi.Repository
             catch(Exception ex)
             {
                 _log4net.Error("An exception occured while fetching the portFolio details:"+ex.Message);
+                return null;
             }
             return portFolioDetails;
         }
